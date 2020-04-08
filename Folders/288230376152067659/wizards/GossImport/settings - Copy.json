@@ -1,0 +1,68 @@
+{
+	"steps" : [
+		{ 
+		"name" : "LoadFromFile",
+			"settings" : {
+
+			}
+		},
+		{ 
+		"name" : "XsltPlanImportParser",
+			"settings" : {
+				"xslFileName" : "ImportOmniGOSS.xsl"
+			}
+		},		
+		{ 
+		"name" : "SaveXml",
+			"settings" : {
+				
+			}
+		},								
+		{ 
+		"name" : "CoretexParser",
+			"settings" : {
+				
+			}
+		},
+		{ 
+		"name" : "SaveXml",
+			"settings" : {
+				"manualAction": true
+			}
+		},								
+
+		{ 
+		"name" : "PlanStorageStep",
+			"settings" : {
+				"openTransaction" : true
+			}
+		},			
+		{ 
+			"name" : "SaveXml",
+			"settings" : {
+			}
+		},
+		{ 
+		"name" : "PlanPersists",
+			"settings" : {
+				"openTransaction" : true
+			}
+		},
+		{
+		"name" : "OutputMissingPlatesStep",
+			"settings" : {
+				"outputStep" : ["355502895587114807","355502895601195405"]
+			}
+		}
+	],
+	"generalSettings" : {
+		"externalAggregate": true				
+	}, 
+	"PlanConflictConfiguration": {
+		"pressPlanCreateBooks": false,
+		"colorDetermination": "editorialPlan",
+		"completeMissingPlates": true,
+		"panoramaDetermination": "editorialPlan",
+		"skipMissingBooks": true,
+	}
+}

@@ -1,0 +1,1 @@
+{"name":"Formes Approval","nwid":122071716L,"pattern":"$PublicationDate('ddMM')_$PublicationCode()_$ZoneCode()_$FormName()","patternType":"macros","usage":"approval"}

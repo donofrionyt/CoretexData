@@ -1,0 +1,27 @@
+{
+    "matchingMode": "startWith",
+    "name": "Import Publication",
+    "nwid": "355502895601474867",
+    "overridable": true,
+    "publication": "",
+    "selectors": [{
+        "defaultValue": "",
+        "displayName": "Import Publication Code",
+        "fieldType": "",
+        "freeText": true,
+        "name": "importpublicationcode",
+        "values": []
+    }],
+    "singleValue": false,
+    "system": false,
+    "targetType": "publication",
+    "values": [{
+        "defaultValue": "",
+        "displayName": "NewsWay Publication Code",
+        "editable": true,
+        "fieldType": "",
+        "freeText": true,
+        "name": "publicationcode",
+        "values": []
+    }]
+}

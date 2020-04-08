@@ -1,0 +1,91 @@
+{
+    "allowAddingSelectors": true,
+    "matchingMode": "startWith",
+    "name": "LayoutGroups",
+    "nwid": "288793326247788601",
+    "overridable": true,
+    "publication": "",
+    "selectors": [
+        {
+            "defaultValue": "",
+            "displayName": "Day of Week",
+            "fieldType": "day",
+            "freeText": false,
+            "name": "day",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Publication",
+            "fieldType": "publication",
+            "freeText": true,
+            "name": "publication",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Edition",
+            "fieldType": "edition",
+            "freeText": true,
+            "name": "edition",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Zone",
+            "fieldType": "zone",
+            "freeText": true,
+            "name": "zone",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Section",
+            "fieldType": "book",
+            "freeText": true,
+            "name": "book",
+            "values": []
+        }
+    ],
+    "singleValue": false,
+    "system": false,
+    "targetType": "book",
+    "values": [
+        {
+            "defaultValue": "",
+            "displayName": "Broadsheet",
+            "editable": true,
+            "fieldType": "string",
+            "freeText": true,
+            "name": "BroadSheet",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Tabs",
+            "editable": true,
+            "fieldType": "",
+            "freeText": true,
+            "name": "Tabloid",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "2 Ups",
+            "editable": true,
+            "fieldType": "",
+            "freeText": true,
+            "name": "2UP",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "4 Ups",
+            "editable": true,
+            "fieldType": "",
+            "freeText": true,
+            "name": "4UP",
+            "values": []
+        }
+    ]
+}

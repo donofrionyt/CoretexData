@@ -1,0 +1,98 @@
+{
+	"steps" : [
+		{ 
+			"name" : "LoadFromFile",
+			"settings" : {
+
+			}
+		},
+		{ 
+			"name" : "XsltPlanImportParser",
+			"settings" : {
+				"xslFileName" : "NYT_Courier2Coretex.xsl"
+			}
+		},
+		{ 
+			"name" : "SaveXml",
+			"settings" : {
+
+			}
+		},
+		{ 
+			"name" : "CoretexParser",
+			"settings" : {
+				"validPlan": false,
+				"fixFunction": true
+			}
+		},
+		{ 
+			"name" : "AssignExpectedNameStep",
+			"settings" : {
+            	"manualAction" : true            
+            }
+		},					   
+		{ 
+			"name" : "AssignLayoutGroupStep",
+			"settings" : {
+				"openTransaction" : true,
+				"assignToObject" : "section",
+                "useSystemTable": true
+			}
+		},
+		{ 
+			"name" : "PlanStorageStep",
+			"settings" : {
+				"openTransaction" : true
+			}
+		},	
+
+		{ 
+			"name" : "Pairing",
+			"settings" : {
+				"openTransaction" : true,
+				"numberOfPlates" : 0,
+				"formNameMode": "pages"
+			}
+		},
+		{
+			"name" : "NytLayoutSelection",
+			"stepType" : "customize",
+			"settings" : {
+				"tableName" : "Layouts"
+			}
+		},
+		{
+			"name": "NoPressInfoBooksStep",
+			"settings": {
+				"tableName": "Completion Percentage",
+				"completionPercentage": 100
+			}
+		},
+		{ 
+			"name" : "ResolveCoretexTablesStep",
+			"settings" : {
+				"tables" : [
+					"InkJob and Press Settings",
+					"zGREY BARSz"
+									]
+			}
+		},	
+		{ 
+			"name" : "SaveXml",
+			"settings" : {
+
+			}
+		},
+		{ 
+			"name" : "PlanPersists",
+			"settings" : {
+				"publishPlanStep" : "123456"
+				}
+		},
+
+		
+	],
+	"generalSettings" : {
+		"externalAggregate": true				
+	}
+}

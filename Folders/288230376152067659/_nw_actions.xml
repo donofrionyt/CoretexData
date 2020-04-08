@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Actions xmlns="http://www.newsway.com/Actions" version="1.0" derivedFromDefaultDefinition="false">
+    <Action description="Edit FlowStep" configuredClique="Flow Step Setup" order="1" label="Flow Step Setup" defaultDefinitionNwId="313281649079366239" name="SaveFlowStepSetup" nwid="355502895624034686" action="SaveFlowStepSetup">
+        <parameters>{&quot;types&quot;: [&quot;workflow/step&quot;]}</parameters>
+    </Action>
+    <Action description="Save Resource Properties" configuredClique="Resource Setup" order="-1" label="Resource Setup" defaultDefinitionNwId="313281649079366240" name="Edit Resource Setup" nwid="355502895624034687" action="EditResourceSetupActionCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;demons/demon/pagelowres&quot;,
+    &quot;demons/demon/seplowres&quot;,
+    &quot;demons/demon/composelowres&quot;,
+    &quot;demons/demon/reporting&quot;,
+    &quot;demons/demon/hirestile&quot;
+]}</parameters>
+    </Action>
+    <Action description="Save Resource Properties" configuredClique="Resource Setup" order="-1" label="Resource Setup" defaultDefinitionNwId="313281649079366241" name="Save Resource Setup" nwid="355502895624034688" action="SaveResourceSetupCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;demons/demon/pagelowres&quot;,
+    &quot;demons/demon/seplowres&quot;,
+    &quot;demons/demon/composelowres&quot;,
+    &quot;demons/demon/reporting&quot;,
+    &quot;demons/demon/hirestile&quot;
+]}</parameters>
+    </Action>
+    <Action description="Edit Rip Setup" configuredClique="Rip Resource Setup" order="-1" label="Rip Resource Setup" defaultDefinitionNwId="313281649079366242" name="Edit Rip Setup" nwid="355502895624034689" action="EditRipSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/image/rip&quot;]}</parameters>
+    </Action>
+    <Action description="Edit Rip Setup" configuredClique="Rip Resource Setup" order="-1" label="Rip Resource Setup" defaultDefinitionNwId="313281649079366243" name="Save Rip Setup" nwid="355502895624034690" action="SaveRipSetupCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/image/rip&quot;]}</parameters>
+    </Action>
+    <Action description="Save Rip/Output Properties" configuredClique="Rip Output Resource Setup" order="-1" label="Rip Output Resource Setup" defaultDefinitionNwId="297237575406454516" name="Edit Rip/Output Setup" nwid="355502895624034691" action="EditRipOutSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/rip2ctp&quot;]}</parameters>
+    </Action>
+    <Action description="Save Rip/Output Properties" configuredClique="Rip Output Resource Setup" order="-1" label="Rip Output Resource Setup" defaultDefinitionNwId="297237575406454517" name="Save Rip/Output Setup" nwid="355502895624034692" action="SaveRipOutSetupCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/rip2ctp&quot;]}</parameters>
+    </Action>
+    <Action description="Add HotFolder" configuredClique="Hot Folder Resource Setup" order="-1" label="Hot Folder Resource Setup" defaultDefinitionNwId="313281649079366244" name="Add HotFolder Setup" nwid="355502895624034693" action="AddHotFolderSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/input/hotfolder&quot;]}</parameters>
+    </Action>
+    <Action description="Add HotFolder" configuredClique="Hot Folder Resource Setup" order="-1" label="Hot Folder Resource Setup" defaultDefinitionNwId="313281649079366245" name="Edit HotFolder Setup" nwid="355502895624034694" action="EditHotFolderSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/input/hotfolder&quot;]}</parameters>
+    </Action>
+    <Action description="Add HotFolder" configuredClique="Hot Folder Resource Setup" order="-1" label="Hot Folder Resource Setup" defaultDefinitionNwId="313281649079366246" name="Save HotFolder Setup" nwid="355502895624034695" action="SaveHotFolderSetupCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/input/hotfolder&quot;]}</parameters>
+    </Action>
+    <Action description="Add HotFolder" configuredClique="Status Step Resource Setup" order="-1" label="Status Step Resource Setup" defaultDefinitionNwId="288793326119726448" name="Add Status Step Setup" nwid="355502895624034696" action="AddStatusStepSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/input/status&quot;]}</parameters>
+    </Action>
+    <Action description="Add HotFolder" configuredClique="Status Step Resource Setup" order="-1" label="Status Step Resource Setup" defaultDefinitionNwId="288793326119726449" name="Edit StatusStep Setup" nwid="355502895624034697" action="EditStatusStepSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/input/status&quot;]}</parameters>
+    </Action>
+    <Action description="Add HotFolder" configuredClique="Status Step Resource Setup" order="-1" label="Status Step Resource Setup" defaultDefinitionNwId="288793326119734453" name="Save Status Step Setup" nwid="355502895624034698" action="SaveStatusStepSetupCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/input/status&quot;]}</parameters>
+    </Action>
+    <Action description="Save Resource Properties" configuredClique="Resource Setup" order="-1" label="Resource Setup" defaultDefinitionNwId="313281649079366247" name="Delete Resource" nwid="355502895624034699" action="DeleteResourceActionCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;demons/demon/pagelowres&quot;,
+    &quot;demons/demon/seplowres&quot;,
+    &quot;demons/demon/composelowres&quot;,
+    &quot;demons/demon/reporting&quot;,
+    &quot;demons/demon/hirestile&quot;
+]}</parameters>
+    </Action>
+    <Action description="Edit Rip Setup" configuredClique="Cache Resource Setup" order="-1" label="Cache Resource Setup" defaultDefinitionNwId="288793326245152429" name="Edit Cache Setup" nwid="355502895624034700" action="EditCacheSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/output/cache&quot;]}</parameters>
+    </Action>
+    <Action description="Edit Rip Setup" configuredClique="Cache Resource Setup" order="-1" label="Cache Resource Setup" defaultDefinitionNwId="288793326245152430" name="Save Cache Setup" nwid="355502895624034701" action="SaveCacheSetupCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/output/cache&quot;]}</parameters>
+    </Action>
+    <Action description="Assign Resources To Flow Step" configuredClique="Assign Resources" order="-1" label="Assign Resources" defaultDefinitionNwId="313281649079366248" name="Assign Resources" nwid="355502895624034702" action="AssignResourcesActionCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;demons/demon/pagelowres&quot;,
+    &quot;demons/demon/seplowres&quot;,
+    &quot;demons/demon/composelowres&quot;,
+    &quot;demons/demon/reporting&quot;,
+    &quot;workflow/step/flow/logic&quot;,
+    &quot;demons/demon/hirestile&quot;
+]}</parameters>
+    </Action>
+    <Action description="Assign Resources To Flow Step" configuredClique="Assign Resources" order="-1" label="Assign Resources" defaultDefinitionNwId="313281649079366249" name="Save Assign Resources" nwid="355502895624034703" action="SaveAssignResourcesCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;demons/demon/pagelowres&quot;,
+    &quot;demons/demon/seplowres&quot;,
+    &quot;demons/demon/composelowres&quot;,
+    &quot;demons/demon/reporting&quot;,
+    &quot;workflow/step/flow/logic&quot;,
+    &quot;demons/demon/hirestile&quot;
+]}</parameters>
+    </Action>
+    <Action description="Edit Proout Setup" configuredClique="Proout Resource Setup" order="-1" label="Proout Resource Setup" defaultDefinitionNwId="313281649079366250" name="Edit Proout Setup" nwid="355502895624034704" action="EditProoutSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/output/proout&quot;]}</parameters>
+    </Action>
+    <Action description="Edit Proout Setup" configuredClique="Proout Resource Setup" order="-1" label="Proout Resource Setup" defaultDefinitionNwId="313281649079366251" name="Save Proout Setup" nwid="355502895624034705" action="SaveProoutSetupCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/output/proout&quot;]}</parameters>
+    </Action>
+    <Action description="Edit Preflight Setup" configuredClique="Preflight Resource Setup" order="-1" label="Preflight Resource Setup" defaultDefinitionNwId="313281649079366252" name="Edit Preflight Setup" nwid="355502895624034706" action="EditPreflightSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/image/preflight&quot;]}</parameters>
+    </Action>
+    <Action description="Edit Preflight Setup" configuredClique="Preflight Resource Setup" order="-1" label="Preflight Resource Setup" defaultDefinitionNwId="313281649079366253" name="Save Preflight Setup" nwid="355502895624034707" action="SavePreflightSetupCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/image/preflight&quot;]}</parameters>
+    </Action>
+    <Action description="Edit Optimization Setup" configuredClique="Optimization Resource Setup" order="-1" label="Optimization Resource Setup" defaultDefinitionNwId="313281649083899215" name="Edit Optimization Setup" nwid="355502895624034708" action="EditOptimizationSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/image/optimization&quot;]}</parameters>
+    </Action>
+    <Action description="Edit Optimization Setup" configuredClique="Optimization Resource Setup" order="-1" label="Optimization Resource Setup" defaultDefinitionNwId="313281649083899282" name="Save Optimization Setup" nwid="355502895624034709" action="SaveOptimizationSetupCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/image/optimization&quot;]}</parameters>
+    </Action>
+    <Action description="Edit TX Setup" configuredClique="Tx Resource Setup" order="-1" label="Tx Resource Setup" defaultDefinitionNwId="313281649079366254" name="Edit TX Setup" nwid="355502895624034710" action="EditTXSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/comm/tx&quot;]}</parameters>
+    </Action>
+    <Action description="Edit TX Setup" configuredClique="Tx Resource Setup" order="-1" label="Tx Resource Setup" defaultDefinitionNwId="313281649079366255" name="Save TX Setup" nwid="355502895624034711" action="SaveTXSetupCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/comm/tx&quot;]}</parameters>
+    </Action>
+    <Action description="Edit External Protocol Setup" configuredClique="External Protocol Resource Setup" order="-1" label="External Protocol Resource Setup" defaultDefinitionNwId="288793326148011178" name="Edit External Protocol Setup" nwid="355502895624034712" action="EditExternalProtocolSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/comm/externalprotocol&quot;]}</parameters>
+    </Action>
+    <Action description="Edit External Protocol Setup" configuredClique="External Protocol Resource Setup" order="-1" label="External Protocol Resource Setup" defaultDefinitionNwId="288793326148016179" name="Save External Protocol Setup" nwid="355502895624034713" action="SaveExternalProtocolSetupCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/comm/externalprotocol&quot;]}</parameters>
+    </Action>
+    <Action description="Edit Proofer Setup" configuredClique="Proofer Resource Setup" order="-1" label="Proofer Resource Setup" defaultDefinitionNwId="327636872894316481" name="Edit Proofer Setup" nwid="355502895624034714" action="EditProoferSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/output/proofer&quot;]}</parameters>
+    </Action>
+    <Action description="Edit Proofer Setup" configuredClique="Proofer Resource Setup" order="-1" label="Proofer Resource Setup" defaultDefinitionNwId="327636872894316482" name="Save Proofer Setup" nwid="355502895624034715" action="SaveProoferSetupCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/output/proofer&quot;]}</parameters>
+    </Action>
+    <Action description="Edit Tiff Processor Setup" configuredClique="Tiff Processor Resource Setup" order="-1" label="Tiff Processor Resource Setup" defaultDefinitionNwId="313281649079366256" name="Edit Tiff Processor Setup" nwid="355502895624034716" action="EditTiffProcessoSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/image/tiffprocessor&quot;]}</parameters>
+    </Action>
+    <Action description="Edit Tiff Processor Setup" configuredClique="Tiff Processor Resource Setup" order="-1" label="Tiff Processor Resource Setup" defaultDefinitionNwId="313281649079366257" name="Save Tiff Processor Setup" nwid="355502895624034717" action="SaveTiffProcessorSetupCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/image/tiffprocessor&quot;]}</parameters>
+    </Action>
+    <Action description="Cancel" configuredClique="Edit Workflow" order="-1" label="Edit Workflow" defaultDefinitionNwId="313281649079366258" name="Edit Workflow" nwid="355502895624034718" action="EditWorkflowCR">
+        <parameters>{&quot;types&quot;: []}</parameters>
+    </Action>
+    <Action description="Save Adapter flows" configuredClique="Edit Flow Step" order="-1" defaultDefinitionNwId="313281649079366259" name="Edit Binder" nwid="355502895624034719" action="EditBinderCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;workflow/step&quot;,
+    &quot;demons/demon&quot;
+]}</parameters>
+    </Action>
+    <Action description="Save Adapter flows" configuredClique="Edit Flow Step" order="-1" defaultDefinitionNwId="313281649079366260" name="Save Adapter Workflows" nwid="355502895624034720" action="SaveFlowStepAdaptersCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;workflow/step&quot;,
+    &quot;demons/demon&quot;
+]}</parameters>
+    </Action>
+    <Action description="Save Adapter flows" configuredClique="Edit Flow Step" order="-1" defaultDefinitionNwId="313281649079366261" name="Exit Edit Binder" nwid="355502895624034721" action="ExitEditBinderCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;workflow/step&quot;,
+    &quot;demons/demon&quot;
+]}</parameters>
+    </Action>
+    <Action description="Cancel" configuredClique="Edit Workflow" order="-1" defaultDefinitionNwId="313281649079366264" name="Exit Edit Workflow" nwid="355502895624034722" action="ExitEditWorkflowCR">
+        <parameters>{&quot;types&quot;: []}</parameters>
+    </Action>
+    <Action description="Cancel" configuredClique="Edit Workflow" order="-1" defaultDefinitionNwId="313281649079366265" name="Save Workflow" nwid="355502895624034723" action="SaveFlowCR">
+        <parameters>{&quot;types&quot;: []}</parameters>
+    </Action>
+    <Action order="-1" defaultDefinitionNwId="290763650964645649" name="Edit Script" nwid="355502895624034724" action="EditScriptActionCR"/>
+    <Action configuredClique="Create Workflow" order="-1" defaultDefinitionNwId="313281649079366266" name="Create New Workflow" nwid="355502895624034725" action="CreateFlowCR"/>
+    <Action order="0" defaultDefinitionNwId="313281649079366267" name="Add Profile" nwid="355502895624034726" action="AddProfileActionCR"/>
+    <Action order="1" defaultDefinitionNwId="313281649079366268" name="Edit Profile" nwid="355502895624034727" action="EditProfileActionCR"/>
+    <Action configuredClique="User Token" order="3" defaultDefinitionNwId="288793326222668100" name="Generate Token" nwid="355502895624034728" action="GenerateTokenActionCR"/>
+    <Action order="2" defaultDefinitionNwId="313281649079366269" name="Delete Profile" nwid="355502895624034729" action="DeleteProfileActionCR"/>
+    <Action order="0" defaultDefinitionNwId="313281649079366270" name="Save Profile" nwid="355502895624034730" action="SaveProfileActionCR"/>
+    <Action order="-1" label="Delete Production Run" defaultDefinitionNwId="313281649079366271" name="Delete Publication/Edition/Production Run" nwid="355502895624034731" action="DeleteActionCR">
+        <Config>{&quot;wizardName&quot;: &quot;PlanningWizard&quot;}</Config>
+        <parameters>{
+    &quot;properties&quot;: [
+        &quot;nwid&quot;,
+        &quot;type&quot;
+    ],
+    &quot;types&quot;: [&quot;productionrun&quot;]
+}</parameters>
+    </Action>
+    <Action order="-1" defaultDefinitionNwId="313281649266861940" name="Delete Folder" nwid="355502895624034732" action="DeleteFolderActionCR">
+        <parameters>
+            {
+            &quot;properties&quot; : ['nwid', 'type']
+            }
+
+        </parameters>
+    </Action>
+    <Action configuredClique="Security Settings" defaultDefinitionNwId="313281649082575208" name="Save Security Group" nwid="355502895624034733" action="SaveFolderSecurityGroupActionCR"/>
+    <Action configuredClique="Security Settings" order="1" defaultDefinitionNwId="296111675500001944" name="Security Groups Setup" nwid="355502895624034734" action="EditFolderSecurityGroupsActionCR"/>
+    <Action configuredClique="Security Settings" order="0" defaultDefinitionNwId="296111675500022935" name="Add Security Group" nwid="355502895624034735" action="AddFolderSecurityGroupActionCR"/>
+    <Action configuredClique="Security Settings" order="1" defaultDefinitionNwId="296111675500022936" name="Edit Security Group" nwid="355502895624034736" action="EditFolderSecurityGroupActionCR"/>
+    <Action configuredClique="Security Settings" order="2" defaultDefinitionNwId="296111675500022937" name="Delete Security Group" nwid="355502895624034737" action="DeleteFolderSecurityGroupActionCR"/>
+    <Action configuredClique="Activation Templates" order="1" defaultDefinitionNwId="288793326108430615" name="Activation Templates" nwid="355502895624034738" action="OpenActivationTemplatesActionCR"/>
+    <Action configuredClique="Activation Templates" order="0" defaultDefinitionNwId="288793326108439652" name="Activate Template" nwid="355502895624034739" action="ActivateActivationTemplateActionCR"/>
+    <Action configuredClique="Naming Pattern" order="1" defaultDefinitionNwId="313281649079366272" name="Naming Patterns" nwid="355502895624034740" action="EditNamingPatternsActionCR"/>
+    <Action configuredClique="Naming Pattern" order="0" defaultDefinitionNwId="313281649079366273" name="Add Naming Pattern" nwid="355502895624034741" action="AddNamingPatternActionCR"/>
+    <Action configuredClique="Naming Pattern" order="1" defaultDefinitionNwId="313281649079366274" name="Edit Naming Pattern" nwid="355502895624034742" action="EditNamingPatternActionCR"/>
+    <Action configuredClique="Naming Pattern" order="2" defaultDefinitionNwId="313281649079366275" name="Delete Naming Pattern" nwid="355502895624034743" action="DeleteNamingPatternActionCR"/>
+    <Action configuredClique="Naming Pattern" order="0" defaultDefinitionNwId="313281649079366276" name="Save Profile" nwid="355502895624034744" action="SaveNamingPatternActionCR"/>
+    <Action configuredClique="Renaming Rule" order="2" defaultDefinitionNwId="313281649079366277" name="Renaming Rules" nwid="355502895624034745" action="EditRenamingRulesActionCR"/>
+    <Action configuredClique="Renaming Rule" order="0" defaultDefinitionNwId="313281649079366278" name="Add Renaming Rule" nwid="355502895624034746" action="AddRenamingRuleActionCR"/>
+    <Action configuredClique="Renaming Rule" order="1" defaultDefinitionNwId="313281649079366279" name="Edit Renaming Rule" nwid="355502895624034747" action="EditRenamingRuleActionCR"/>
+    <Action configuredClique="Renaming Rule" order="2" defaultDefinitionNwId="313281649079366280" name="Copy Renaming Rule" nwid="355502895624034748" action="CopyRenamingRuleActionCR"/>
+    <Action configuredClique="Renaming Rule" order="3" defaultDefinitionNwId="313281649079366281" name="Delete Renaming Rule" nwid="355502895624034749" action="DeleteRenamingRuleActionCR"/>
+    <Action configuredClique="Renaming Rule" order="0" defaultDefinitionNwId="313281649079366282" name="Save Renaming Rule" nwid="355502895624034750" action="SaveRenamingRuleActionCR"/>
+    <Action configuredClique="Renaming Rule" order="1" defaultDefinitionNwId="313281649079366283" name="Test Renaming Rule" nwid="355502895624034751" action="TestRenamingRuleActionCR"/>
+    <Action order="0" defaultDefinitionNwId="313281649079366284" name="Save Monitor Profile" nwid="355502895624034752" action="SaveMonitorProfileActionCR"/>
+    <Action order="1" defaultDefinitionNwId="313281649079366285" name="Save Press Profile" nwid="355502895624034753" action="SavePressProfileActionCR"/>
+    <Action configuredClique="Preflight Setup" order="0" defaultDefinitionNwId="313281649079366286" name="Add Preflight Setup" nwid="355502895624034754" action="AddPreflightSetupActionCR"/>
+    <Action configuredClique="Preflight Setup" order="1" defaultDefinitionNwId="313281649079366287" name="Edit Preflight Setup" nwid="355502895624034755" action="EditPreflightConfigSetupActionCR"/>
+    <Action configuredClique="Preflight Setup" order="2" defaultDefinitionNwId="313281649079366288" name="Copy Preflight Setup" nwid="355502895624034756" action="CopyPreflightSetupActionCR"/>
+    <Action configuredClique="Preflight Setup" order="3" defaultDefinitionNwId="313281649079366289" name="Delete Preflight Setup" nwid="355502895624034757" action="DeletePreflightSetupActionCR"/>
+    <Action configuredClique="Preflight Setup" order="0" defaultDefinitionNwId="313281649079366290" name="Save Preflight Setup" nwid="355502895624034758" action="SavePreflightSetupActionCR"/>
+    <Action description="Edit FlowStep" configuredClique="Flow Step Setup" order="1" label="Flow Step Setup" defaultDefinitionNwId="313281649079366291" name="Edit FlowStep" nwid="355502895624034759" action="EditFlowStepSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow/step&quot;]}</parameters>
+    </Action>
+    <Action description="Save Adapter flows" configuredClique="Edit Flow Step" order="-1" defaultDefinitionNwId="372954344143698364" name="Expose Flow Step Adapters" nwid="355502895624034760" action="ExposeFlowStepAdaptersActionCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;workflow/step&quot;,
+    &quot;demons/demon&quot;
+]}</parameters>
+    </Action>
+    <Action order="0" defaultDefinitionNwId="313281649079366292" name="addManager" nwid="355502895624034761" action="AddManagerActionCR"/>
+    <Action order="0" defaultDefinitionNwId="313281649079366293" name="editManager" nwid="355502895624034762" action="EditManagerActionCR"/>
+    <Action order="0" defaultDefinitionNwId="313281649079366294" name="editMachine" nwid="355502895624034763" action="EditMachineActionCR"/>
+    <Action order="2" defaultDefinitionNwId="313281649079366295" name="editCluster" nwid="355502895624034764" action="EditClusterActionCR"/>
+    <Action order="1" defaultDefinitionNwId="313281649079366296" name="addMachine" nwid="355502895624034765" action="AddMachineActionCR"/>
+    <Action order="0" defaultDefinitionNwId="313281649079366298" name="saveManager" nwid="355502895624034766" action="SaveManagerActionCR"/>
+    <Action order="0" defaultDefinitionNwId="313281649079366299" name="saveMachine" nwid="355502895624034767" action="SaveMachineActionCR"/>
+    <Action order="3" defaultDefinitionNwId="313281649079366300" name="deleteClusterObject" nwid="355502895624034768" action="DeleteClusterObjectActionCR"/>
+    <Action configuredClique="Comm Center" alignRight="true" defaultDefinitionNwId="313281649079366301" name="Delete Mail" nwid="355502895624034769" action="DeleteMailActionCR"/>
+    <Action defaultDefinitionNwId="313281649079366302" name="Mark Mail As Read" nwid="355502895624034770" action="MarkMailAsReadActionCR"/>
+    <Action order="0" defaultDefinitionNwId="313281649079366304" name="Add Color" nwid="355502895624034771" action="AddColorActionCR"/>
+    <Action order="1" defaultDefinitionNwId="313281649079366305" name="Edit Color" nwid="355502895624034772" action="EditColorTableActionCR"/>
+    <Action order="2" defaultDefinitionNwId="313281649079366306" name="Delete Color" nwid="355502895624034773" action="DeleteColorActionCR"/>
+    <Action order="3" defaultDefinitionNwId="313281649079366307" name="Save ColorTable" nwid="355502895624034774" action="SaveColorTableActionCR"/>
+    <Action configuredClique="Global Setup" order="0" defaultDefinitionNwId="313281649079366308" name="Save Global Setup" nwid="355502895624034775" action="SaveGlobalSetupActionCR"/>
+    <Action order="0" defaultDefinitionNwId="313281649079366309" name="Add Monitor Profile" nwid="355502895624034776" action="AddMonitorProfileActionCR"/>
+    <Action order="1" defaultDefinitionNwId="313281649079366310" name="Edit Monitor Profile" nwid="355502895624034777" action="EditMonitorProfileActionCR"/>
+    <Action order="3" defaultDefinitionNwId="313281649079366311" name="Delete Monitor Profile" nwid="355502895624034778" action="DeleteMonitorProfileActionCR"/>
+    <Action order="0" defaultDefinitionNwId="313281649079366312" name="Add Press Profile" nwid="355502895624034779" action="AddPressProfileActionCR"/>
+    <Action order="1" defaultDefinitionNwId="313281649079366313" name="Edit Press Profile" nwid="355502895624034780" action="EditPressProfileActionCR"/>
+    <Action order="3" defaultDefinitionNwId="313281649079366314" name="Delete Press Profile" nwid="355502895624034781" action="DeletePressProfileActionCR"/>
+    <Action order="1" defaultDefinitionNwId="313281649086436301" name="editExternalSite" nwid="355502895624034782" action="EditExternalSiteActionCR"/>
+    <Action order="0" defaultDefinitionNwId="313281649086436302" name="addExternalSite" nwid="355502895624034783" action="AddExternalSiteActionCR"/>
+    <Action order="2" defaultDefinitionNwId="313281649086436303" name="deleteSiteActionCR" nwid="355502895624034784" action="DeleteSiteActionCR"/>
+    <Action order="1" defaultDefinitionNwId="288793326107917751" name="editCustomLog" nwid="355502895624034785" action="EditCustomLogActionCR"/>
+    <Action order="2" defaultDefinitionNwId="288793326107917752" name="addCustomLog" nwid="355502895624034786" action="AddCustomLogActionCR"/>
+    <Action order="0" defaultDefinitionNwId="288793326108117738" name="saveCustomLog" nwid="355502895624034787" action="SaveCustomLogSetupCR"/>
+    <Action order="0" defaultDefinitionNwId="288793326108170606" name="saveCustomLogs" nwid="355502895624034788" action="SaveCustomLogsSetupCR"/>
+    <Action order="0" defaultDefinitionNwId="288793326108262622" name="DeleteCustomLogAction" nwid="355502895624034789" action="DeleteCustomLogActionCR"/>
+    <Action order="3" defaultDefinitionNwId="313281649086436304" name="editAvailableProperties" nwid="355502895624034790" action="EditVillageAvailablePropertiesActionCR"/>
+    <Action order="-1" defaultDefinitionNwId="313281649086436305" name="SaveExternalSite" nwid="355502895624034791" action="SaveExternalSiteActionCR"/>
+    <Action order="3" label="Save Available Properties" defaultDefinitionNwId="313281649086436306" name="saveAvailableProperties" nwid="355502895624034792" action="SaveAvailableVillagePropertiesActionCR"/>
+    <Action configuredClique="Mail Setup" order="-1" defaultDefinitionNwId="313281649086521838" name="Edit Mail Setup" nwid="355502895624034793" action="EditMailSetupActionCR"/>
+    <Action configuredClique="Mail Setup" order="-1" defaultDefinitionNwId="313281649086521839" name="Save Mail Setup" nwid="355502895624034794" action="SaveMailSetupActionCR"/>
+    <Action order="2" defaultDefinitionNwId="313281649079366315" name="Delete Script Adapter" nwid="355502895624034795" action="DeleteScriptAdapterActionCR"/>
+    <Action order="-1" menu="Events" defaultDefinitionNwId="313281649079366316" nwid="355502895624034796" action="DeleteEventsCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow/event&quot;]}</parameters>
+    </Action>
+    <Action order="-1" menu="Events" defaultDefinitionNwId="313281649079366317" nwid="355502895624034797" action="HoldEventsCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow/event&quot;]}</parameters>
+    </Action>
+    <Action order="-1" menu="Events" defaultDefinitionNwId="313281649079366318" name="Release Events" nwid="355502895624034798" action="UnholdEventsCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow/event&quot;]}</parameters>
+    </Action>
+    <Action order="-1" menu="Events" defaultDefinitionNwId="313281649079366319" name="Redo Events" nwid="355502895624034799" action="RedoEventActionCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow/event&quot;]}</parameters>
+    </Action>
+    <Action order="-1" menu="Events" defaultDefinitionNwId="288793326119777451" name="Move To Top" nwid="355502895624034800" action="HighPrioritisedEventActionCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow/event&quot;]}</parameters>
+    </Action>
+    <Action order="2" defaultDefinitionNwId="313281649079366321" nwid="355502895624034801" action="SetActiveVersionActionCR"/>
+    <Action description="Separation Approval" configuredClique="Separation Approve" order="3" label="Separation Approval" defaultDefinitionNwId="313281649079366323" name="Custom Approval" nwid="355502895624034802" action="OpenCustomApprovalViewCR">
+        <parameters>{&quot;types&quot;: [&quot;form&quot;]}</parameters>
+    </Action>
+    <Action description="Separation Approval" configuredClique="Separation Approve" order="3" label="Separation Approval" defaultDefinitionNwId="313281649079366324" name="CustomApproveRejectActionCR" nwid="355502895624034803" action="CustomApproveRejectActionCR">
+        <parameters>{&quot;types&quot;: [&quot;form&quot;]}</parameters>
+    </Action>
+    <Action configuredClique="UnplannedTool" order="10" defaultDefinitionNwId="313281649079366325" name="Rename Unplan" nwid="355502895624034804" action="RenameUnplanPageActionCR"/>
+    <Action configuredClique="UnplannedTool" order="10" defaultDefinitionNwId="313281649079366326" name="Delete Unplanned" nwid="355502895624034805" action="DeleteUnplaneedActionCR"/>
+    <Action configuredClique="UploadTool" order="10" defaultDefinitionNwId="373235819125188154" name="Delete Upload" nwid="355502895624034806" action="DeleteUploadActionCR"/>
+    <Action description="Routes to BlackMagic" order="19" label="Send to BlackMagic GANG" defaultDefinitionNwId="288230376172632335" name="Send to BlackMagic GANG" nwid="355502895624034808" action="RouteActionCR">
+        <Config>{
+    &quot;enableErrorObjects&quot;: false,
+    &quot;flowStepIds&quot;: [&quot;355502895587133883&quot;],
+    &quot;gui$enableCheckboxValue-progress&quot;: false,
+    &quot;gui$progress&quot;: 0
+}</Config>
+        <parameters>{
+    &quot;properties&quot;: [
+        &quot;nwid&quot;,
+        &quot;type&quot;
+    ],
+    &quot;types&quot;: [
+        &quot;form&quot;,
+        &quot;form/separation&quot;
+    ]
+}</parameters>
+    </Action>
+    <Action order="8" label="Output plates" name="Output plates" nwid="355502895624034812" action="RouteActionCR">
+        <Config>
+			{
+			&quot;flowStepIds&quot;: [&quot;288230376151718269&quot;],
+			&quot;enableErrorObjects&quot; : true,
+			}
+		</Config>
+        <parameters>
+			{
+			&quot;types&quot; :  ['productionrun', 'productionrun/tower', 'productionrun/cylinder']
+			}
+		</parameters>
+    </Action>
+    <Action defaultDefinitionNwId="313281649079366331" name="Map Unplanned Page" nwid="355502895624034815" action="MapUnplannedPageActionCR"/>
+    <Action defaultDefinitionNwId="373235819125188155" name="Map upload Page" nwid="355502895624034816" action="MapUploadPageActionCR"/>
+    <Action configuredClique="Comm Center" defaultDefinitionNwId="313281649079366332" name="Mail" nwid="355502895624034817" action="ShowMailActionCR"/>
+    <Action order="-1" defaultDefinitionNwId="313281649079366336" nwid="355502895624034822" action="AbortResourcesActionCR">
+        <parameters>{&quot;types&quot;: [&quot;physical/*&quot;]}</parameters>
+    </Action>
+    <Action description="Show Overview" configuredClique="Flow Step Overview" order="-1" label="Flow Step Overview" defaultDefinitionNwId="313281649079366337" name="FlowStep Overview" nwid="355502895624034823" action="ShowFlowStepOverviewCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;workflow/step&quot;,
+    &quot;demons/demon*&quot;,
+    &quot;workflow/step/flow/approval&quot;,
+    &quot;demons/demon&quot;,
+    &quot;workflow/step*&quot;
+]}</parameters>
+    </Action>
+    <Action description="Toggle The State Of the Device On/Off" configuredClique="Toggle Device" order="-1" label="Toggle Device" defaultDefinitionNwId="313281649079366338" name="Toggle Device" nwid="355502895624034824" action="ToggleDeviceActionCR">
+        <parameters>{&quot;types&quot;: []}</parameters>
+    </Action>
+    <Action description="Toggle The State Of the Device On/Off" configuredClique="Toggle Device" order="-1" label="Toggle Device" defaultDefinitionNwId="313281649079366339" name="ToggleDevice (Matrix)" nwid="355502895624034825" action="ToggleDeviceInMatrixActionCR">
+        <parameters>{&quot;types&quot;: []}</parameters>
+    </Action>
+    <Action description="Toggle The State Of Skip-Device mode On/Off" configuredClique="Toggle Skip Device" order="-1" label="Toggle Skip Device" defaultDefinitionNwId="313281649095529721" name="Toggle Skip Device" nwid="355502895624034826" action="ToggleSkipDeviceActionCR">
+        <parameters>{&quot;types&quot;: []}</parameters>
+    </Action>
+    <Action description="Toggle The State Of Skip-Device mode On/Off" configuredClique="Toggle Skip Device" order="-1" label="Toggle Skip Device" defaultDefinitionNwId="313281649095529722" name="ToggleSkipDevice (Matrix)" nwid="355502895624034827" action="ToggleSkipDeviceInMatrixAction">
+        <parameters>{&quot;types&quot;: []}</parameters>
+    </Action>
+    <Action order="-1" defaultDefinitionNwId="313281649079366340" nwid="355502895624034828" action="ToggleResourceActionCR"/>
+    <Action description="Change Colors of Page" configuredClique="Change Color" order="12" label="Change Color" defaultDefinitionNwId="313281649079366341" name="ColorChange" nwid="355502895624034829" action="EditColorsCR">
+        <parameters>{&quot;types&quot;: [&quot;page&quot;]}</parameters>
+    </Action>
+    <Action description="Change Colors of Page" configuredClique="Change Color" order="12" defaultDefinitionNwId="313281649079366342" name="SaveColorChange (Tiff)" nwid="355502895624034831" action="SaveColorChange">
+        <Config>
+			{
+			&quot;routePageTo&quot;: [&quot;297237575406454440&quot;],
+			&quot;routeSeparationTo&quot;: [&quot;288230376151718405&quot;]
+			}
+		</Config>
+        <parameters>{&quot;types&quot;: [&quot;page&quot;]}</parameters>
+    </Action>
+    <Action order="-1" defaultDefinitionNwId="313281649079366343" nwid="355502895624034832" action="UnlockEventsCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;workflow/event&quot;,
+    &quot;physical/*&quot;
+]}</parameters>
+    </Action>
+    <Action description="Show The Error Message Of Event&#xA;" order="5" label="SHOW ERROR MESSAGE" defaultDefinitionNwId="313281649079366344" name="Show Error Message" nwid="355502895624034833" action="ShowEventErrorOnProductCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;page/*&quot;,
+    &quot;form/*&quot;,
+    &quot;plate&quot;
+]}</parameters>
+    </Action>
+    <Action order="-1" defaultDefinitionNwId="313281649256662111" name="Show Event Error (Event)" nwid="355502895624034834" action="ShowEventErrorOnWorkflowCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow/event&quot;]}</parameters>
+    </Action>
+    <Action order="-1" defaultDefinitionNwId="288793326218604834" nwid="355502895624034835" action="ShowEventHoldersCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow/event&quot;]}</parameters>
+    </Action>
+    <Action description="Show Custom Information" configuredClique="Panel Info" order="41" label="Panel Info" defaultDefinitionNwId="288793326233653922" name="Custom Info" nwid="355502895624034836" action="ShowCustomInfoCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;page&quot;
+]}</parameters>
+    </Action>
+    <Action order="-1" defaultDefinitionNwId="313281649079366345" name="Start All Resources And Workflow Steps" nwid="355502895624034837" action="StartAllWorkflowActionCR"/>
+    <Action order="-1" defaultDefinitionNwId="313281649079366346" name="Stop All Resources And Workflow Steps" nwid="355502895624034838" action="StopAllWorkflowActionCR"/>
+    <Action order="-1" defaultDefinitionNwId="313281649079366347" nwid="355502895624034839" action="AutoLayoutCR"/>
+    <Action description="Show Overview" configuredClique="Workflow Overview" order="-1" label="Workflow Overview" defaultDefinitionNwId="313281649079366348" name="WorkFlow Overview" nwid="355502895624034840" action="ShowWorkFlowOverviewCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow&quot;]}</parameters>
+    </Action>
+    <Action description="Clear Events From Select Flow Step" configuredClique="Clear Events" order="-1" label="Clear Events" defaultDefinitionNwId="313281649079366349" name="Clear Events" nwid="355502895624034841" action="ClearEventsActionCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow/step*&quot;]}</parameters>
+    </Action>
+    <Action description="Clear Events From Select Flow Step" configuredClique="Clear Events" order="-1" label="Clear Events" defaultDefinitionNwId="313281649079366350" name="Save Clear Events" nwid="355502895624034842" action="SaveClearEvetnsCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow/step*&quot;]}</parameters>
+    </Action>
+    <Action order="6" defaultDefinitionNwId="313281649079366351" name="Hold Structure" nwid="355502895624034843" action="HoldStructureElementActionCR">
+        <Config>{&quot;flowStepNwIds&quot;: [
+    &quot;355502895587114807&quot;,
+    &quot;355502895601195405&quot;
+]}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;plate&quot;,
+    &quot;productionrun&quot;,
+    &quot;productionrun/tower&quot;,
+    &quot;productionrun/cylinder&quot;
+]}</parameters>
+    </Action>
+    <Action order="6" defaultDefinitionNwId="313281649079366352" name="Release Structure" nwid="355502895624034844" action="ReleaseStructureElementActionCR">
+        <Config>{&quot;flowStepNwIds&quot;: [
+    &quot;355502895716400971&quot;,
+    &quot;355502895587114807&quot;,
+    &quot;355502895601195405&quot;
+]}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;plate&quot;,
+    &quot;productionrun&quot;,
+    &quot;productionrun/tower&quot;,
+    &quot;productionrun/cylinder&quot;
+]}</parameters>
+    </Action>
+    <Action order="6" defaultDefinitionNwId="288793326294993302" name="Unlock Plan Container" nwid="355502895624034849" action="UnlockContainerActionCR">
+        <Config>
+			{
+			logoutUser: true
+			}
+		</Config>
+    </Action>
+    <Action description="Restart an object in the worfklow" configuredClique="Restart From Hotfolder" order="4" label="Restart From Hotfolder" defaultDefinitionNwId="313281649084385260" name="Restart" nwid="355502895624034853" action="RestartObjectActionCR">
+        <parameters>{&quot;types&quot;: [&quot;page&quot;]}</parameters>
+    </Action>
+    <Action description="Restart an object in the worfklow" configuredClique="Restart From Hotfolder" order="4" label="Restart From Hotfolder" defaultDefinitionNwId="288793326242109040" name="Restart" nwid="355502895624034854" action="OpenRestartObjectActionCR">
+        <parameters>{&quot;types&quot;: [&quot;page&quot;]}</parameters>
+    </Action>
+    <Action description="Restart From Imposition" configuredClique="Restart From Imposition" order="6" label="Restart From Imposition" defaultDefinitionNwId="288793326238471768" name="Restart Form (TIFF)" nwid="355502895624034855" action="OpenRestartFormViewCR">
+        <Config>{&quot;flowStepNwId&quot;: &quot;355502895701774335&quot;}</Config>
+        <parameters>{&quot;types&quot;: [&quot;form&quot;]}</parameters>
+    </Action>
+    <Action description="Preassign CTP to Form" order="1" label="Assign CTP" defaultDefinitionNwId="313281649079366356" name="Assign CTP" nwid="355502895624034856" action="LockActionCR">
+        <Config>{&quot;flowStepNwids&quot;: [
+    &quot;355502895716400971&quot;,
+    &quot;355502895587114807&quot;,
+    &quot;355502895601195405&quot;
+]}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;book&quot;,
+    &quot;productionrun&quot;
+]}</parameters>
+    </Action>
+    <Action order="-1" defaultDefinitionNwId="288793326220929857" nwid="355502895624034857" action="LockEventsActionCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow/event&quot;]}</parameters>
+    </Action>
+    <Action defaultDefinitionNwId="288793326224265042" name="EventInfoAction" nwid="355502895624034858" action="EventInfoActionCR"/>
+    <Action description="Save Workflow Logging" configuredClique="Workflow Logging" order="1" label="Workflow Logging" defaultDefinitionNwId="313281649079366360" name="Edit Workflow Logging" nwid="355502895624034859" action="EditWorkflowLoggingActionCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow&quot;]}</parameters>
+    </Action>
+    <Action description="Save Workflow Logging" configuredClique="Workflow Logging" order="1" label="Workflow Logging" defaultDefinitionNwId="313281649079366361" name="Save Profile" nwid="355502895624034860" action="SaveWorkflowLoggingSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow&quot;]}</parameters>
+    </Action>
+    <Action configuredClique="Product Setup" order="-1" defaultDefinitionNwId="313281649082543206" name="Save Product Setup" nwid="355502895624034861" action="SaveProductSetupCR"/>
+    <Action configuredClique="Product Setup" order="-1" defaultDefinitionNwId="313281649082543207" name="Product Setup" nwid="355502895624034862" action="EditProductSetupActionCR"/>
+    <Action configuredClique="Normalizer Setup" order="-1" defaultDefinitionNwId="327636872891204586" name="Normalizer Setup" nwid="355502895624034863" action="SaveNormalizerSetupCR"/>
+    <Action configuredClique="Normalizer Setup" order="-1" defaultDefinitionNwId="327636872891204587" name="Normalizer Setup" nwid="355502895624034864" action="EditNormalizerSetupActionCR"/>
+    <Action order="-1" defaultDefinitionNwId="313281649084060331" name="Upload ICC File" nwid="355502895624034865" action="UploadICCProfileActionCR"/>
+    <Action order="-1" defaultDefinitionNwId="313281649084068253" name="Change Deadline" nwid="355502895624034866" action="ChangeDeadlineActionCR">
+        <Config>
+                     {
+                     holdStepsNwids: [&quot;288230376151718269&quot;, &quot;288230376160844577&quot;, &quot;288230376160844587&quot;, &quot;328481297826602320&quot;, &quot;297237575406455800&quot;];
+                     }
+              </Config>
+    </Action>
+    <Action order="-1" defaultDefinitionNwId="323696223217788843" name="Show Rate Graph" nwid="355502895624034867" action="ShowRateGraphActionCR"/>
+    <Action description="Delete" order="14" label="Delete" defaultDefinitionNwId="288793326297781426" name="Delete" nwid="355502895624034879" action="ClearActionCR">
+        <Config>{
+    &quot;canMakeActive&quot;: false,
+    &quot;clearAll&quot;: true,
+    &quot;ignoreNumberWhenKilled&quot;: false,
+    &quot;killIndication&quot;: true,
+    &quot;moveToUnplan&quot;: false,
+    &quot;reason&quot;: &quot;Delete&quot;,
+    &quot;suffix&quot;: &quot;_Cleared&quot;,
+    &quot;title&quot;: &quot;Delete&quot;
+}</Config>
+        <parameters>{&quot;types&quot;: [&quot;page&quot;]}</parameters>
+    </Action>
+    <Action order="14" label="Return to unplanned" defaultDefinitionNwId="313281649084125901" name="Return to unplanned" nwid="355502895624034880" action="ClearActionCR">
+        <Config>{
+    &quot;canMakeActive&quot;: true,
+    &quot;clearAll&quot;: false,
+    &quot;ignoreNumberWhenKilled&quot;: true,
+    &quot;killIndication&quot;: false,
+    &quot;moveToUnplan&quot;: true,
+    &quot;reason&quot;: &quot;unmap&quot;,
+    &quot;suffix&quot;: &quot;_Unmapped&quot;,
+    &quot;title&quot;: &quot;Unmap&quot;
+}</Config>
+        <parameters>{&quot;types&quot;: [&quot;page&quot;]}</parameters>
+    </Action>
+    <Action description="Ignore Object" order="18" defaultDefinitionNwId="313281649093061544" name="Ignore Object" nwid="355502895624034881" action="SetToIgnoreActionCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;page&quot;,
+    &quot;form&quot;
+]}</parameters>
+    </Action>
+    <Action description="Remove Ignore Object" order="18" defaultDefinitionNwId="313281649093061546" name="Remove Ignore Object" nwid="355502895624034882" action="RemoveIgnoreActionCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;page&quot;,
+    &quot;form&quot;
+]}</parameters>
+    </Action>
+    <Action order="-1" label="Export Flowstep Template" defaultDefinitionNwId="303992974868066414" name="Export Flow step Template" nwid="355502895624034883" action="ExportFlowStepActionCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;workflow/step*&quot;,
+    &quot;demons/demon*&quot;
+]}</parameters>
+    </Action>
+    <Action description="Skip Error" order="10" defaultDefinitionNwId="313281649084385261" name="Skip Error" nwid="355502895624034884" action="SkipErrorActionCR">
+        <parameters>{&quot;types&quot;: [&quot;page&quot;]}</parameters>
+    </Action>
+    <Action order="2" defaultDefinitionNwId="313281649079366322" name="Approve" nwid="355502895624034885" action="ApproveAllActionCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;form/separation&quot;,
+    &quot;form/content&quot;,
+    &quot;form/separation/content&quot;
+]}</parameters>
+    </Action>
+    <Action description="Show Overview" configuredClique="Zone Overview" order="-1" label="Zone Overview" defaultDefinitionNwId="287948901182661489" name="Zone Overview" nwid="355502895624034887" action="ShowZoneOverviewCR">
+        <parameters>{&quot;types&quot;: [&quot;zone&quot;]}</parameters>
+    </Action>
+    <Action description="Show Zone Overview" configuredClique="Production Run Overview" order="-1" label="Zone Overview" defaultDefinitionNwId="372954344144024673" name="Production Run Overview" nwid="355502895624034888" action="ShowProductionRunOverviewCR">
+        <parameters>{&quot;types&quot;: [&quot;productionrun&quot;]}</parameters>
+    </Action>
+    <Action order="-1" defaultDefinitionNwId="372954344141682584" name="Show All Zones Overviews" nwid="355502895624034889" action="OpenZoneOverviewsActionCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;publication&quot;,
+    &quot;edition&quot;
+]}</parameters>
+    </Action>
+    <Action description="Set Complete Status" order="9" defaultDefinitionNwId="288793326213841471" name="Set Complete" nwid="355502895624034894" action="SetCompleteActionCR">
+        <parameters>{
+    &quot;properties&quot;: [
+        &quot;nwid&quot;,
+        &quot;type&quot;
+    ],
+    &quot;scriptName&quot;: &quot;SetCompleteActionCR&quot;,
+    &quot;types&quot;: [
+        &quot;page&quot;,
+        &quot;form&quot;,
+        &quot;plate&quot;
+    ]
+}</parameters>
+    </Action>
+    <Action configuredClique="Override Tables" order="1" defaultDefinitionNwId="288793326218739124" name="Override Tables" nwid="355502895624034895" action="EditOverrideActionCR"/>
+    <Action configuredClique="Override Tables" order="2" defaultDefinitionNwId="288793326218866147" name="Save Override" nwid="355502895624034896" action="SaveOverrideActionCR"/>
+    <Action description="Show Custom Information" configuredClique="Panel Info" order="41" label="Panel Info" defaultDefinitionNwId="296111675501475341" name="Show Info Panel" nwid="355502895624034899" action="ShowRightPanelInfoActionCR">
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;page&quot;
+]}</parameters>
+    </Action>
+    <Action order="1" defaultDefinitionNwId="313281649266262537" name="Create Folder" nwid="355502895624034900" action="CreateFolderActionCR"/>
+    <Action order="1" defaultDefinitionNwId="313281649266278957" name="Rename Folder" nwid="355502895624034901" action="RenameFolderActionCR"/>
+    <Action description="Change Share Of Page" configuredClique="Share" order="12" label="Share" defaultDefinitionNwId="338332922007353771" name="Share" nwid="355502895624034905" action="OpenShareActionCR">
+        <parameters>{&quot;types&quot;: [&quot;page&quot;]}</parameters>
+    </Action>
+    <Action description="Change Share Of Page" configuredClique="Share" order="12" label="Share" defaultDefinitionNwId="338332922007353772" name="Share" nwid="355502895624034906" action="SaveShareSetupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;page&quot;]}</parameters>
+    </Action>
+    <Action description="Change Layout Group" configuredClique="Change layout group" order="1" label="Change layout group" defaultDefinitionNwId="218891370" name="Change Layout Group" nwid="355502895624034909" action="OpenChangeLayoutGroupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;book&quot;]}</parameters>
+    </Action>
+    <Action description="Change Layout Group" configuredClique="Change layout group" order="1" label="Change layout group" defaultDefinitionNwId="218891371" name="Change Layout Group" nwid="355502895624034910" action="SaveChangeLayoutGroupActionCR">
+        <parameters>{&quot;types&quot;: [&quot;book&quot;]}</parameters>
+    </Action>
+    <Action defaultDefinitionNwId="296111675501635207" name="Upload Action" nwid="355502895624034911" action="UploadActionCR">
+        <Config>
+			{
+			&quot;hotFolder&quot; : &quot;d:/WorkflowFolders/Uploader&quot;
+			}
+		</Config>
+    </Action>
+    <Action defaultDefinitionNwId="373235819125256374" name="Plan Action" nwid="355502895624034912" action="PlanActionCR"/>
+    <Action configuredClique="UploadTool" defaultDefinitionNwId="296111675531173168" name="Open Upload History" nwid="355502895624034913" action="OpenUploadHistoryCR"/>
+    <Action defaultDefinitionNwId="296111675531548537" name="Open User Configuration" nwid="355502895624034914" action="OpenUserConfigCR"/>
+    <Action order="-1" defaultDefinitionNwId="338332922009172758" name="Change user password" nwid="355502895624034916" action="OpenChangeUserPasswordCR"/>
+    <Action configuredClique="Security Settings" order="3" defaultDefinitionNwId="343117996613271701" name="Duplicate Security Group" nwid="355502895624034917" action="DuplicateFolderSecurityGroupActionCR"/>
+    <Action configuredClique="Manage Families" order="-1" defaultDefinitionNwId="338332922011048181" name="Manage Families" nwid="355502895624034918" action="OpenManageFamiliesActionCR"/>
+    <Action order="1" defaultDefinitionNwId="338332922009176623" name="Copy" nwid="355502895624034923" action="CopyActionCR">
+        <parameters>{&quot;types&quot;: [&quot;page&quot;]}</parameters>
+    </Action>
+    <Action order="2" defaultDefinitionNwId="338332922009176624" name="PasteAction" nwid="355502895624034924" action="PasteActionCR">
+        <parameters>{&quot;types&quot;: [&quot;page&quot;]}</parameters>
+    </Action>
+    <Action description="Change Expected Name Of Page" configuredClique="Change Expected Name" order="12" label="Change Expected Name" defaultDefinitionNwId="338332922007353780" name="Change expected name" nwid="355502895624034925" action="OpenChangeExpectedNameActionCR">
+        <parameters>{&quot;types&quot;: [&quot;page&quot;]}</parameters>
+    </Action>
+    <Action description="Change Expected Name Of Page" configuredClique="Change Expected Name" order="12" label="Change Expected Name" defaultDefinitionNwId="338332922007353781" name="Change expected name" nwid="355502895624034926" action="SaveChangeExpectedNameActionCR">
+        <parameters>{&quot;types&quot;: [&quot;page&quot;]}</parameters>
+    </Action>
+    <Action order="-2" defaultDefinitionNwId="288793326312114147" name="Recalculate Status" nwid="355502895624034927" action="RecalcStatusCR"/>
+    <Action description="Delete Workflow" order="-1" label="Delete Workflow" name="Delete Workflow" nwid="355502895624241054" action="DeleteActionCR">
+        <parameters>{&quot;types&quot;: [&quot;workflow&quot;]}</parameters>
+    </Action>
+    <Action description="Delete Folder" order="-1" label="Delete Folder" name="Delete Folder" nwid="355502895624241055" action="DeleteActionCR">
+        <parameters>{&quot;types&quot;: [&quot;folder&quot;]}</parameters>
+    </Action>
+    <Action description="UnSkip Form Approval" order="8" label="UnSkip Approval" name="UnSkip Form Approval" nwid="355502895624241056" action="UnSkipFlowStepActionCR">
+        <Config>{&quot;flowStepNwIds&quot;: [&quot;355502895585577477&quot;]}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;publication&quot;,
+    &quot;zone&quot;,
+    &quot;form&quot;,
+    &quot;book&quot;,
+    &quot;edition&quot;
+]}</parameters>
+    </Action>
+    <Action description="Skip Form Approval" order="7" label="Skip Approval" name="Skip Form Approval" nwid="355502895624241057" action="SkipFlowStepActionCR">
+        <Config>{&quot;flowStepNwIds&quot;: [&quot;355502895585577477&quot;]}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;publication&quot;,
+    &quot;zone&quot;,
+    &quot;form&quot;,
+    &quot;book&quot;,
+    &quot;edition&quot;
+]}</parameters>
+    </Action>
+    <Action order="6" label="Undo Pre Approve Pages" defaultDefinitionNwId="288793326248956348" name="Undo PreApprove Pages" nwid="355502895626073969" action="UndoPreApproveActionCR">
+        <Config>
+			{
+			&quot;objectsType&quot;: &quot;pages&quot;
+			}
+		</Config>
+        <parameters>
+			{
+			&quot;types&quot; : ['publication', 'edition', 'zone', 'section', 'page'],
+			&quot;properties&quot; : ['nwid', 'type'],
+			&quot;scriptName&quot; : &quot;UndoPreApproveActionCR&quot;,
+			}
+		</parameters>
+    </Action>
+    <Action order="6" label="Undo Pre Approve Formes" defaultDefinitionNwId="288793326248956349" name="Undo PreApprove Formes" nwid="355502895626073970" action="UndoPreApproveActionCR">
+        <Config>
+			{
+			&quot;objectsType&quot;: &quot;forms&quot;
+			}
+		</Config>
+        <parameters>
+			{
+			&quot;types&quot; : ['publication', 'edition', 'zone', 'book', 'form'],
+			&quot;properties&quot; : ['nwid', 'type'],
+			&quot;scriptName&quot; : &quot;UndoPreApproveActionCR&quot;,
+			}
+		</parameters>
+    </Action>
+    <Action order="-1" defaultDefinitionNwId="372954344144382818" name="Collapse All Tree Nodes" nwid="355502895642764967" action="CollapseAllTreeNodesActionCR"/>
+    <Action order="-1" defaultDefinitionNwId="372954344144364730" name="Expand All Tree Nodes" nwid="355502895642764968" action="ExpandAllTreeNodesActionCR"/>
+    <Action description="Resend BCP Ink Values" order="31" label="Resend BCP Ink Values" name="Resend BCP Ink Values" nwid="355502895651562732" action="RouteActionCR">
+        <Config>{
+    &quot;enableErrorObjects&quot;: false,
+    &quot;flowStepIds&quot;: [&quot;355502895714628242&quot;],
+    &quot;gui$enableCheckboxValue-progress&quot;: false,
+    &quot;gui$progress&quot;: 0
+}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;form/separation&quot;,
+    &quot;plate&quot;,
+    &quot;productionrun&quot;
+]}</parameters>
+    </Action>
+    <Action description="Route to BlackMagic FULL Proofer 1" order="20" label="Send to BlackMagic FULL Proofer 1" name="Send to BlackMagic FULL Proofer 1" nwid="355502895719790977" action="RouteActionCR">
+        <Config>{
+    &quot;enableErrorObjects&quot;: false,
+    &quot;flowStepIds&quot;: [{
+        &quot;name&quot;: &quot;College Point/Production/BM HardProofing&quot;,
+        &quot;nwid&quot;: &quot;355502895587133883&quot;
+    }],
+    &quot;gui$enableCheckboxValue-progress&quot;: false,
+    &quot;gui$progress&quot;: 0
+}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;form/separation&quot;
+]}</parameters>
+    </Action>
+    <Action order="5" nwid="355502895737388359" action="NeedAllPlatesCR">
+        <Config>{&quot;wizardName&quot;: &quot;&quot;}</Config>
+        <parameters>{&quot;types&quot;: [&quot;productionrun&quot;]}</parameters>
+    </Action>
+    <Action order="5" nwid="355502895737388360" action="CancelNeedAllPlatesCR">
+        <Config>{&quot;wizardName&quot;: &quot;&quot;}</Config>
+        <parameters>{&quot;types&quot;: [&quot;productionrun&quot;]}</parameters>
+    </Action>
+    <Action configuredClique="User Token" order="3" defaultDefinitionNwId="313281649079431200" name="Remove Token" nwid="9223090562032683152" action="RemoveTokenActionCR"/>
+    <Action order="40" defaultDefinitionNwId="373235819125527768" name="Page Type Settings" nwid="9223090562032684152" action="OpenPageTypeActionCR">
+        <parameters>{&quot;types&quot;: [&quot;form&quot;]}</parameters>
+    </Action>
+    <Action order="10" defaultDefinitionNwId="373235819126075773" name="UndovSet Complete" nwid="355502895740178968" action="UndoSetCompleteActionCR">
+        <parameters>{
+    &quot;properties&quot;: [
+        &quot;nwid&quot;,
+        &quot;type&quot;
+    ],
+    &quot;scriptName&quot;: &quot;UndoSetCompleteActionCR&quot;,
+    &quot;types&quot;: [
+        &quot;page&quot;,
+        &quot;form&quot;,
+        &quot;plate&quot;
+    ]
+}</parameters>
+    </Action>
+    <Action order="35" defaultDefinitionNwId="373235819126170512" name="Duplicate Folder" nwid="355502895740178969" action="DuplicateFolderActionCR"/>
+    <Action order="-1" label="Force Output" name="Force Output" nwid="355502895744619484" action="RouteActionCR">
+        <Config>{
+    &quot;enableErrorObjects&quot;: false,
+    &quot;flowStepIds&quot;: [&quot;355502895586915040&quot;],
+    &quot;gui$enableCheckboxValue-progress&quot;: false,
+    &quot;gui$progress&quot;: 0
+}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;plate&quot;,
+    &quot;productionrun&quot;
+]}</parameters>
+    </Action>
+    <Action order="30" label="Resend Ink Values JPS" name="Resend Ink Values JPS" nwid="355502895778080349" action="RouteActionCR">
+        <Config>{
+    &quot;enableErrorObjects&quot;: false,
+    &quot;flowStepIds&quot;: [&quot;355502895777953941&quot;],
+    &quot;gui$enableCheckboxValue-progress&quot;: false,
+    &quot;gui$progress&quot;: 0
+}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;form/separation&quot;,
+    &quot;plate&quot;,
+    &quot;productionrun&quot;,
+    &quot;productionrun/tower&quot;,
+    &quot;productionrun/cylinder&quot;
+]}</parameters>
+    </Action>
+    <Action description="ReOutput Plates" configuredClique="ReOutput Plates" order="4" label="ReOutput Plates" name="Output Plates - Edit Output Plates" nwid="355502895809848854" action="EditOutputPlatesCR">
+        <Config>{&quot;outputSteps&quot;: [
+    &quot;355502895716400971&quot;,
+    &quot;355502895587114807&quot;,
+    &quot;355502895601195405&quot;
+]}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;productionrun&quot;,
+    &quot;productionrun/tower&quot;,
+    &quot;productionrun/cylinder&quot;,
+    &quot;form&quot;,
+    &quot;plate&quot;
+]}</parameters>
+    </Action>
+    <Action description="ReOutput Plates" configuredClique="ReOutput Plates" order="4" name="Output Plates - Save Output Plates" nwid="355502895809848856" action="SaveOutputPlatesCR">
+        <Config>{&quot;outputFlowSteps&quot;: [
+    &quot;355502895716400971&quot;,
+    &quot;355502895587114807&quot;,
+    &quot;355502895601195405&quot;
+]}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;productionrun&quot;,
+    &quot;productionrun/tower&quot;,
+    &quot;productionrun/cylinder&quot;,
+    &quot;form&quot;,
+    &quot;plate&quot;
+]}</parameters>
+    </Action>
+    <Action description="Routes to BlackMagic Press 40" order="20" label="Send to BlackMagic Press 40" name="Send to BlackMagic Press 40" nwid="355502895814490977" action="RouteActionCR">
+        <Config>{
+    &quot;enableErrorObjects&quot;: false,
+    &quot;flowStepIds&quot;: [&quot;355502895587133883&quot;],
+    &quot;gui$enableCheckboxValue-progress&quot;: false,
+    &quot;gui$progress&quot;: 0
+}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;form/separation&quot;
+]}</parameters>
+    </Action>
+    <Action description="Routes to BlackMagic Press 43" order="20" label="Send to BlackMagic Press 43" name="Send to BlackMagic Press 43" nwid="355502895814490978" action="RouteActionCR">
+        <Config>{
+    &quot;enableErrorObjects&quot;: false,
+    &quot;flowStepIds&quot;: [&quot;355502895587133883&quot;],
+    &quot;gui$enableCheckboxValue-progress&quot;: false,
+    &quot;gui$progress&quot;: 0
+}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;form/separation&quot;
+]}</parameters>
+    </Action>
+    <Action description="Routes to BlackMagic Press 41" order="20" label="Send to BlackMagic Press 41" name="Send to BlackMagic Press 41" nwid="355502895814490979" action="RouteActionCR">
+        <Config>{
+    &quot;enableErrorObjects&quot;: false,
+    &quot;flowStepIds&quot;: [&quot;355502895587133883&quot;],
+    &quot;gui$enableCheckboxValue-progress&quot;: false,
+    &quot;gui$progress&quot;: 0
+}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;form/separation&quot;
+]}</parameters>
+    </Action>
+    <Action description="Routes to BlackMagic Press 44" order="20" label="Send to BlackMagic Press 44" name="Send to BlackMagic Press 44" nwid="355502895814490980" action="RouteActionCR">
+        <Config>{
+    &quot;enableErrorObjects&quot;: false,
+    &quot;flowStepIds&quot;: [&quot;355502895587133883&quot;],
+    &quot;gui$enableCheckboxValue-progress&quot;: false,
+    &quot;gui$progress&quot;: 0
+}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;form/separation&quot;
+]}</parameters>
+    </Action>
+    <Action description="Routes Send To BlackMagic Press 42" order="20" label="Send to BlackMagic Press 42" name="Send to BlackMagic Press 42" nwid="355502895814490985" action="RouteActionCR">
+        <Config>{
+    &quot;enableErrorObjects&quot;: false,
+    &quot;flowStepIds&quot;: [&quot;355502895587133883&quot;],
+    &quot;gui$enableCheckboxValue-progress&quot;: false,
+    &quot;gui$progress&quot;: 0
+}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;form/separation&quot;
+]}</parameters>
+    </Action>
+    <Action description="Routes to BlackMagic Press 45" order="20" label="Send to BlackMagic Press 45" name="Send to BlackMagic Press 45" nwid="355502895814490986" action="RouteActionCR">
+        <Config>{
+    &quot;enableErrorObjects&quot;: false,
+    &quot;flowStepIds&quot;: [&quot;355502895587133883&quot;],
+    &quot;gui$enableCheckboxValue-progress&quot;: false,
+    &quot;gui$progress&quot;: 0
+}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;form/separation&quot;
+]}</parameters>
+    </Action>
+    <Action description="Routes to BlackMagic Press 46" order="20" label="Send to BlackMagic Press 46" name="Send to BlackMagic Press 46" nwid="355502895814490987" action="RouteActionCR">
+        <Config>{
+    &quot;enableErrorObjects&quot;: false,
+    &quot;flowStepIds&quot;: [&quot;355502895587133883&quot;],
+    &quot;gui$enableCheckboxValue-progress&quot;: false,
+    &quot;gui$progress&quot;: 0
+}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;form/separation&quot;
+]}</parameters>
+    </Action>
+    <Action configuredClique="CmdLine Resource Setup" order="244" defaultDefinitionNwId="288793326108811602" name="Save CmdLine Setup" nwid="355502895814793971" action="SaveCmdLineSetupCR"/>
+    <Action configuredClique="CmdLine Resource Setup" order="243" defaultDefinitionNwId="288793326108811601" name="Edit CmdLine Setup" nwid="355502895814793972" action="EditCmdLineSetupActionCR"/>
+    <Action description="Send to XtremeInk" order="33" label="Send to XtremeInk" name="Send to XtremeInk" nwid="355502895816234614" action="RouteActionCR">
+        <Config>{
+    &quot;enableErrorObjects&quot;: false,
+    &quot;flowStepIds&quot;: [&quot;355502895816234218&quot;],
+    &quot;gui$enableCheckboxValue-progress&quot;: false,
+    &quot;gui$progress&quot;: 0
+}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;form/separation&quot;,
+    &quot;plate&quot;,
+    &quot;productionrun&quot;
+]}</parameters>
+    </Action>
+    <Action order="-1" label="Delete Plan" name="Delete Plan" nwid="355502895816523699" action="DeleteActionCR">
+        <Config>{&quot;wizardName&quot;: &quot;PlanningWizard&quot;}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;publication&quot;,
+    &quot;edition&quot;
+]}</parameters>
+    </Action>
+    <Action order="199" defaultDefinitionNwId="288793326269728112" name="Object Info" nwid="355502895818065983" action="ObjectInfoActionCR"/>
+    <Action order="52" defaultDefinitionNwId="313281649079366320" name="Reject" nwid="355502895818065984" action="RejectAllActionCR">
+        <Config>
+			{
+			&quot;rejectOperation&quot;: &quot;reject&quot; 
+			}
+    </Config>
+    </Action>
+    <Action configuredClique="Extra Info" order="138" defaultDefinitionNwId="338332922007353763" name="Change Extra Info" nwid="355502895818065985" action="OpenCustomPropertiesSetupActionCR"/>
+    <Action configuredClique="Extra Info" order="56" defaultDefinitionNwId="338332922007353764" name="Save Extra Info" nwid="355502895818065986" action="SaveCustomPropertiesSetupActionCR"/>
+    <Action configuredClique="Fanout" order="21" defaultDefinitionNwId="338332922006709688" name="Save Fanout" nwid="355502895818065987" action="SaveFanoutActionCR"/>
+    <Action configuredClique="Change Color" order="105" label="Save Color Change" defaultDefinitionNwId="313281649084068259" name="SaveColorChange (PDF)" nwid="355502895818065988" action="SaveColorChange">
+        <Config>
+			{
+			&quot;routePageTo&quot;: [&quot;288230376160086811&quot;],
+			&quot;routeSeparationTo&quot;: [&quot;288230376160086828&quot;]
+			}
+    </Config>
+    </Action>
+    <Action configuredClique="Change Color" order="131" defaultDefinitionNwId="313281649256441089" name="ColorChange (PDF)" nwid="355502895818065989" action="EditColorsCR"/>
+    <Action configuredClique="Fanout" order="146" defaultDefinitionNwId="296111675501327850" name="Fanout" nwid="355502895818065990" action="OpenFanoutActionCR"/>
+    <Action description="Edit Number of Plates" configuredClique="Number of plates" order="1" label="Number of Copies" name="Number of plates - Open Change Number of plates" nwid="355502895822136701" action="OpenChangeNumberOfPlatesActionCR">
+        <parameters>{&quot;types&quot;: [&quot;book&quot;]}</parameters>
+    </Action>
+    <Action description="Edit Number of Plates" configuredClique="Number of plates" order="1" label="Number of Copies" name="Number of plates - Save Change Number of plates" nwid="355502895822136702" action="SaveChangeNumberOfPlatesActionCR">
+        <Config>{&quot;holdNewProductionRuns&quot;: true}</Config>
+        <parameters>{&quot;types&quot;: [&quot;book&quot;]}</parameters>
+    </Action>
+    <Action description="Send to BlackMagic FULL Proofer 4" order="20" label="Send to BlackMagic FULL Proofer 4" name="Send to BlackMagic FULL Proofer 4" nwid="355502895834419097" action="RouteActionCR">
+        <Config>{
+    &quot;enableErrorObjects&quot;: false,
+    &quot;flowStepIds&quot;: [&quot;355502895587133883&quot;],
+    &quot;gui$enableCheckboxValue-progress&quot;: false,
+    &quot;gui$progress&quot;: 0
+}</Config>
+        <parameters>{&quot;types&quot;: [
+    &quot;form&quot;,
+    &quot;form/separation&quot;,
+    &quot;plate&quot;
+]}</parameters>
+    </Action>
+</Actions>

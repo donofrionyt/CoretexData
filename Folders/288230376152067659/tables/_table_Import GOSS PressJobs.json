@@ -1,0 +1,47 @@
+{
+    "matchingMode": "text",
+    "name": "Import GOSS PressJobs",
+    "nwid": "355502895588003918",
+    "overridable": true,
+    "publication": "",
+    "selectors": [{
+        "defaultValue": "",
+        "displayName": "Press Job",
+        "fieldType": "publication",
+        "freeText": true,
+        "name": "name",
+        "values": []
+    }],
+    "singleValue": false,
+    "system": false,
+    "targetType": "publication",
+    "values": [
+        {
+            "defaultValue": "",
+            "displayName": "Publication Code",
+            "editable": true,
+            "fieldType": "",
+            "freeText": true,
+            "name": "publication",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Edition Name",
+            "editable": true,
+            "fieldType": "",
+            "freeText": true,
+            "name": "edition",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Zone Code",
+            "editable": true,
+            "fieldType": "",
+            "freeText": true,
+            "name": "zone",
+            "values": []
+        }
+    ]
+}

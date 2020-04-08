@@ -1,0 +1,22 @@
+{
+  "rows": [
+    {
+      "index": 0,
+      "selectors": {
+        "book": "*",
+        "day": "*",
+        "edition": "*",
+        "press": "*",
+        "publication": "*",
+        "zone": "*"
+      },
+      "values": {
+        "8UP": "",
+        "2UP": "",
+        "4UP": "",
+        "BroadSheet": "Broadsheet",
+        "Tabloid": ""
+      }
+    }
+  ]
+}

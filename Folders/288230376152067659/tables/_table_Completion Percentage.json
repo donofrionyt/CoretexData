@@ -1,0 +1,27 @@
+{
+    "matchingMode": "startWith",
+    "name": "Completion Percentage",
+    "nwid": "355502895676173602",
+    "overridable": true,
+    "publication": "",
+    "selectors": [{
+        "defaultValue": "",
+        "displayName": "Micro Zone",
+        "fieldType": "string",
+        "freeText": true,
+        "name": "microZone",
+        "values": []
+    }],
+    "singleValue": false,
+    "system": false,
+    "targetType": "",
+    "values": [{
+        "defaultValue": "",
+        "displayName": "Zone",
+        "editable": true,
+        "fieldType": "",
+        "freeText": true,
+        "name": "zone",
+        "values": []
+    }]
+}

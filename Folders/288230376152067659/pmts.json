@@ -1,0 +1,813 @@
+{
+ "rules":
+	[
+	  {
+	    "criteria": {
+			"publication": "STI",
+			"zone": "F[A-Za-z]"
+		},
+	    "PreflightColor": "newswaycolourISO26",
+	    "PreflightBW": "newswaymonoISO26",
+	    "ZoneType": "default",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+			"default": "NI-TAB_2_OE",
+			"panorama": "NI-TAB_2_Pano"
+		},
+		"bs": {
+		      "default": "NI-BS_2_OE",
+		      "panorama": "NI-BS_2_PANO"
+		},
+		"2up": {
+		      "default": "NI-2UPs-F_2_OE",
+		      "panorama": "NI-2UPs-F_2_PANO"
+		}
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "STI",
+			"zone": "QF"
+		},
+	    "PreflightColor": "newswaycolourISO26",
+	    "PreflightBW": "newswaymonoISO26",
+	    "ZoneType": "default",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+			"default": "NI-TAB_2_OE",
+			"panorama": "NI-TAB_2_Pano"
+		},
+		"bs": {
+		      "default": "NI-BS_2_OE",
+		      "panorama": "NI-BS_2_PANO"
+		},
+		"2up": {
+		      "default": "NI-2UPs-F_2_OE",
+		      "panorama": "NI-2UPs-F_2_PANO"
+		}
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "STI",
+			"zone": "L[A-Za-z]"
+		},
+	    "PreflightColor": "newswaycolourISO26",
+	    "PreflightBW": "newswaymonoISO26",
+	    "ZoneType": "default",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+			"default": "NI-TAB_2_OE",
+			"panorama": "NI-TAB_2_Pano"
+		},
+		"bs": {
+		      "default": "NI-BS_2_OE",
+		      "panorama": "NI-BS_2_PANO"
+		},
+		"2up": {
+		      "default": "NI-2UPs-F_2_OE",
+		      "panorama": "NI-2UPs-F_2_PANO"
+		}
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "STI",
+			"zone": "F[A-Za-z]"
+		},
+	    "PreflightColor": "newswaycolourISO26",
+	    "PreflightBW": "newswaymonoISO26",
+	    "ZoneType": "default",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+			"default": "NI-TAB_2_OE",
+			"panorama": "NI-TAB_2_Pano"
+		},
+		"bs": {
+		      "default": "NI-BS_2_OE",
+		      "panorama": "NI-BS_2_PANO"
+		},
+		"2up": {
+		      "default": "NI-2UPs-F_2_OE",
+		      "panorama": "NI-2UPs-F_2_PANO"
+		}
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "STI",
+			"zone": "QF"
+		},
+	    "PreflightColor": "newswaycolourISO26",
+	    "PreflightBW": "newswaymonoISO26",
+	    "ZoneType": "default",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+			"default": "NI-TAB_2_OE",
+			"panorama": "NI-TAB_2_Pano"
+		},
+		"bs": {
+		      "default": "NI-BS_2_OE",
+		      "panorama": "NI-BS_2_PANO"
+		},
+		"2up": {
+		      "default": "NI-2UPs-F_2_OE",
+		      "panorama": "NI-2UPs-F_2_PANO"
+		}
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "STI",
+			"zone": "PK"
+		},
+	    "PreflightColor": "newswayskypdf",
+	    "PreflightBW": "newswayskypdf",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "NI-BS_2_OE",
+	      "panorama": "NI-BS_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "STI",
+			"zone": "PP"
+		},
+	    "PreflightColor": "newswaynewipad",
+	    "PreflightBW": "newswaynewipad",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "NI-BS_2_OE",
+	      "panorama": "NI-BS_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "STI",
+			"zone": "PR"
+		},
+	    "PreflightColor": "newswaynewipad",
+	    "PreflightBW": "newswaynewipad",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "NI-BS_2_OE",
+	      "panorama": "NI-BS_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},
+	  
+	  {
+	    "criteria": {
+			"publication": "STI",
+			"zone": "QP"
+		},
+	    "PreflightColor": "newswaynewipad",
+	    "PreflightBW": "newswaynewipad",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "NI-BS_2_OE",
+	      "panorama": "NI-BS_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "STI",
+			"zone": "T[A-Za-z]"
+		},
+	    "PreflightColor": "newswaybookletcolour",
+	    "PreflightBW": "newswaybookletmono",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "SHIP-BS-NI_2_OE",
+		  "panorama": "SHIP-BS-NI_2_PANO"
+	    },
+	    "bs": {
+	      "default": "SHIP-BS-NI_2_OE",
+	      "panorama": "SHIP-BS-NI_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+		}
+	  ]},	    
+
+	  {
+	    "criteria": {
+			"publication": "TIM",
+			"zone": "F[A-Za-z]"
+		},
+	    "PreflightColor": "newswaycolourISO26",
+	    "PreflightBW": "newswaymonoISO26",
+	    "ZoneType": "default",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+			"default": "NI-TAB_2_OE",
+			"panorama": "NI-TAB_2_Pano"
+		},
+		"bs": {
+		      "default": "NI-BS_2_OE",
+		      "panorama": "NI-BS_2_PANO"
+		},
+		"2up": {
+		      "default": "NI-2UPs-F_2_OE",
+		      "panorama": "NI-2UPs-F_2_PANO"
+		}
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "TIM",
+			"zone": "QF"
+		},
+	    "PreflightColor": "newswaycolourISO26",
+	    "PreflightBW": "newswaymonoISO26",
+	    "ZoneType": "default",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+			"default": "NI-TAB_2_OE",
+			"panorama": "NI-TAB_2_Pano"
+		},
+		"bs": {
+		      "default": "NI-BS_2_OE",
+		      "panorama": "NI-BS_2_PANO"
+		},
+		"2up": {
+		      "default": "NI-2UPs-F_2_OE",
+		      "panorama": "NI-2UPs-F_2_PANO"
+		}
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "TIM",
+			"zone": "L[A-Za-z]"
+		},
+	    "PreflightColor": "newswaycolourISO26",
+	    "PreflightBW": "newswaymonoISO26",
+	    "ZoneType": "default",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+			"default": "NI-TAB_2_OE",
+			"panorama": "NI-TAB_2_Pano"
+		},
+		"bs": {
+		      "default": "NI-BS_2_OE",
+		      "panorama": "NI-BS_2_PANO"
+		},
+		"2up": {
+		      "default": "NI-2UPs-F_2_OE",
+		      "panorama": "NI-2UPs-F_2_PANO"
+		}
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "TIM",
+			"zone": "PK"
+		},
+	    "PreflightColor": "newswayskypdf",
+	    "PreflightBW": "newswayskypdf",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "SKY_new_layout_2_OE",
+		  "panorama": "SKY_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "SKY_new_layout_2_OE",
+		  "panorama": "SKY_new_layout_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},
+	{
+	    "criteria": {
+			"publication": "TIM",
+			"zone": "PL"
+		},
+	    "PreflightColor": "newswaynewipad",
+	    "PreflightBW": "newswaynewipad",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},	  
+	{
+	    "criteria": {
+			"publication": "TIM",
+			"zone": "PP"
+		},
+	    "PreflightColor": "newswaynewipad",
+	    "PreflightBW": "newswaynewipad",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},	
+	{
+	    "criteria": {
+			"publication": "TIM",
+			"zone": "QP"
+		},
+	    "PreflightColor": "newswaynewipad",
+	    "PreflightBW": "newswaynewipad",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},
+	{
+	    "criteria": {
+			"publication": "TIM",
+			"zone": "PM"
+		},
+	    "PreflightColor": "newswaymodpdf",
+	    "PreflightBW": "newswaymodpdf",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "MOD_new_Layout_2_OE",
+		  "panorama": "MOD_new_Layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "MOD_new_Layout_2_OE",
+		  "panorama": "MOD_new_Layout_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},	  	  
+
+	  {
+	    "criteria": {
+			"publication": "TIM",
+			"zone": "T[A-Za-z]"
+		},
+	    "PreflightColor": "newswaybookletColour",
+	    "PreflightBW": "newswaybookletmono",
+	    "ZoneType": "cruise",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "odd": "NI-BS-TAB_2_O",
+		  "even": "NI-BS-TAB_2_E",
+	      "panorama": "NI-BS_2_PANO"
+	    },
+	    "bs": {
+	      "odd": "NI-BS-TAB_2_O",
+		  "even": "NI-BS-TAB_2_E",
+	      "panorama": "NI-BS_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},	  	  
+		{
+	    "criteria": {
+			"publication": "SUN",
+			"zone": "F[A-Za-z]"
+		},
+	    "PreflightColor": "newswaycolourISO26",
+	    "PreflightBW": "newswaymonoISO26",
+	    "ZoneType": "default",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+			"default": "NI-TAB_2_OE",
+			"panorama": "NI-TAB_2_Pano"
+		},
+		"bs": {
+		      "default": "NI-BS_2_OE",
+		      "panorama": "NI-BS_2_PANO"
+		},
+		"2up": {
+		      "default": "NI-2UPs-F_2_OE",
+		      "panorama": "NI-2UPs-F_2_PANO"
+		}
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "SUN",
+			"zone": "QF"
+		},
+	    "PreflightColor": "newswaycolourISO26",
+	    "PreflightBW": "newswaymonoISO26",
+	    "ZoneType": "default",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+			"default": "NI-TAB_2_OE",
+			"panorama": "NI-TAB_2_Pano"
+		},
+		"bs": {
+		      "default": "NI-BS_2_OE",
+		      "panorama": "NI-BS_2_PANO"
+		},
+		"2up": {
+		      "default": "NI-2UPs-F_2_OE",
+		      "panorama": "NI-2UPs-F_2_PANO"
+		}
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "SUN",
+			"zone": "L[A-Za-z]"
+		},
+	    "PreflightColor": "newswaycolourISO26",
+	    "PreflightBW": "newswaymonoISO26",
+	    "ZoneType": "default",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+			"default": "NI-TAB_2_OE",
+			"panorama": "NI-TAB_2_Pano"
+		},
+		"bs": {
+		      "default": "NI-BS_2_OE",
+		      "panorama": "NI-BS_2_PANO"
+		},
+		"2up": {
+		      "default": "NI-2UPs-F_2_OE",
+		      "panorama": "NI-2UPs-F_2_PANO"
+		}
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "SUN",
+			"zone": "PK"
+		},
+	    "PreflightColor": "newswayskypdf",
+	    "PreflightBW": "newswayskypdf",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "SKY_new_layout_2_OE",
+		  "panorama": "SKY_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "SKY_new_layout_2_OE",
+		  "panorama": "SKY_new_layout_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},
+	{
+	    "criteria": {
+			"publication": "SUN",
+			"zone": "PL"
+		},
+	    "PreflightColor": "newswaynewipad",
+	    "PreflightBW": "newswaynewipad",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},	  
+	{
+	    "criteria": {
+			"publication": "SUN",
+			"zone": "PP"
+		},
+	    "PreflightColor": "newswaynewipad",
+	    "PreflightBW": "newswaynewipad",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},	
+	  {
+	    "criteria": {
+			"publication": "SUN",
+			"zone": "PE"
+		},
+	    "PreflightColor": "newswaynewipad",
+	    "PreflightBW": "newswaynewipad",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "SUN",
+			"zone": "PG"
+		},
+	    "PreflightColor": "newswaynewipad",
+	    "PreflightBW": "newswaynewipad",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},
+	  {
+	    "criteria": {
+			"publication": "SUN",
+			"zone": "PR"
+		},
+	    "PreflightColor": "newswaynewipad",
+	    "PreflightBW": "newswaynewipad",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},
+	{
+	    "criteria": {
+			"publication": "SUN",
+			"zone": "QP"
+		},
+	    "PreflightColor": "newswaynewipad",
+	    "PreflightBW": "newswaynewipad",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "ipad_new_layout_2_OE",
+		  "panorama": "ipad_new_layout_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},
+	{
+	    "criteria": {
+			"publication": "SUN",
+			"zone": "PM"
+		},
+	    "PreflightColor": "newswaymodpdf",
+	    "PreflightBW": "newswaymodpdf",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "MOD_new_Layout_2_OE",
+		  "panorama": "MOD_new_Layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "MOD_new_Layout_2_OE",
+		  "panorama": "MOD_new_Layout_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},	
+		{
+	    "criteria": {
+			"publication": "SUN",
+			"zone": "PS"
+		},
+	    "PreflightColor": "newswaymodpdf",
+	    "PreflightBW": "newswaymodpdf",
+	    "ZoneType": "iPad",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "default": "MOD_new_Layout_2_OE",
+		  "panorama": "MOD_new_Layout_2_PANO"
+	    },
+	    "bs": {
+	      "default": "MOD_new_Layout_2_OE",
+		  "panorama": "MOD_new_Layout_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]},  	  
+
+	  {
+	    "criteria": {
+			"publication": "SUN",
+			"zone": "T[A-Za-z]"
+		},
+	    "PreflightColor": "newswaybookletColour",
+	    "PreflightBW": "newswaybookletmono",
+	    "ZoneType": "cruise",
+	    "formats": [
+	      {
+		"name": "2",
+		"tab": {
+	      "odd": "NI-BS-TAB_2_O",
+		  "even": "NI-BS-TAB_2_E",
+	      "panorama": "NI-BS_2_PANO"
+	    },
+	    "bs": {
+	      "odd": "NI-BS-TAB_2_O",
+		  "even": "NI-BS-TAB_2_E",
+	      "panorama": "NI-BS_2_PANO"
+	    },
+	    "2up": {
+	      "default": "NI-2UPs-F_2_OE",
+	      "panorama": "NI-2UPs-F_2_PANO"
+	    }
+             }	
+	  ]}	  	  
+	]
+}

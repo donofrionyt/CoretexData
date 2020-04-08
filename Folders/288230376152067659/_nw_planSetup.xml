@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlanSetup>
+    <GeneralSetting>
+        <Separations/>
+        <AllSeparations>false</AllSeparations>
+        <noCrossSharing>true</noCrossSharing>
+        <defaultSharing>false</defaultSharing>
+        <FlowSteps/>
+    </GeneralSetting>
+    <Zones/>
+    <Groups/>
+    <Publications>
+        <Publication index="0">
+            <shortName>YA3</shortName>
+            <name>AM New York</name>
+            <Editions>
+                <Edition index="0">
+                    <shortName>E1</shortName>
+                    <name>E1</name>
+                    <ZoneRefs/>
+                    <GroupRefs/>
+                    <main>true</main>
+                </Edition>
+                <Edition index="1">
+                    <shortName>E2</shortName>
+                    <name>E2</name>
+                    <ZoneRefs/>
+                    <GroupRefs/>
+                    <main>false</main>
+                </Edition>
+            </Editions>
+            <Sections>
+                <Section index="2">
+                    <shortName>BR</shortName>
+                    <name>BR</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="1">
+                    <shortName>BX</shortName>
+                    <name>BX</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="0">
+                    <shortName>MA</shortName>
+                    <name>MA</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="3">
+                    <shortName>QU</shortName>
+                    <name>QU</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+            </Sections>
+            <Zones>
+                <Zone index="2">
+                    <shortName>AM</shortName>
+                    <name>Main</name>
+                    <color>#fcebf5</color>
+                    <parent></parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+            </Zones>
+            <Configurations/>
+            <enableSpecificProperties>false</enableSpecificProperties>
+            <standAloneEditions>false</standAloneEditions>
+            <inputNamingPattern>Incoming Naming Pattern</inputNamingPattern>
+            <continuousNumberingBetweenSections>false</continuousNumberingBetweenSections>
+        </Publication>
+        <Publication index="1">
+            <shortName>YXN</shortName>
+            <name>New York Times</name>
+            <Editions>
+                <Edition index="0">
+                    <shortName>E1</shortName>
+                    <name>E1</name>
+                    <ZoneRefs/>
+                    <GroupRefs/>
+                    <main>true</main>
+                </Edition>
+                <Edition index="1">
+                    <shortName>E2</shortName>
+                    <name>E2</name>
+                    <ZoneRefs/>
+                    <GroupRefs/>
+                    <main>true</main>
+                </Edition>
+                <Edition index="2">
+                    <shortName>E3</shortName>
+                    <name>E3</name>
+                    <ZoneRefs/>
+                    <GroupRefs/>
+                    <main>false</main>
+                </Edition>
+                <Edition index="3">
+                    <shortName>MDT</shortName>
+                    <name>Master Daily Test</name>
+                    <ZoneRefs/>
+                    <GroupRefs/>
+                    <main>false</main>
+                </Edition>
+            </Editions>
+            <Sections>
+                <Section index="6">
+                    <shortName>A</shortName>
+                    <name>A</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="10">
+                    <shortName>AR</shortName>
+                    <name>AR</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="7">
+                    <shortName>B</shortName>
+                    <name>B</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="20">
+                    <shortName>BR</shortName>
+                    <name>BR</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="18">
+                    <shortName>BU</shortName>
+                    <name>BU</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="8">
+                    <shortName>C</shortName>
+                    <name>C</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="9">
+                    <shortName>CT</shortName>
+                    <name>CT</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="9">
+                    <shortName>D</shortName>
+                    <name>D</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="8">
+                    <shortName>DD</shortName>
+                    <name>DD</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="22">
+                    <shortName>DL</shortName>
+                    <name>DL</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="28">
+                    <shortName>E</shortName>
+                    <name>E</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="31">
+                    <shortName>F</shortName>
+                    <name>F</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="47">
+                    <shortName>G</shortName>
+                    <name>G</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="48">
+                    <shortName>H</shortName>
+                    <name>H</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="26">
+                    <shortName>I</shortName>
+                    <name>I</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="27">
+                    <shortName>J</shortName>
+                    <name>J</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="49">
+                    <shortName>K</shortName>
+                    <name>K</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="31">
+                    <shortName>L</shortName>
+                    <name>L</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="10">
+                    <shortName>LI</shortName>
+                    <name>LI</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="16">
+                    <shortName>LT</shortName>
+                    <name>LT</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="50">
+                    <shortName>M</shortName>
+                    <name>M</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="11">
+                    <shortName>MB</shortName>
+                    <name>MB</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="45">
+                    <shortName>MC</shortName>
+                    <name>MC</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="43">
+                    <shortName>MK</shortName>
+                    <name>MK</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="51">
+                    <shortName>N</shortName>
+                    <name>N</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="11">
+                    <shortName>NJ</shortName>
+                    <name>NJ</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="52">
+                    <shortName>O</shortName>
+                    <name>O</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="29">
+                    <shortName>P</shortName>
+                    <name>P</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="13">
+                    <shortName>PR</shortName>
+                    <name>PR</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="53">
+                    <shortName>Q</shortName>
+                    <name>Q</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="25">
+                    <shortName>R</shortName>
+                    <name>R</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="15">
+                    <shortName>RE</shortName>
+                    <name>RE</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="30">
+                    <shortName>S</shortName>
+                    <name>S</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="14">
+                    <shortName>SP</shortName>
+                    <name>SP</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="19">
+                    <shortName>SR</shortName>
+                    <name>SR</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="17">
+                    <shortName>ST</shortName>
+                    <name>ST</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="23">
+                    <shortName>T</shortName>
+                    <name>T</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="44">
+                    <shortName>TA</shortName>
+                    <name>TA</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="38">
+                    <shortName>TJ</shortName>
+                    <name>TJ</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="42">
+                    <shortName>TK</shortName>
+                    <name>TK</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="33">
+                    <shortName>TP</shortName>
+                    <name>TP</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="4">
+                    <shortName>TR</shortName>
+                    <name>TR</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="46">
+                    <shortName>TS</shortName>
+                    <name>TS</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="24">
+                    <shortName>U</shortName>
+                    <name>U</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="54">
+                    <shortName>V</shortName>
+                    <name>V</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="55">
+                    <shortName>W</shortName>
+                    <name>W</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="12">
+                    <shortName>WE</shortName>
+                    <name>WE</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="56">
+                    <shortName>X</shortName>
+                    <name>X</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="57">
+                    <shortName>Y</shortName>
+                    <name>Y</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="58">
+                    <shortName>Z</shortName>
+                    <name>Z</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="35">
+                    <shortName>ZJ</shortName>
+                    <name>ZJ</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="36">
+                    <shortName>ZK</shortName>
+                    <name>ZK</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="39">
+                    <shortName>ZL</shortName>
+                    <name>ZL</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="32">
+                    <shortName>ZM</shortName>
+                    <name>ZM</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="40">
+                    <shortName>ZN</shortName>
+                    <name>ZN</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="37">
+                    <shortName>ZP</shortName>
+                    <name>ZP</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="21">
+                    <shortName>ZS</shortName>
+                    <name>ZS</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="41">
+                    <shortName>ZT</shortName>
+                    <name>ZT</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="34">
+                    <shortName>ZV</shortName>
+                    <name>ZV</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+            </Sections>
+            <Zones>
+                <Zone index="2">
+                    <shortName>MB</shortName>
+                    <name>Manhattan Bronx</name>
+                    <color>#f4863c</color>
+                    <parent></parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="3">
+                    <shortName>LI</shortName>
+                    <name>Long Island</name>
+                    <color>#ffc4e7</color>
+                    <parent>Manhattan Bronx</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="5">
+                    <shortName>NJ</shortName>
+                    <name>New Jersey</name>
+                    <color>#ead8f7</color>
+                    <parent>Manhattan Bronx</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="6">
+                    <shortName>JC</shortName>
+                    <name>Jersey Central</name>
+                    <color>#d9d9d9</color>
+                    <parent>New York</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="7">
+                    <shortName>JN</shortName>
+                    <name>Jersey North</name>
+                    <color>#d0dbdf</color>
+                    <parent>New York</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="8">
+                    <shortName>NNE</shortName>
+                    <name>Near Northeast</name>
+                    <color>#e9f1d5</color>
+                    <parent>New York</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="9">
+                    <shortName>WE</shortName>
+                    <name>Westchester</name>
+                    <color>#d8eaff</color>
+                    <parent>Manhattan Bronx</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="10">
+                    <shortName>WC</shortName>
+                    <name>Westchester-Conn</name>
+                    <color>#eaeaea</color>
+                    <parent>Manhattan Bronx</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="11">
+                    <shortName>QU</shortName>
+                    <name>Queens</name>
+                    <color>#d9d9e7</color>
+                    <parent>New York</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="12">
+                    <shortName>BC</shortName>
+                    <name>Balance of Corridor</name>
+                    <color>#d5ebd5</color>
+                    <parent>New York</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="13">
+                    <shortName>BO</shortName>
+                    <name>Boston</name>
+                    <color>#fcebf5</color>
+                    <parent>New York</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="14">
+                    <shortName>CH</shortName>
+                    <name>Chicago</name>
+                    <color>#ffc4e7</color>
+                    <parent>New York</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="15">
+                    <shortName>DL</shortName>
+                    <name>Dallas</name>
+                    <color>#e5d9e3</color>
+                    <parent>New York</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="16">
+                    <shortName>LA</shortName>
+                    <name>Gardena</name>
+                    <color>#ead8f7</color>
+                    <parent>New York</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="17">
+                    <shortName>SF</shortName>
+                    <name>San Francisco</name>
+                    <color>#d0dbdf</color>
+                    <parent>New York</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="18">
+                    <shortName>SC</shortName>
+                    <name>Single Copy</name>
+                    <color>#d9d9d9</color>
+                    <parent>New York</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="20">
+                    <shortName>CT</shortName>
+                    <name>Connecticut</name>
+                    <color>#ffe6d2</color>
+                    <parent>Manhattan Bronx</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="21">
+                    <shortName>XX</shortName>
+                    <name>New York</name>
+                    <color>#abffc1</color>
+                    <parent></parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+            </Zones>
+            <Configurations/>
+            <enableSpecificProperties>false</enableSpecificProperties>
+            <standAloneEditions>false</standAloneEditions>
+            <inputNamingPattern>NYT Input Naming Pattern</inputNamingPattern>
+            <continuousNumberingBetweenSections>false</continuousNumberingBetweenSections>
+        </Publication>
+        <Publication index="2">
+            <shortName>YD3</shortName>
+            <name>NewsDay</name>
+            <Editions>
+                <Edition index="0">
+                    <shortName>E1</shortName>
+                    <name>E1</name>
+                    <ZoneRefs/>
+                    <GroupRefs/>
+                    <main>false</main>
+                </Edition>
+                <Edition index="1">
+                    <shortName>E2</shortName>
+                    <name>E2</name>
+                    <ZoneRefs/>
+                    <GroupRefs/>
+                    <main>true</main>
+                </Edition>
+            </Editions>
+            <Sections>
+                <Section index="40">
+                    <shortName>A</shortName>
+                    <name>A</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="10">
+                    <shortName>B</shortName>
+                    <name>B</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="43">
+                    <shortName>C</shortName>
+                    <name>C</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="37">
+                    <shortName>D</shortName>
+                    <name>D</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="13">
+                    <shortName>DN</shortName>
+                    <name>DN</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="0">
+                    <shortName>E</shortName>
+                    <name>E</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="1">
+                    <shortName>F</shortName>
+                    <name>F</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="44">
+                    <shortName>G</shortName>
+                    <name>G</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="2">
+                    <shortName>H</shortName>
+                    <name>H</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="3">
+                    <shortName>I</shortName>
+                    <name>I</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="4">
+                    <shortName>J</shortName>
+                    <name>J</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="5">
+                    <shortName>K</shortName>
+                    <name>K</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="14">
+                    <shortName>L</shortName>
+                    <name>L</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="6">
+                    <shortName>M</shortName>
+                    <name>M</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+            </Sections>
+            <Zones>
+                <Zone index="0">
+                    <shortName>NA</shortName>
+                    <name>Nassau</name>
+                    <color>#fcebf5</color>
+                    <parent></parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="1">
+                    <shortName>N1</shortName>
+                    <name>Nassau1</name>
+                    <color>#b175be</color>
+                    <parent>Nassau</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="2">
+                    <shortName>N2</shortName>
+                    <name>Nassau2</name>
+                    <color>#ffc4e7</color>
+                    <parent>Nassau</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="3">
+                    <shortName>QU</shortName>
+                    <name>Queens</name>
+                    <color>#20c1fd</color>
+                    <parent>Nassau</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="4">
+                    <shortName>SU</shortName>
+                    <name>Suffolk</name>
+                    <color>#f4863c</color>
+                    <parent>Nassau</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="6">
+                    <shortName>S1</shortName>
+                    <name>Suffolk1</name>
+                    <color>#e5d9e3</color>
+                    <parent>Suffolk</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="7">
+                    <shortName>S2</shortName>
+                    <name>Suffolk2</name>
+                    <color>#fcebf5</color>
+                    <parent>Suffolk</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="8">
+                    <shortName>S3</shortName>
+                    <name>Suffolk3</name>
+                    <color>#ead8f7</color>
+                    <parent>Suffolk</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="9">
+                    <shortName>S4</shortName>
+                    <name>Suffolk4</name>
+                    <color>#d9d9d9</color>
+                    <parent>Suffolk</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="10">
+                    <shortName>BNA</shortName>
+                    <name>Nassau-BW</name>
+                    <color>#d0dbdf</color>
+                    <parent>Nassau</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="11">
+                    <shortName>BN1</shortName>
+                    <name>Nassau1-BW</name>
+                    <color>#e9f1d5</color>
+                    <parent>Nassau</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="12">
+                    <shortName>BN2</shortName>
+                    <name>Nassau2-BW</name>
+                    <color>#d8eaff</color>
+                    <parent>Nassau</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="13">
+                    <shortName>BQU</shortName>
+                    <name>Queens-BW</name>
+                    <color>#eaeaea</color>
+                    <parent>Nassau</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="14">
+                    <shortName>BSU</shortName>
+                    <name>Suffolk-BW</name>
+                    <color>#d9d9e7</color>
+                    <parent>Nassau</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="15">
+                    <shortName>BS1</shortName>
+                    <name>Suffolk1-BW</name>
+                    <color>#d5ebd5</color>
+                    <parent>Suffolk</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="16">
+                    <shortName>BS2</shortName>
+                    <name>Suffolk2-BW</name>
+                    <color>#c1cdbd</color>
+                    <parent>Suffolk</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="17">
+                    <shortName>BS3</shortName>
+                    <name>Suffolk3-BW</name>
+                    <color>#ffe6d2</color>
+                    <parent>Suffolk</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+                <Zone index="18">
+                    <shortName>BS4</shortName>
+                    <name>Suffolk4-BW</name>
+                    <color>#abffc1</color>
+                    <parent>Suffolk</parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+            </Zones>
+            <Configurations/>
+            <enableSpecificProperties>false</enableSpecificProperties>
+            <standAloneEditions>false</standAloneEditions>
+            <inputNamingPattern>Incoming Naming Pattern</inputNamingPattern>
+            <continuousNumberingBetweenSections>false</continuousNumberingBetweenSections>
+        </Publication>
+        <Publication index="3">
+            <shortName>YUU</shortName>
+            <name>USAT</name>
+            <Editions>
+                <Edition index="0">
+                    <shortName>E1</shortName>
+                    <name>E1</name>
+                    <ZoneRefs/>
+                    <GroupRefs/>
+                    <main>false</main>
+                </Edition>
+                <Edition index="1">
+                    <shortName>E2</shortName>
+                    <name>E2</name>
+                    <ZoneRefs/>
+                    <GroupRefs/>
+                    <main>false</main>
+                </Edition>
+                <Edition index="2">
+                    <shortName>E3</shortName>
+                    <name>E3</name>
+                    <ZoneRefs/>
+                    <GroupRefs/>
+                    <main>true</main>
+                </Edition>
+            </Editions>
+            <Sections>
+                <Section index="4">
+                    <shortName>A</shortName>
+                    <name>A</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="5">
+                    <shortName>B</shortName>
+                    <name>B</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="6">
+                    <shortName>C</shortName>
+                    <name>C</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="7">
+                    <shortName>D</shortName>
+                    <name>D</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="4">
+                    <shortName>E</shortName>
+                    <name>E</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+                <Section index="8">
+                    <shortName>F</shortName>
+                    <name>F</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+            </Sections>
+            <Zones>
+                <Zone index="0">
+                    <shortName>NT</shortName>
+                    <name>Main</name>
+                    <color>#fcebf5</color>
+                    <parent></parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+            </Zones>
+            <Configurations/>
+            <enableSpecificProperties>false</enableSpecificProperties>
+            <standAloneEditions>false</standAloneEditions>
+            <inputNamingPattern>Incoming Naming Pattern</inputNamingPattern>
+            <continuousNumberingBetweenSections>false</continuousNumberingBetweenSections>
+        </Publication>
+        <Publication index="4">
+            <shortName>YW3</shortName>
+            <name>Washington Post</name>
+            <Editions>
+                <Edition index="0">
+                    <shortName>E1</shortName>
+                    <name>E1</name>
+                    <ZoneRefs/>
+                    <GroupRefs/>
+                    <main>true</main>
+                </Edition>
+            </Editions>
+            <Sections>
+                <Section index="1">
+                    <shortName>A</shortName>
+                    <name>A</name>
+                    <contentTypes>
+                        <contentType>UNKNOWN</contentType>
+                    </contentTypes>
+                    <colors>
+                        <color>black</color>
+                        <color>cyan</color>
+                        <color>magenta</color>
+                        <color>yellow</color>
+                    </colors>
+                </Section>
+            </Sections>
+            <Zones>
+                <Zone index="1">
+                    <shortName>WA</shortName>
+                    <name>Main</name>
+                    <color>#fcebf5</color>
+                    <parent></parent>
+                    <share>false</share>
+                    <SiteRefs/>
+                    <PublicationRefs/>
+                </Zone>
+            </Zones>
+            <Configurations/>
+            <enableSpecificProperties>false</enableSpecificProperties>
+            <standAloneEditions>false</standAloneEditions>
+            <inputNamingPattern>Incoming Naming Pattern</inputNamingPattern>
+            <continuousNumberingBetweenSections>false</continuousNumberingBetweenSections>
+        </Publication>
+    </Publications>
+</PlanSetup>

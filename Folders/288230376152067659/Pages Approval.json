@@ -1,0 +1,1 @@
+{"name":"Pages Approval","nwid":122067586L,"pattern":"$PublicationDate('ddMM')_$PublicationCode()_$ZoneCode()_$PageName()","patternType":"macros","usage":"approval"}

@@ -1,0 +1,26 @@
+{
+    "matchingMode": "startWith",
+    "name": "Publication Short Names",
+    "nwid": "355502895715003604",
+    "publication": "",
+    "selectors": [{
+        "defaultValue": "",
+        "displayName": "Publication",
+        "fieldType": "publication",
+        "freeText": false,
+        "name": "publication",
+        "values": []
+    }],
+    "singleValue": false,
+    "system": false,
+    "targetType": "publication",
+    "values": [{
+        "defaultValue": "",
+        "displayName": "Publication Short Name",
+        "editable": true,
+        "fieldType": "string",
+        "freeText": true,
+        "name": "publicationShortName",
+        "values": []
+    }]
+}

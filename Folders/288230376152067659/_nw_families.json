@@ -1,0 +1,627 @@
+{
+    "derivedFromDefaultDefinition": false,
+    "families": [
+        {
+            "cliques": [],
+            "configured_actions": [
+                "355502895624034900",
+                "355502895624034901",
+                "355502895624034732",
+                "355502895740178969"
+            ],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649266262536",
+            "domain": "Default",
+            "name": "Bootstrap",
+            "nwid": "355502895624034929",
+            "title": "Bootstrap"
+        },
+        {
+            "cliques": ["Comm Center"],
+            "configured_actions": [
+                "355502895624034770",
+                "355502895624034914",
+                "355502895624034916",
+                "355502895624034795",
+                "355502895624034724",
+                "355502895642764967",
+                "355502895642764968"
+            ],
+            "configured_views": [
+                "355502895624034583",
+                "355502895624034584",
+                "355502895624034586",
+                "355502895624034582",
+                "355502895624034681",
+                "355502895624034580"
+            ],
+            "defaultDefinitionNwId": "313281649079366362",
+            "domain": "Default",
+            "name": "General",
+            "nwid": "355502895624034930",
+            "title": "General"
+        },
+        {
+            "cliques": [
+                "Mail Setup",
+                "Preflight Setup",
+                "User Token"
+            ],
+            "configured_actions": [
+                "355502895624034782",
+                "355502895624034783",
+                "355502895624034726",
+                "355502895624034727",
+                "355502895624034729",
+                "355502895624034730",
+                "355502895624034752",
+                "355502895624034753",
+                "355502895624034761",
+                "355502895624034762",
+                "355502895624034763",
+                "355502895624034764",
+                "355502895624034765",
+                "355502895624034766",
+                "355502895624034767",
+                "355502895624034768",
+                "355502895624034771",
+                "355502895624034772",
+                "355502895624034773",
+                "355502895624034774",
+                "355502895624034776",
+                "355502895624034777",
+                "355502895624034778",
+                "355502895624034779",
+                "355502895624034780",
+                "355502895624034781",
+                "355502895624034784",
+                "355502895624034785",
+                "355502895624034786",
+                "355502895624034787",
+                "355502895624034788",
+                "355502895624034789",
+                "355502895624034790",
+                "355502895624034791",
+                "355502895624034792",
+                "355502895624034865"
+            ],
+            "configured_views": [
+                "355502895624034576",
+                "355502895624034535",
+                "355502895624034550",
+                "355502895624034551",
+                "355502895624034559",
+                "355502895624034560",
+                "355502895624034561",
+                "355502895624034562",
+                "355502895624034563",
+                "355502895624034564",
+                "355502895624034565",
+                "355502895624034566",
+                "355502895624034567",
+                "355502895624034569",
+                "355502895624034570",
+                "355502895624034571",
+                "355502895624034572",
+                "355502895624034573",
+                "355502895624034574",
+                "355502895624034575",
+                "355502895624034578",
+                "355502895624034579",
+                "355502895624034685"
+            ],
+            "defaultDefinitionNwId": "313281649079431200",
+            "domain": "Default",
+            "name": "ControlPanel",
+            "nwid": "355502895624034931",
+            "title": "Control Panel"
+        },
+        {
+            "cliques": ["Global Setup"],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649083017215",
+            "domain": "Default",
+            "name": "GlobalSetup",
+            "nwid": "355502895624034932",
+            "title": "Global Setup"
+        },
+        {
+            "cliques": ["UnplannedTool"],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "373235819125262367",
+            "domain": "Tool",
+            "name": "UnplannedTool",
+            "nwid": "355502895624034933",
+            "order": 9,
+            "title": "UnplannedTool"
+        },
+        {
+            "cliques": [],
+            "configured_actions": ["355502895624034815"],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649083969220",
+            "domain": "Product",
+            "name": "Unplanned",
+            "nwid": "355502895624034934",
+            "order": 5,
+            "title": "Unplanned"
+        },
+        {
+            "cliques": ["UploadTool"],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "373235819125262368",
+            "domain": "Tool",
+            "name": "UploadTool",
+            "nwid": "355502895624034935",
+            "order": 10,
+            "title": "UploadTool"
+        },
+        {
+            "cliques": [],
+            "configured_actions": [
+                "355502895624034816",
+                "355502895624034911"
+            ],
+            "configured_views": [],
+            "defaultDefinitionNwId": "296111675501808352",
+            "domain": "Product",
+            "name": "Upload",
+            "nwid": "355502895624034936",
+            "order": 6,
+            "title": "Upload"
+        },
+        {
+            "cliques": [],
+            "configured_actions": [],
+            "configured_views": ["355502895624034600"],
+            "defaultDefinitionNwId": "313281649256272919",
+            "domain": "Default",
+            "name": "PressKnowledge",
+            "nwid": "355502895624034937",
+            "order": 8,
+            "title": "Press Knowledge"
+        },
+        {
+            "cliques": [],
+            "configured_actions": [],
+            "configured_views": ["355502895624034601"],
+            "defaultDefinitionNwId": "372954344144129373",
+            "domain": "Default",
+            "name": "ProductionRunsTree",
+            "nwid": "355502895624034938",
+            "order": 10,
+            "title": "Production Runs Tree"
+        },
+        {
+            "cliques": [],
+            "configured_actions": [],
+            "configured_views": ["355502895624034599"],
+            "defaultDefinitionNwId": "373235819125256346",
+            "domain": "Default",
+            "name": "PlanTree",
+            "nwid": "355502895624034939",
+            "order": 11,
+            "title": "Plan Tree"
+        },
+        {
+            "cliques": [
+                "Zone Overview",
+                "Production Run Overview",
+                "Form View",
+                "PageView",
+                "Change Extra Info",
+                "Separation Approve",
+                "Compare Page Versions",
+                "Compare Form Versions",
+                "Restart From Hotfolder",
+                "Output Plates",
+                "Restart From Imposition",
+                "Panel Info"
+            ],
+            "configured_actions": [
+                "355502895624034833",
+                "355502895624034889"
+            ],
+            "configured_views": [
+                "355502895624034587",
+                "355502895624034588",
+                "355502895624034589",
+                "355502895624034590",
+                "355502895624034591",
+                "355502895624034592",
+                "355502895624034593",
+                "355502895624034594",
+                "355502895624034595",
+                "355502895624034596",
+                "355502895624034597",
+                "355502895624034598",
+                "355502895624034618",
+                "355502895624034623",
+                "355502895624034624",
+                "355502895624034625",
+                "355502895624034629",
+                "355502895624034630",
+                "355502895624034631",
+                "355502895624034632",
+                "355502895624034619",
+                "355502895624034620",
+                "355502895624034621",
+                "355502895624034622",
+                "355502895624034633",
+                "355502895624034638",
+                "355502895624034639",
+                "355502895624034640",
+                "355502895624034641",
+                "355502895624034602",
+                "355502895624034603",
+                "355502895624034649"
+            ],
+            "defaultDefinitionNwId": "313281649079366363",
+            "domain": "Product",
+            "name": "Tracking",
+            "nwid": "355502895624034940",
+            "order": 0,
+            "title": "Tracking"
+        },
+        {
+            "cliques": [
+                "Custom Approve",
+                "Restart From Hotfolder"
+            ],
+            "configured_actions": ["355502895624034885"],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649079366364",
+            "domain": "Product",
+            "name": "Approval",
+            "nwid": "355502895624034941",
+            "order": 1,
+            "title": "Approval"
+        },
+        {
+            "cliques": [
+                "Override Tables",
+                "Share",
+                "Change Expected Name",
+                "Change Color",
+                "Change layout group"
+            ],
+            "configured_actions": [
+                "355502895624034866",
+                "355502895624034894",
+                "9223090562032684152",
+                "355502895740178968"
+            ],
+            "configured_views": ["355502895624034659"],
+            "defaultDefinitionNwId": "313281649079366365",
+            "domain": "Product",
+            "name": "EditProduct",
+            "nwid": "355502895624034942",
+            "order": 3,
+            "title": "Edit"
+        },
+        {
+            "cliques": [
+                "Restart From Hotfolder",
+                "Restart From Imposition",
+                "ReOutput Plates",
+                "Number of plates"
+            ],
+            "configured_actions": [
+                "355502895624034923",
+                "355502895624034879",
+                "355502895624034843",
+                "355502895624034801",
+                "355502895624034924",
+                "355502895624034844",
+                "355502895624034808",
+                "355502895624034884",
+                "355502895624241057",
+                "355502895624241056",
+                "355502895651562732",
+                "355502895624034881",
+                "355502895624034882",
+                "355502895624034856",
+                "355502895719790977",
+                "355502895744619484",
+                "355502895778080349",
+                "355502895737388360",
+                "355502895737388359",
+                "355502895834419097"
+            ],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649079366366",
+            "domain": "Product",
+            "name": "OperateProduct",
+            "nwid": "355502895624034943",
+            "order": 2,
+            "title": "Operate"
+        },
+        {
+            "cliques": [],
+            "configured_actions": [
+                "355502895624034731",
+                "355502895624034912",
+                "355502895816523699"
+            ],
+            "configured_views": ["355502895624034682"],
+            "defaultDefinitionNwId": "313281649079366367",
+            "domain": "Product",
+            "name": "PlanProduct",
+            "nwid": "355502895624034944",
+            "order": 4,
+            "title": "Plan"
+        },
+        {
+            "cliques": ["Resource Debug"],
+            "configured_actions": [
+                "355502895624034858",
+                "355502895624034849",
+                "355502895818065983"
+            ],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649079366368",
+            "domain": "Default",
+            "name": "Advanced",
+            "nwid": "355502895624034945",
+            "order": 0,
+            "title": "Advanced"
+        },
+        {
+            "cliques": [
+                "Flow Step Overview",
+                "Workflow Overview"
+            ],
+            "configured_actions": [
+                "355502895624034839",
+                "355502895624034834",
+                "355502895624034835",
+                "355502895624034867"
+            ],
+            "configured_views": [
+                "355502895624034627",
+                "355502895624034626",
+                "355502895624034648"
+            ],
+            "defaultDefinitionNwId": "313281649079366369",
+            "domain": "Workflow",
+            "name": "ViewWorkflow",
+            "nwid": "355502895624034946",
+            "order": 0,
+            "title": "View"
+        },
+        {
+            "cliques": [
+                "Clear Events",
+                "Toggle Device",
+                "Toggle Skip Device"
+            ],
+            "configured_actions": [
+                "355502895624034822",
+                "355502895624034796",
+                "355502895624034797",
+                "355502895624034857",
+                "355502895624034800",
+                "355502895624034799",
+                "355502895624034798",
+                "355502895624034837",
+                "355502895624034838",
+                "355502895624034828",
+                "355502895624034832"
+            ],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649079366370",
+            "domain": "Workflow",
+            "name": "OperateWorkflow",
+            "nwid": "355502895624034947",
+            "order": 1,
+            "title": "Operate"
+        },
+        {
+            "cliques": [
+                "Edit Flow Step",
+                "Edit Workflow"
+            ],
+            "configured_actions": ["355502895624034883"],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649079366371",
+            "domain": "Workflow",
+            "name": "EditWorkflow",
+            "nwid": "355502895624034948",
+            "order": 3,
+            "title": "Edit"
+        },
+        {
+            "cliques": [
+                "Cache Resource Setup",
+                "External Protocol Resource Setup",
+                "Flow Step Setup",
+                "Hot Folder Resource Setup",
+                "Optimization Resource Setup",
+                "Preflight Resource Setup",
+                "Proofer Resource Setup",
+                "Proout Resource Setup",
+                "Resource Setup",
+                "Rip Output Resource Setup",
+                "Rip Resource Setup",
+                "Status Step Resource Setup",
+                "Tiff Processor Resource Setup",
+                "Tx Resource Setup",
+                "Workflow Logging",
+                "Assign Resources"
+            ],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649079366372",
+            "domain": "Workflow",
+            "name": "ManageWorkflow",
+            "nwid": "355502895624034949",
+            "order": 2,
+            "title": "Manage"
+        },
+        {
+            "cliques": ["Security Settings"],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649256465095",
+            "domain": "Tool",
+            "name": "Security Settings",
+            "nwid": "355502895624034953",
+            "order": 2,
+            "title": "Security Settings"
+        },
+        {
+            "cliques": ["Activation Templates"],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649256465096",
+            "domain": "Tool",
+            "name": "Activation Templates",
+            "nwid": "355502895624034954",
+            "order": 2,
+            "title": "Activation Templates"
+        },
+        {
+            "cliques": ["Naming Pattern"],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649256465097",
+            "domain": "Tool",
+            "name": "Naming Pattern",
+            "nwid": "355502895624034955",
+            "order": 2,
+            "title": "Naming Pattern"
+        },
+        {
+            "cliques": ["Renaming Rule"],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649256465098",
+            "domain": "Tool",
+            "name": "Renaming Rule",
+            "nwid": "355502895624034956",
+            "order": 2,
+            "title": "Renaming Rule"
+        },
+        {
+            "cliques": ["Product Setup"],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649256465099",
+            "domain": "Tool",
+            "name": "Product Setup",
+            "nwid": "355502895624034957",
+            "order": 2,
+            "title": "Product Setup"
+        },
+        {
+            "cliques": ["Normalizer Setup"],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649256465100",
+            "domain": "Tool",
+            "name": "Normalizer Setup",
+            "nwid": "355502895624034958",
+            "order": 2,
+            "title": "Normalizer Setup"
+        },
+        {
+            "cliques": ["Coretex Tables"],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649256465101",
+            "domain": "Tool",
+            "name": "Coretex Tables",
+            "nwid": "355502895624034959",
+            "order": 2,
+            "title": "Tables"
+        },
+        {
+            "cliques": ["Layout Manager"],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649256465103",
+            "domain": "Tool",
+            "name": "Layout Manager",
+            "nwid": "355502895624034960",
+            "order": 2,
+            "title": "Layout Manager"
+        },
+        {
+            "cliques": ["MPS Tools"],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "313281649258296825",
+            "domain": "Tool",
+            "name": "MPS Tools",
+            "nwid": "355502895624034961",
+            "order": 2,
+            "title": "MPS Tools"
+        },
+        {
+            "cliques": ["Create Workflow"],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "373235819123911045",
+            "domain": "Tool",
+            "name": "Create Workflow",
+            "nwid": "355502895624034962",
+            "order": 2,
+            "title": "Create Workflow"
+        },
+        {
+            "cliques": ["Manage Families"],
+            "configured_actions": [],
+            "configured_views": [],
+            "defaultDefinitionNwId": "373235819123906793",
+            "domain": "Tool",
+            "name": "Manage Families",
+            "nwid": "355502895624034963",
+            "order": 2,
+            "title": "Manage Families"
+        },
+        {
+            "cliques": [],
+            "configured_actions": ["355502895816234614"],
+            "configured_views": [],
+            "domain": "Product",
+            "name": "Administrative",
+            "nwid": "355502895624241058",
+            "order": 7,
+            "title": "Administrative"
+        },
+        {
+            "cliques": ["Goss Import"],
+            "configured_actions": [],
+            "configured_views": [],
+            "domain": "Tool",
+            "name": "Goss Import",
+            "nwid": "355502895624392153",
+            "order": -1,
+            "title": "Goss Import"
+        },
+        {
+            "cliques": ["Planning Wizard"],
+            "configured_actions": [],
+            "configured_views": [],
+            "domain": "Tool",
+            "name": "Planning Wizard",
+            "nwid": "355502895815655591",
+            "order": -1,
+            "title": "Planning Wizard"
+        },
+        {
+            "cliques": ["Planning Tool"],
+            "configured_actions": [],
+            "configured_views": [],
+            "domain": "Tool",
+            "name": "Planning Tool",
+            "nwid": "355502895836358233",
+            "order": -1,
+            "title": "Planning Wizard with PR"
+        }
+    ],
+    "version": "1.0"
+}

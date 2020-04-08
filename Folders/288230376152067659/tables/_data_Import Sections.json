@@ -1,0 +1,597 @@
+{"rows": [
+    {
+        "index": 0,
+        "selectors": {"importsectioncode": "AA"},
+        "values": {"sectioncode": "MA"}
+    },
+    {
+        "index": 1,
+        "selectors": {"importsectioncode": "AB"},
+        "values": {"sectioncode": "BX"}
+    },
+    {
+        "index": 2,
+        "selectors": {"importsectioncode": "AC"},
+        "values": {"sectioncode": "BR"}
+    },
+    {
+        "index": 3,
+        "selectors": {"importsectioncode": "AD"},
+        "values": {"sectioncode": "QU"}
+    },
+    {
+        "index": 4,
+        "selectors": {"importsectioncode": "DA"},
+        "values": {"sectioncode": "A"}
+    },
+    {
+        "index": 5,
+        "selectors": {"importsectioncode": "DB"},
+        "values": {"sectioncode": "B"}
+    },
+    {
+        "index": 6,
+        "selectors": {"importsectioncode": "DC"},
+        "values": {"sectioncode": "C"}
+    },
+    {
+        "index": 7,
+        "selectors": {"importsectioncode": "DD"},
+        "values": {"sectioncode": "D"}
+    },
+    {
+        "index": 8,
+        "selectors": {"importsectioncode": "DE"},
+        "values": {"sectioncode": "E"}
+    },
+    {
+        "index": 9,
+        "selectors": {"importsectioncode": "DF"},
+        "values": {"sectioncode": "F"}
+    },
+    {
+        "index": 10,
+        "selectors": {"importsectioncode": "DG"},
+        "values": {"sectioncode": "G"}
+    },
+    {
+        "index": 11,
+        "selectors": {"importsectioncode": "DH"},
+        "values": {"sectioncode": "H"}
+    },
+    {
+        "index": 12,
+        "selectors": {"importsectioncode": "DI"},
+        "values": {"sectioncode": "I"}
+    },
+    {
+        "index": 13,
+        "selectors": {"importsectioncode": "DJ"},
+        "values": {"sectioncode": "J"}
+    },
+    {
+        "index": 14,
+        "selectors": {"importsectioncode": "DK"},
+        "values": {"sectioncode": "K"}
+    },
+    {
+        "index": 15,
+        "selectors": {"importsectioncode": "DL"},
+        "values": {"sectioncode": "L"}
+    },
+    {
+        "index": 16,
+        "selectors": {"importsectioncode": "DM"},
+        "values": {"sectioncode": "M"}
+    },
+    {
+        "index": 17,
+        "selectors": {"importsectioncode": "UA"},
+        "values": {"sectioncode": "A"}
+    },
+    {
+        "index": 18,
+        "selectors": {"importsectioncode": "UB"},
+        "values": {"sectioncode": "B"}
+    },
+    {
+        "index": 19,
+        "selectors": {"importsectioncode": "UC"},
+        "values": {"sectioncode": "C"}
+    },
+    {
+        "index": 20,
+        "selectors": {"importsectioncode": "UD"},
+        "values": {"sectioncode": "D"}
+    },
+    {
+        "index": 21,
+        "selectors": {"importsectioncode": "UF"},
+        "values": {"sectioncode": "F"}
+    },
+    {
+        "index": 22,
+        "selectors": {"importsectioncode": "UUA"},
+        "values": {"sectioncode": "A"}
+    },
+    {
+        "index": 23,
+        "selectors": {"importsectioncode": "UUB"},
+        "values": {"sectioncode": "B"}
+    },
+    {
+        "index": 24,
+        "selectors": {"importsectioncode": "UUC"},
+        "values": {"sectioncode": "C"}
+    },
+    {
+        "index": 25,
+        "selectors": {"importsectioncode": "UUD"},
+        "values": {"sectioncode": "D"}
+    },
+    {
+        "index": 26,
+        "selectors": {"importsectioncode": "UUF"},
+        "values": {"sectioncode": "F"}
+    },
+    {
+        "index": 27,
+        "selectors": {"importsectioncode": "WA"},
+        "values": {"sectioncode": "A"}
+    },
+    {
+        "index": 28,
+        "selectors": {"importsectioncode": "XA"},
+        "values": {"sectioncode": "A"}
+    },
+    {
+        "index": 29,
+        "selectors": {"importsectioncode": "XB"},
+        "values": {"sectioncode": "B"}
+    },
+    {
+        "index": 30,
+        "selectors": {"importsectioncode": "XC"},
+        "values": {"sectioncode": "C"}
+    },
+    {
+        "index": 31,
+        "selectors": {"importsectioncode": "XD"},
+        "values": {"sectioncode": "D"}
+    },
+    {
+        "index": 32,
+        "selectors": {"importsectioncode": "XE"},
+        "values": {"sectioncode": "E"}
+    },
+    {
+        "index": 33,
+        "selectors": {"importsectioncode": "XF"},
+        "values": {"sectioncode": "F"}
+    },
+    {
+        "index": 34,
+        "selectors": {"importsectioncode": "XG"},
+        "values": {"sectioncode": "G"}
+    },
+    {
+        "index": 35,
+        "selectors": {"importsectioncode": "XH"},
+        "values": {"sectioncode": "H"}
+    },
+    {
+        "index": 36,
+        "selectors": {"importsectioncode": "XI"},
+        "values": {"sectioncode": "I"}
+    },
+    {
+        "index": 37,
+        "selectors": {"importsectioncode": "XJ"},
+        "values": {"sectioncode": "J"}
+    },
+    {
+        "index": 38,
+        "selectors": {"importsectioncode": "XK"},
+        "values": {"sectioncode": "K"}
+    },
+    {
+        "index": 39,
+        "selectors": {"importsectioncode": "XL"},
+        "values": {"sectioncode": "L"}
+    },
+    {
+        "index": 40,
+        "selectors": {"importsectioncode": "XM"},
+        "values": {"sectioncode": "M"}
+    },
+    {
+        "index": 41,
+        "selectors": {"importsectioncode": "XN"},
+        "values": {"sectioncode": "N"}
+    },
+    {
+        "index": 42,
+        "selectors": {"importsectioncode": "XO"},
+        "values": {"sectioncode": "O"}
+    },
+    {
+        "index": 43,
+        "selectors": {"importsectioncode": "XP"},
+        "values": {"sectioncode": "P"}
+    },
+    {
+        "index": 44,
+        "selectors": {"importsectioncode": "XQ"},
+        "values": {"sectioncode": "Q"}
+    },
+    {
+        "index": 45,
+        "selectors": {"importsectioncode": "XR"},
+        "values": {"sectioncode": "R"}
+    },
+    {
+        "index": 46,
+        "selectors": {"importsectioncode": "XS"},
+        "values": {"sectioncode": "S"}
+    },
+    {
+        "index": 47,
+        "selectors": {"importsectioncode": "XT"},
+        "values": {"sectioncode": "Y"}
+    },
+    {
+        "index": 48,
+        "selectors": {"importsectioncode": "XU"},
+        "values": {"sectioncode": "U"}
+    },
+    {
+        "index": 49,
+        "selectors": {"importsectioncode": "XV"},
+        "values": {"sectioncode": "V"}
+    },
+    {
+        "index": 50,
+        "selectors": {"importsectioncode": "XW"},
+        "values": {"sectioncode": "W"}
+    },
+    {
+        "index": 51,
+        "selectors": {"importsectioncode": "XX"},
+        "values": {"sectioncode": "X"}
+    },
+    {
+        "index": 52,
+        "selectors": {"importsectioncode": "XY"},
+        "values": {"sectioncode": "Y"}
+    },
+    {
+        "index": 53,
+        "selectors": {"importsectioncode": "XZ"},
+        "values": {"sectioncode": "Z"}
+    },
+    {
+        "index": 54,
+        "selectors": {"importsectioncode": "3AA"},
+        "values": {"sectioncode": "A"}
+    },
+    {
+        "index": 55,
+        "selectors": {"importsectioncode": "3AB"},
+        "values": {"sectioncode": "B"}
+    },
+    {
+        "index": 56,
+        "selectors": {"importsectioncode": "3AC"},
+        "values": {"sectioncode": "C"}
+    },
+    {
+        "index": 57,
+        "selectors": {"importsectioncode": "3AD"},
+        "values": {"sectioncode": "D"}
+    },
+    {
+        "index": 58,
+        "selectors": {"importsectioncode": "3DA"},
+        "values": {"sectioncode": "A"}
+    },
+    {
+        "index": 59,
+        "selectors": {"importsectioncode": "3DB"},
+        "values": {"sectioncode": "B"}
+    },
+    {
+        "index": 60,
+        "selectors": {"importsectioncode": "3DC"},
+        "values": {"sectioncode": "C"}
+    },
+    {
+        "index": 61,
+        "selectors": {"importsectioncode": "3DD"},
+        "values": {"sectioncode": "D"}
+    },
+    {
+        "index": 62,
+        "selectors": {"importsectioncode": "3DE"},
+        "values": {"sectioncode": "E"}
+    },
+    {
+        "index": 63,
+        "selectors": {"importsectioncode": "3DF"},
+        "values": {"sectioncode": "F"}
+    },
+    {
+        "index": 64,
+        "selectors": {"importsectioncode": "3DG"},
+        "values": {"sectioncode": "G"}
+    },
+    {
+        "index": 65,
+        "selectors": {"importsectioncode": "3DH"},
+        "values": {"sectioncode": "H"}
+    },
+    {
+        "index": 66,
+        "selectors": {"importsectioncode": "3DI"},
+        "values": {"sectioncode": "I"}
+    },
+    {
+        "index": 67,
+        "selectors": {"importsectioncode": "3DJ"},
+        "values": {"sectioncode": "J"}
+    },
+    {
+        "index": 68,
+        "selectors": {"importsectioncode": "3DK"},
+        "values": {"sectioncode": "K"}
+    },
+    {
+        "index": 69,
+        "selectors": {"importsectioncode": "3DL"},
+        "values": {"sectioncode": "L"}
+    },
+    {
+        "index": 70,
+        "selectors": {"importsectioncode": "3DM"},
+        "values": {"sectioncode": "M"}
+    },
+    {
+        "index": 71,
+        "selectors": {"importsectioncode": "3UA"},
+        "values": {"sectioncode": "A"}
+    },
+    {
+        "index": 72,
+        "selectors": {"importsectioncode": "3UB"},
+        "values": {"sectioncode": "B"}
+    },
+    {
+        "index": 73,
+        "selectors": {"importsectioncode": "3UC"},
+        "values": {"sectioncode": "C"}
+    },
+    {
+        "index": 74,
+        "selectors": {"importsectioncode": "3UD"},
+        "values": {"sectioncode": "D"}
+    },
+    {
+        "index": 75,
+        "selectors": {"importsectioncode": "3WA"},
+        "values": {"sectioncode": "A"}
+    },
+    {
+        "index": 76,
+        "selectors": {"importsectioncode": "NXA"},
+        "values": {"sectioncode": "A"}
+    },
+    {
+        "index": 77,
+        "selectors": {"importsectioncode": "NXB"},
+        "values": {"sectioncode": "B"}
+    },
+    {
+        "index": 78,
+        "selectors": {"importsectioncode": "NXC"},
+        "values": {"sectioncode": "C"}
+    },
+    {
+        "index": 79,
+        "selectors": {"importsectioncode": "NXD"},
+        "values": {"sectioncode": "D"}
+    },
+    {
+        "index": 80,
+        "selectors": {"importsectioncode": "NXE"},
+        "values": {"sectioncode": "E"}
+    },
+    {
+        "index": 81,
+        "selectors": {"importsectioncode": "NXF"},
+        "values": {"sectioncode": "F"}
+    },
+    {
+        "index": 82,
+        "selectors": {"importsectioncode": "NXG"},
+        "values": {"sectioncode": "G"}
+    },
+    {
+        "index": 83,
+        "selectors": {"importsectioncode": "NXH"},
+        "values": {"sectioncode": "H"}
+    },
+    {
+        "index": 84,
+        "selectors": {"importsectioncode": "NXI"},
+        "values": {"sectioncode": "I"}
+    },
+    {
+        "index": 85,
+        "selectors": {"importsectioncode": "NXJ"},
+        "values": {"sectioncode": "J"}
+    },
+    {
+        "index": 86,
+        "selectors": {"importsectioncode": "NXK"},
+        "values": {"sectioncode": "K"}
+    },
+    {
+        "index": 87,
+        "selectors": {"importsectioncode": "NXL"},
+        "values": {"sectioncode": "L"}
+    },
+    {
+        "index": 88,
+        "selectors": {"importsectioncode": "NXM"},
+        "values": {"sectioncode": "M"}
+    },
+    {
+        "index": 89,
+        "selectors": {"importsectioncode": "NXN"},
+        "values": {"sectioncode": "N"}
+    },
+    {
+        "index": 90,
+        "selectors": {"importsectioncode": "NXO"},
+        "values": {"sectioncode": "O"}
+    },
+    {
+        "index": 91,
+        "selectors": {"importsectioncode": "NXP"},
+        "values": {"sectioncode": "P"}
+    },
+    {
+        "index": 92,
+        "selectors": {"importsectioncode": "NXQ"},
+        "values": {"sectioncode": "Q"}
+    },
+    {
+        "index": 93,
+        "selectors": {"importsectioncode": "NXR"},
+        "values": {"sectioncode": "R"}
+    },
+    {
+        "index": 94,
+        "selectors": {"importsectioncode": "NXS"},
+        "values": {"sectioncode": "S"}
+    },
+    {
+        "index": 95,
+        "selectors": {"importsectioncode": "NXT"},
+        "values": {"sectioncode": "T"}
+    },
+    {
+        "index": 96,
+        "selectors": {"importsectioncode": "NXU"},
+        "values": {"sectioncode": "U"}
+    },
+    {
+        "index": 97,
+        "selectors": {"importsectioncode": "NXV"},
+        "values": {"sectioncode": "V"}
+    },
+    {
+        "index": 98,
+        "selectors": {"importsectioncode": "NXW"},
+        "values": {"sectioncode": "W"}
+    },
+    {
+        "index": 99,
+        "selectors": {"importsectioncode": "NXX"},
+        "values": {"sectioncode": "X"}
+    },
+    {
+        "index": 100,
+        "selectors": {"importsectioncode": "NXY"},
+        "values": {"sectioncode": "Y"}
+    },
+    {
+        "index": 101,
+        "selectors": {"importsectioncode": "NXZ"},
+        "values": {"sectioncode": "Z"}
+    },
+    {
+        "index": 102,
+        "selectors": {"importsectioncode": "NLI"},
+        "values": {"sectioncode": "LI"}
+    },
+    {
+        "index": 103,
+        "selectors": {"importsectioncode": "NLT"},
+        "values": {"sectioncode": "LT"}
+    },
+    {
+        "index": 104,
+        "selectors": {"importsectioncode": "NRE"},
+        "values": {"sectioncode": "RE"}
+    },
+    {
+        "index": 105,
+        "selectors": {"importsectioncode": "NBU"},
+        "values": {"sectioncode": "BU"}
+    },
+    {
+        "index": 106,
+        "selectors": {"importsectioncode": "NSP"},
+        "values": {"sectioncode": "SP"}
+    },
+    {
+        "index": 107,
+        "selectors": {"importsectioncode": "NST"},
+        "values": {"sectioncode": "ST"}
+    },
+    {
+        "index": 108,
+        "selectors": {"importsectioncode": "NSR"},
+        "values": {"sectioncode": "SR"}
+    },
+    {
+        "index": 109,
+        "selectors": {"importsectioncode": "NCT"},
+        "values": {"sectioncode": "CT"}
+    },
+    {
+        "index": 110,
+        "selectors": {"importsectioncode": "NWE"},
+        "values": {"sectioncode": "WE"}
+    },
+    {
+        "index": 111,
+        "selectors": {"importsectioncode": "NRE"},
+        "values": {"sectioncode": "RE"}
+    },
+    {
+        "index": 112,
+        "selectors": {"importsectioncode": "NMB"},
+        "values": {"sectioncode": "MB"}
+    },
+    {
+        "index": 113,
+        "selectors": {"importsectioncode": "NNJ"},
+        "values": {"sectioncode": "NJ"}
+    },
+    {
+        "index": 114,
+        "selectors": {"importsectioncode": "STR"},
+        "values": {"sectioncode": "TR"}
+    },
+    {
+        "index": 115,
+        "selectors": {"importsectioncode": "SBR"},
+        "values": {"sectioncode": "BR"}
+    },
+    {
+        "index": 116,
+        "selectors": {"importsectioncode": "SAR"},
+        "values": {"sectioncode": "AR"}
+    },
+    {
+        "index": 117,
+        "selectors": {"importsectioncode": "WCT"},
+        "values": {"sectioncode": "CT"}
+    },
+    {
+        "index": 118,
+        "selectors": {"importsectioncode": "AZJ"},
+        "values": {"sectioncode": "ZJ"}
+    }
+]}

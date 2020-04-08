@@ -1,0 +1,72 @@
+{
+    "elementType": "layoutGroup",
+    "impositionType": "broadsheet",
+    "layoutLinks": [
+        {
+            "elementType": "layout",
+            "name": "General",
+            "nwid": "355502895610744398",
+            "plateNwid": "355502895585586976",
+            "role": "general",
+            "viewRotation": 0
+        },
+        {
+            "elementType": "layout",
+            "name": "Plate Left Popup Side",
+            "nwid": "355502895618488336",
+            "plateNwid": "355502895850030671",
+            "role": "panorama",
+            "viewRotation": -1
+        },
+        {
+            "elementType": "layout",
+            "name": "Plate Right Popup Side",
+            "nwid": "355502895618488337",
+            "plateNwid": "355502895857299655",
+            "role": "panorama",
+            "viewRotation": -1
+        },
+        {
+            "elementType": "layout",
+            "name": "Fake Even",
+            "nwid": "355502895618495990",
+            "plateNwid": "355502895585586976",
+            "role": "custom",
+            "viewRotation": 0
+        },
+        {
+            "elementType": "layout",
+            "name": "Fake Odd",
+            "nwid": "355502895618495991",
+            "plateNwid": "355502895585586976",
+            "role": "custom",
+            "viewRotation": 0
+        },
+        {
+            "elementType": "layout",
+            "name": "Plate Left Popup Middle",
+            "nwid": "355502895624670897",
+            "plateNwid": "355502895850030671",
+            "role": "panorama",
+            "viewRotation": -1
+        },
+        {
+            "elementType": "layout",
+            "name": "Plate Right Popup Middle",
+            "nwid": "355502895624670898",
+            "plateNwid": "355502895857299655",
+            "role": "panorama",
+            "viewRotation": -1
+        },
+        {
+            "elementType": "layout",
+            "name": "Popup to XtremeInk",
+            "nwid": "355502895816293857",
+            "plateNwid": "355502895585586976",
+            "role": "general",
+            "viewRotation": 0
+        }
+    ],
+    "name": "Tabloid",
+    "nwid": "355502895610744397"
+}

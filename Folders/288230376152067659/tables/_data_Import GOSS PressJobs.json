@@ -1,0 +1,785 @@
+{"rows": [
+    {
+        "index": 0,
+        "selectors": {"name": "MON"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 1,
+        "selectors": {"name": "TUE"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 2,
+        "selectors": {"name": "WED"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 3,
+        "selectors": {"name": "SAT"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 4,
+        "selectors": {"name": "M1"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 5,
+        "selectors": {"name": "M2"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 6,
+        "selectors": {"name": "T1"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 7,
+        "selectors": {"name": "T2"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 8,
+        "selectors": {"name": "W1"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 9,
+        "selectors": {"name": "W2"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 10,
+        "selectors": {"name": "H1"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 11,
+        "selectors": {"name": "H2"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 12,
+        "selectors": {"name": "F1"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 13,
+        "selectors": {"name": "F2"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 14,
+        "selectors": {"name": "DESIGN"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 15,
+        "selectors": {"name": "STY"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 16,
+        "selectors": {"name": "RVSTY"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 17,
+        "selectors": {"name": "RVSTYFIN"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 18,
+        "selectors": {"name": "MS"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 19,
+        "selectors": {"name": "M"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 20,
+        "selectors": {"name": "T"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 21,
+        "selectors": {"name": "NYT"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 22,
+        "selectors": {"name": "BOOK4"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "SC"
+        }
+    },
+    {
+        "index": 23,
+        "selectors": {"name": "B"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "SC"
+        }
+    },
+    {
+        "index": 24,
+        "selectors": {"name": "TRAVELBOOK"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 25,
+        "selectors": {"name": "TB"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 26,
+        "selectors": {"name": "TBKIDS"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 27,
+        "selectors": {"name": "LRMLI"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "LI"
+        }
+    },
+    {
+        "index": 28,
+        "selectors": {"name": "RMMB"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "MB"
+        }
+    },
+    {
+        "index": 29,
+        "selectors": {"name": "FINMUT"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 30,
+        "selectors": {"name": "MUT"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 31,
+        "selectors": {"name": "LPW"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 32,
+        "selectors": {"name": "DRAMA"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 33,
+        "selectors": {"name": "DRAMAB"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 34,
+        "selectors": {"name": "DRAMAKIDS"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 35,
+        "selectors": {"name": "JRMNJ"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "NJ"
+        }
+    },
+    {
+        "index": 36,
+        "selectors": {"name": "KIDS"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    },
+    {
+        "index": 37,
+        "selectors": {"name": "WRMWC"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "WC"
+        }
+    },
+    {
+        "index": 38,
+        "selectors": {"name": "WRMCT"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "CT"
+        }
+    },
+    {
+        "index": 39,
+        "selectors": {"name": "VAMM"},
+        "values": {
+            "edition": "E1",
+            "publication": "YA3",
+            "zone": "AM"
+        }
+    },
+    {
+        "index": 40,
+        "selectors": {"name": "VAMW"},
+        "values": {
+            "edition": "E1",
+            "publication": "YA3",
+            "zone": "AM"
+        }
+    },
+    {
+        "index": 41,
+        "selectors": {"name": "VAMT"},
+        "values": {
+            "edition": "E1",
+            "publication": "YA3",
+            "zone": "AM"
+        }
+    },
+    {
+        "index": 42,
+        "selectors": {"name": "VAMH"},
+        "values": {
+            "edition": "E1",
+            "publication": "YA3",
+            "zone": "AM"
+        }
+    },
+    {
+        "index": 43,
+        "selectors": {"name": "VAMF"},
+        "values": {
+            "edition": "E1",
+            "publication": "YA3",
+            "zone": "AM"
+        }
+    },
+    {
+        "index": 44,
+        "selectors": {"name": "VD"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "NA"
+        }
+    },
+    {
+        "index": 45,
+        "selectors": {"name": "VDQ"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "QU"
+        }
+    },
+    {
+        "index": 46,
+        "selectors": {"name": "VLQ"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "QU"
+        }
+    },
+    {
+        "index": 47,
+        "selectors": {"name": "VLS"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "SU"
+        }
+    },
+    {
+        "index": 48,
+        "selectors": {"name": "VLN"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "NA"
+        }
+    },
+    {
+        "index": 49,
+        "selectors": {"name": "VPN"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "NA"
+        }
+    },
+    {
+        "index": 50,
+        "selectors": {"name": "VPQ"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "QU"
+        }
+    },
+    {
+        "index": 51,
+        "selectors": {"name": "VPQH"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "QU"
+        }
+    },
+    {
+        "index": 52,
+        "selectors": {"name": "VPS"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "SU"
+        }
+    },
+    {
+        "index": 53,
+        "selectors": {"name": "VPNQ"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "NA"
+        }
+    },
+    {
+        "index": 54,
+        "selectors": {"name": "VPNH"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "NA"
+        }
+    },
+    {
+        "index": 55,
+        "selectors": {"name": "VPN1"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "N1"
+        }
+    },
+    {
+        "index": 56,
+        "selectors": {"name": "VPN2"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "N2"
+        }
+    },
+    {
+        "index": 57,
+        "selectors": {"name": "VPS1"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "S1"
+        }
+    },
+    {
+        "index": 58,
+        "selectors": {"name": "VPS2"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "S2"
+        }
+    },
+    {
+        "index": 59,
+        "selectors": {"name": "VPS3"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "S3"
+        }
+    },
+    {
+        "index": 60,
+        "selectors": {"name": "VPS4"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "S4"
+        }
+    },
+    {
+        "index": 61,
+        "selectors": {"name": "VPSH"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "SU"
+        }
+    },
+    {
+        "index": 62,
+        "selectors": {"name": "VCN"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "NA"
+        }
+    },
+    {
+        "index": 63,
+        "selectors": {"name": "VCS"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "SU"
+        }
+    },
+    {
+        "index": 64,
+        "selectors": {"name": "VCQ"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "QU"
+        }
+    },
+    {
+        "index": 65,
+        "selectors": {"name": "VCQ5"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "QU"
+        }
+    },
+    {
+        "index": 66,
+        "selectors": {"name": "VCOM"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "NA"
+        }
+    },
+    {
+        "index": 67,
+        "selectors": {"name": "VFANN"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "NA"
+        }
+    },
+    {
+        "index": 68,
+        "selectors": {"name": "VFANQ"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "QU"
+        }
+    },
+    {
+        "index": 69,
+        "selectors": {"name": "VFANS"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "SU"
+        }
+    },
+    {
+        "index": 70,
+        "selectors": {"name": "VLIQNS"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "QU"
+        }
+    },
+    {
+        "index": 71,
+        "selectors": {"name": "VLIZN1"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "N1"
+        }
+    },
+    {
+        "index": 72,
+        "selectors": {"name": "VLIZN2"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "N2"
+        }
+    },
+    {
+        "index": 73,
+        "selectors": {"name": "VLIZS1"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "S1"
+        }
+    },
+    {
+        "index": 74,
+        "selectors": {"name": "VLIZS2"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "S2"
+        }
+    },
+    {
+        "index": 75,
+        "selectors": {"name": "VLIZS3"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "S3"
+        }
+    },
+    {
+        "index": 76,
+        "selectors": {"name": "VLIZS4"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "S4"
+        }
+    },
+    {
+        "index": 77,
+        "selectors": {"name": "VLIZQNS"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "QU"
+        }
+    },
+    {
+        "index": 78,
+        "selectors": {"name": "VS2S"},
+        "values": {
+            "edition": "E1",
+            "publication": "YD3",
+            "zone": "NA"
+        }
+    },
+    {
+        "index": 79,
+        "selectors": {"name": "VWAPO"},
+        "values": {
+            "edition": "E1",
+            "publication": "YW3",
+            "zone": "WA"
+        }
+    },
+    {
+        "index": 80,
+        "selectors": {"name": "WAPO"},
+        "values": {
+            "edition": "E1",
+            "publication": "YW3",
+            "zone": "WA"
+        }
+    },
+    {
+        "index": 81,
+        "selectors": {"name": "MONU"},
+        "values": {
+            "edition": "E1",
+            "publication": "YUU",
+            "zone": "NT"
+        }
+    },
+    {
+        "index": 82,
+        "selectors": {"name": "TUEU"},
+        "values": {
+            "edition": "E1",
+            "publication": "YUU",
+            "zone": "NT"
+        }
+    },
+    {
+        "index": 83,
+        "selectors": {"name": "WEDU"},
+        "values": {
+            "edition": "E1",
+            "publication": "YUU",
+            "zone": "NT"
+        }
+    },
+    {
+        "index": 84,
+        "selectors": {"name": "THUU"},
+        "values": {
+            "edition": "E1",
+            "publication": "YUU",
+            "zone": "NT"
+        }
+    },
+    {
+        "index": 85,
+        "selectors": {"name": "FRIU"},
+        "values": {
+            "edition": "E1",
+            "publication": "YUU",
+            "zone": "NT"
+        }
+    },
+    {
+        "index": 86,
+        "selectors": {"name": "A"},
+        "values": {
+            "edition": "E1",
+            "publication": "YXN",
+            "zone": "XX"
+        }
+    }
+]}

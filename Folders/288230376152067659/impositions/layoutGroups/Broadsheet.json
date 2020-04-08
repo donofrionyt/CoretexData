@@ -1,0 +1,88 @@
+{
+    "elementType": "layoutGroup",
+    "impositionType": "broadsheet",
+    "layoutLinks": [
+        {
+            "elementType": "layout",
+            "name": "General",
+            "nwid": "355502895587625950",
+            "plateNwid": "355502895585586976",
+            "role": "general",
+            "viewRotation": 180
+        },
+        {
+            "elementType": "layout",
+            "name": "Panorama",
+            "nwid": "355502895587625951",
+            "plateNwid": "355502895601178021",
+            "role": "panorama",
+            "viewRotation": -1
+        },
+        {
+            "elementType": "layout",
+            "name": "Fake Even",
+            "nwid": "355502895601376750",
+            "plateNwid": "355502895585586976",
+            "role": "custom",
+            "viewRotation": 180
+        },
+        {
+            "elementType": "layout",
+            "name": "Fake Odd",
+            "nwid": "355502895601376751",
+            "plateNwid": "355502895585586976",
+            "role": "custom",
+            "viewRotation": 180
+        },
+        {
+            "elementType": "layout",
+            "name": "Split1",
+            "nwid": "355502895617175124",
+            "plateNwid": "355502895671706371",
+            "role": "custom",
+            "viewRotation": 180
+        },
+        {
+            "elementType": "layout",
+            "name": "Split2",
+            "nwid": "355502895617175126",
+            "plateNwid": "355502895671706372",
+            "role": "custom",
+            "viewRotation": 180
+        },
+        {
+            "elementType": "layout",
+            "name": "Pano1",
+            "nwid": "355502895652704082",
+            "plateNwid": "355502895671712826",
+            "role": "custom",
+            "viewRotation": -1
+        },
+        {
+            "elementType": "layout",
+            "name": "Pano2",
+            "nwid": "355502895652704083",
+            "plateNwid": "355502895671712827",
+            "role": "custom",
+            "viewRotation": -1
+        },
+        {
+            "elementType": "layout",
+            "name": "Pano to XtremeInk Left",
+            "nwid": "355502895816293859",
+            "plateNwid": "355502895585586976",
+            "role": "general",
+            "viewRotation": 180
+        },
+        {
+            "elementType": "layout",
+            "name": "Pano to XtremeInk Right",
+            "nwid": "355502895816293860",
+            "plateNwid": "355502895585586976",
+            "role": "general",
+            "viewRotation": 180
+        }
+    ],
+    "name": "Broadsheet",
+    "nwid": "355502895587625949"
+}

@@ -1,0 +1,85 @@
+{
+	"steps" : [
+		{ 
+			"name" : "LoadFromFile",
+			"settings" : {
+
+			}
+		},
+		{ 
+			"name" : "CoretexParser",
+			"settings" : {
+				
+				"validPlan": false
+			}
+		},
+		{ 
+			"name" : "AssignExpectedNameStep",
+			"settings" : {
+				"expectedNamePattern" : "Internal Products"
+			}
+		},
+		{ 
+			"name" : "AssignLayoutGroupStep",
+			"settings" : {
+				"openTransaction" : true,
+				"assignToObject" : "section",
+                                 "useSystemTable": true
+			}
+		},
+		{ 
+			"name" : "PlanStorageStep",
+			"settings" : {
+				"openTransaction" : true
+			}
+		},	
+		{ 
+			"name" : "Pairing",
+			"settings" : {
+				"openTransaction" : true,
+				"numberOfPlates" : 0,
+				"formNameMode": "pages"
+			}
+		},
+		{
+			"name" : "NytLayoutSelection",
+			"stepType" : "customize",
+			"settings" : {
+				"tableName" : "Layouts"
+			}
+		},
+		{
+			"name": "NoPressInfoBooksStep",
+			"settings": {
+				"tableName": "Completion Percentage",
+				"completionPercentage": 100
+			}
+		},
+		{ 
+			"name" : "ResolveCoretexTablesStep",
+			"settings" : {
+				"tables" : [
+					"InkJob and Press Settings",
+					"zGrey Bars"
+									]
+			}
+		},
+		{ 
+			"name" : "PlanPersists",
+			"settings" : {
+				"publishPlanStep" : "355502895638618206",
+				"holdSteps" : ["355502895587114807","355502895716400971","355502895601195405"]
+				}
+		},
+		{
+			"name" : "OutputMissingPlatesStep",
+			"settings" : {
+				"outputSteps" : ["-355502895587114807","-355502895716400971","-355502895601195405"]
+			}
+		}
+		
+	],
+	"generalSettings" : {
+		"externalAggregate": true				
+	}
+}

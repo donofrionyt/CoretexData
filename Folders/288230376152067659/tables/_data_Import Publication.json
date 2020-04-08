@@ -1,0 +1,152 @@
+{"rows": [
+    {
+        "index": 0,
+        "selectors": {"importpublicationcode": "YA3"},
+        "values": {"publicationcode": "YA3"}
+    },
+    {
+        "index": 1,
+        "selectors": {"importpublicationcode": "YD3"},
+        "values": {"publicationcode": "YD3"}
+    },
+    {
+        "index": 2,
+        "selectors": {"importpublicationcode": "YXN"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 3,
+        "selectors": {"importpublicationcode": "YUU"},
+        "values": {"publicationcode": "YUU"}
+    },
+    {
+        "index": 4,
+        "selectors": {"importpublicationcode": "YAN"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 5,
+        "selectors": {"importpublicationcode": "YBN"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 6,
+        "selectors": {"importpublicationcode": "YCN"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 7,
+        "selectors": {"importpublicationcode": "YDN"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 8,
+        "selectors": {"importpublicationcode": "YEN"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 9,
+        "selectors": {"importpublicationcode": "YHN"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 10,
+        "selectors": {"importpublicationcode": "YLN"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 11,
+        "selectors": {"importpublicationcode": "YMN"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 12,
+        "selectors": {"importpublicationcode": "YNN"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 13,
+        "selectors": {"importpublicationcode": "YRN"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 14,
+        "selectors": {"importpublicationcode": "YSN"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 15,
+        "selectors": {"importpublicationcode": "YTN"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 16,
+        "selectors": {"importpublicationcode": "YWN"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 17,
+        "selectors": {"importpublicationcode": "YTS"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 18,
+        "selectors": {"importpublicationcode": "YXS"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 19,
+        "selectors": {"importpublicationcode": "YPP"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 20,
+        "selectors": {"importpublicationcode": "YBS"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 21,
+        "selectors": {"importpublicationcode": "YZA"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 22,
+        "selectors": {"importpublicationcode": "YAS"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 23,
+        "selectors": {"importpublicationcode": "YTA"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 24,
+        "selectors": {"importpublicationcode": "YMA"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 25,
+        "selectors": {"importpublicationcode": "YMS"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 26,
+        "selectors": {"importpublicationcode": "YXY"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 27,
+        "selectors": {"importpublicationcode": "YZY"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 28,
+        "selectors": {"importpublicationcode": "YXX"},
+        "values": {"publicationcode": "YXN"}
+    },
+    {
+        "index": 29,
+        "selectors": {"importpublicationcode": "YZN"},
+        "values": {"publicationcode": "YXN"}
+    }
+]}

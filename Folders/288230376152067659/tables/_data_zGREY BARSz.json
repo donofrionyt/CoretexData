@@ -1,0 +1,14 @@
+{"rows": [{
+    "index": 0,
+    "selectors": {
+        "book": "*",
+        "edition": "*",
+        "form": "*",
+        "publication": "*",
+        "zone": "*"
+    },
+    "values": {
+        "midgreybar": "true",
+        "topgreybar": "true"
+    }
+}]}

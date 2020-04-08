@@ -1,0 +1,2219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FLOW builtInFlow="false" site="800" name="Production">
+    <STEPS>
+        <STEP group="" progress="-1" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="1000" maxErrorEvents="10" maxWaitEvents="10000" template="workflow/step/comm/tx" name="Local Archive" nwID="355502895585577413">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895585577424" className="flow.ObjectAdapter" name="ObjectAdapter">
+                            <PROPERTIES>
+{
+    "blocked": [],
+    "considerSubTypes": false,
+    "contentType": {"hires:tiff": ["mono"]},
+    "flowStepsKey": {},
+    "includeVirtual": false,
+    "isGlobal": true,
+    "layoutEvent": "none",
+    "maxSameEvent": "latestVersion",
+    "mode": false,
+    "oneCopyForStraight": false,
+    "selectedTemplate": "page/separation"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895585577425" className="flow.RulesEnforcerAdapter" name="RulesEnforcerAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "rules": [
+        {
+            "additionalConditions": ["unplannedPage"],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "name": "Unplanned",
+            "press": "*",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {"ruleTxOutputNaming": "Unplanned Archive Naming"},
+            "zone": "*"
+        },
+        {
+            "additionalConditions": ["plannedPage"],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "name": "Planned",
+            "press": "*",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {"ruleTxOutputNaming": "Local Archive Naming"},
+            "zone": "*"
+        }
+    ]
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895585577426" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895585577425" source="355502895585577424"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895585577426" source="355502895585577425"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895585577427" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288230376155289108L,
+    288793326213395165L,
+    288230376155289121L,
+    288230376155289106L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="66" icon="approval1" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="1500" maxErrorEvents="100" maxWaitEvents="15000" template="workflow/step/flow/approval" name="Plate Approval" nwID="355502895585577477">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895585577488" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895585577489" className="flow.ObjectAdapter" name="ObjectAdapter">
+                            <PROPERTIES>
+{
+    "blocked": [],
+    "considerSubTypes": false,
+    "contentType": {"hires:tiff": ["mono"]},
+    "flowStepsKey": {},
+    "includeVirtual": false,
+    "isGlobal": true,
+    "layoutEvent": "none",
+    "maxSameEvent": "latestVersion",
+    "mode": false,
+    "oneCopyForStraight": false,
+    "selectedTemplate": "form/separation"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895585577490" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895586412915" className="flow.CheckRemoteOrPreApproval" name="CheckRemoteOrPreApproval"/>
+                        <ADAPTER adapterDescription="" nwID="355502895586765051" className="step.ApprovalAdapter" name="ApprovalAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "scriptName": "Plate Approval Name"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895714149378" className="flow.PlanOverrideAdapter" name="PlanOverrideAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895585577490" source="355502895585577488"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895586765051" source="355502895585577490"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895586412915" source="355502895586765051"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714149378" source="355502895585577489"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895585577488" source="355502895714149378"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895585577491" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895585577492" className="route.TopologyRouteAdapter" name="TopologyRouteAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895717787753" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895585577492" source="355502895585577491"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895717787753" source="355502895585577492"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895585577493" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288230376155289108L,
+    288793326213395165L,
+    288230376155289106L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="100" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="100" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/input/status" name="Sorter Status" nwID="355502895586459579">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895586459590" className="flow.ObjectAdapter" name="ObjectAdapter">
+                            <PROPERTIES>
+{
+    "blocked": [],
+    "considerSubTypes": false,
+    "contentType": {"hires:tiff": ["mono"]},
+    "flowStepsKey": {},
+    "inputObjects": {
+        "form": "plate",
+        "form/separation": "plate",
+        "plate": "plate"
+    },
+    "layoutEvent": "output",
+    "maxSameEvent": "all",
+    "mode": true,
+    "selectedTemplate": ""
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895586459591" className="step.StatusStepAdapter" name="StatusStepAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895586459592" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895586459593" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895586459593" source="355502895586459592"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895586459592" source="355502895586459591"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895586459591" source="355502895586459590"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895586459594" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895586459595" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895586459595" source="355502895586459594"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895586459596" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288230376155289108L,
+    288793326213395165L,
+    288230376155289109L,
+    288230376155289106L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="-1" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="100" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/flow/logic" name="Logic" nwID="355502895586915040">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895587114916" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895587114917" className="route.TopologyRouteAdapter" name="TopologyRouteAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895717788825" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895717788825" source="355502895587114917"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288230376155289108L,
+    288793326213395165L,
+    288230376155289106L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="100" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="3500" maxErrorEvents="50" maxWaitEvents="10000" template="workflow/step/output/proout" name="Broadsheet Press 40-46" nwID="355502895587114807">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895587114818" className="flow.RulesEnforcerAdapter" name="RulesEnforcerAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "rules": [
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates Press 40",
+            "press": "Press 40",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates Press 41",
+            "press": "Press 41",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates Press 42",
+            "press": "Press 42",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates Press 43",
+            "press": "Press 43",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates Press 44",
+            "press": "Press 44",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates Press 45",
+            "press": "Press 45",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates Press 46",
+            "press": "Press 46",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "2",
+            "name": "Panorama Plates",
+            "press": "",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "drop",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": ""
+            },
+            "zone": "*"
+        }
+    ]
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895587114819" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895587114820" className="flow.LockingAdapter" name="LockingAdapter">
+                            <PROPERTIES>
+{
+    "granularity": "FORM_PRODUCTIONRUN",
+    "isGlobal": true,
+    "lockWhat": 2
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895587114821" className="flow.GroupingAdapter" name="GroupingAdapter">
+                            <PROPERTIES>
+{
+    "breakGroupOptions": "none",
+    "groupBreaking": "none",
+    "groupLockingTimeout": 0,
+    "groupOrder": [
+        "black",
+        "yellow",
+        "magenta",
+        "cyan"
+    ],
+    "groupTimeout": 1,
+    "groupType": 1,
+    "isGlobal": true,
+    "revisionGroupTimeout": 0,
+    "waitForEntireGroup": true
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895587114822" className="flow.ObjectAdapter" name="ObjectAdapter">
+                            <PROPERTIES>
+{
+    "blocked": [],
+    "considerSubTypes": false,
+    "contentType": {"hires:tiff": ["mono"]},
+    "flowStepsKey": {},
+    "includeVirtual": false,
+    "isGlobal": true,
+    "layoutEvent": "output",
+    "maxSameEvent": "all",
+    "mode": false,
+    "oneCopyForStraight": false,
+    "selectedTemplate": "plate"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895587114823" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895723162808" className="JavascriptAdapter" name="JavascriptAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "script.jsScriptName": "Production-DefaultPressConversion.js"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587114818" source="355502895587114822"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587114819" source="355502895587114818"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895723162808" source="355502895587114823"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587114821" source="355502895587114819"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587114820" source="355502895587114821"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587114823" source="355502895587114820"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895587114824" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895587114825" className="step.StatusStepAdapter" name="StatusStepAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "timeoutDelay": 40000
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895858244708" className="step.StatusReportAdapter" name="StatusReportAdapter">
+                            <PROPERTIES>
+{
+    "folderName": "College Point",
+    "selectedReporters": [{
+        "guiParams": {
+            "Customer": "College Point",
+            "WorkFlowStepType": "CTP"
+        },
+        "protocol": "cus",
+        "reporterName": "cusReporter",
+        "resourceNwid": "355502895858244743"
+    }],
+    "targetFlowStepID": "355502895858244713",
+    "workflowName": "Production"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587114825" source="355502895587114824"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895858244708" source="355502895587114825"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895587114827" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289116L,
+    288230376155289106L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288793326238565671L,
+    288793326213395165L,
+    288793326212776507L,
+    288230376155289121L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="-1" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="1500" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/comm/tx" name="BM HardProofing" nwID="355502895587133883">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895587133894" className="flow.ObjectAdapter" name="ObjectAdapter">
+                            <PROPERTIES>
+{
+    "blocked": [],
+    "considerSubTypes": false,
+    "contentType": {"hires:tiff": ["mono"]},
+    "flowStepsKey": {},
+    "includeVirtual": false,
+    "inputObjects": {
+        "book": "form/separation",
+        "form": "form/separation",
+        "form/separation": "form/separation",
+        "page": "page/separation",
+        "page/separation": "page/separation",
+        "section": "page/separation"
+    },
+    "isGlobal": true,
+    "layoutEvent": "none",
+    "maxSameEvent": "latestVersion",
+    "mode": true,
+    "oneCopyForStraight": false,
+    "selectedTemplate": ""
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895587133895" className="flow.RulesEnforcerAdapter" name="RulesEnforcerAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "rules": [{
+        "additionalConditions": [],
+        "applyTo": [""],
+        "book": "*",
+        "edition": "*",
+        "mediaType": "*",
+        "name": "Pages or Formes",
+        "press": "*",
+        "publication": "*",
+        "section": "*",
+        "specialTreatment": "none",
+        "values": {"ruleTxOutputNaming": "Proofing"},
+        "zone": "*"
+    }]
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895587133896" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587133896" source="355502895587133895"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587133895" source="355502895587133894"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895587133897" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288230376155289108L,
+    288793326213395165L,
+    288230376155289121L,
+    288230376155289106L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="100" icon="external command" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="1500" maxErrorEvents="10" maxWaitEvents="10000" template="workflow/step/input/hotfolder" name="Input" nwID="355502895587170180">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895587170191" className="flow.StatusAdapter" name="statusadapter2"/>
+                        <ADAPTER adapterDescription="" nwID="355502895587170193" className="flow.RenamingAdapter" name="PDF Renaming"/>
+                        <ADAPTER adapterDescription="" nwID="355502895587170194" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895608139557" className="UploadedFileFlowAdapter" name="UploadedFileFlow"/>
+                        <ADAPTER adapterDescription="" nwID="355502895638622232" className="flow.ReportingAdapter" name="ReportingAdapter">
+                            <PROPERTIES>
+{
+    "code": "Input",
+    "isGlobal": true,
+    "reportingEnabled": true
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895856128194" className="flow.MatchPageAdapter" name="MatchPageAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895608139557" source="355502895587170194"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895638622232" source="355502895587170191"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587170194" source="355502895638622232"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895856128194" source="355502895587170193"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587170191" source="355502895856128194"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895587170195" className="route.TopologyRouteAdapter" name="topologyrouteadapter3">
+                            <PROPERTIES>
+{
+    "defaultTransitions": false,
+    "shouldRoute": false
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895587170196" className="flow.StatusAdapter" name="statusadapter3"/>
+                        <ADAPTER adapterDescription="" nwID="355502895587170197" className="FileToObjectAdapter" name="File To Object">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "killLastVersion": false,
+    "operation": "move",
+    "unplanned": "",
+    "unplannedPolicy": "AcceptAsUnplan"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895587170198" className="flow.MatchPageAdapter" name="Match Page">
+                            <PROPERTIES>
+{
+    "dropIfProgress": false,
+    "dropIfProgressMoveToUnplanned": false,
+    "dropIfProgressValue": "",
+    "dropOldVersion": false,
+    "dropOldVersionMoveToUnplanned": false,
+    "dropSameVersion": false,
+    "dropSameVersionMoveToUnplanned": false,
+    "isGlobal": true
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895587170207" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895587459723" className="LowResAdapter" name="LowResAdapter_1">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "useGeneralSetup": true
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895608139561" className="UploadedFileFlowAdapter" name="UploadedFileFlow"/>
+                        <ADAPTER adapterDescription="" nwID="355502895793804276" className="step.TiffCompareAdapter" name="TiffCompareAdapter">
+                            <PROPERTIES>
+{
+    "bottomMargin": "0",
+    "checkTiffs": true,
+    "dropMode": "drop",
+    "leftMargin": "0",
+    "marginUnits": "in",
+    "rightMargin": "0",
+    "topMargin": "0",
+    "useLayoutMargins": false
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587170196" source="355502895587170207"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587459723" source="355502895587170196"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587170197" source="355502895587170198"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895608139561" source="355502895587170197"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895793804276" source="355502895608139561"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587170207" source="355502895793804276"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587170195" source="355502895587459723"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895587170210" className="flow.StatusAdapter" name="Status"/>
+                        <ADAPTER adapterDescription="" nwID="355502895587170211" className="flow.ReTryAdapter" name="Retry Settings">
+                            <PROPERTIES>
+{
+    "considerForStatus": "true",
+    "holdTime": 30,
+    "retryNumber": 2
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587170210" source="355502895587170211"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289116L,
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288230376155289108L,
+    288793326213395165L,
+    288230376155289109L,
+    288230376155289106L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="33" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="1500" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/image/tiffprocessor" name="Impose" nwID="355502895585577798">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895598075047" className="flow.ObjectAdapter" name="ObjectAdapter">
+                            <PROPERTIES>
+{
+    "blocked": [],
+    "considerSubTypes": false,
+    "contentType": {"hires:tiff": ["mono"]},
+    "flowStepsKey": {},
+    "includeVirtual": false,
+    "isGlobal": true,
+    "layoutEvent": "process",
+    "maxSameEvent": "all",
+    "mode": false,
+    "oneCopyForStraight": false,
+    "selectedTemplate": "form/separation"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895598075048" className="flow.ElementCompleteAdapter" name="ElementCompleteAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895598075049" className="step.TiffProcessor" name="TiffProcessor">
+                            <PROPERTIES>
+{
+    "compressionMode": "g4",
+    "documentName": "",
+    "imageDescription": "",
+    "isGlobal": true,
+    "pageName": "",
+    "pageNumber": "",
+    "tiffFormat": "Stripped",
+    "tiffRowsPerStrip": "2000",
+    "tiffSeparationCode": "",
+    "tiffTileHeight": "2000",
+    "tiffTileWidth": "2000"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895598075050" className="flow.StatusAdapter" name="StatusAdapter_1"/>
+                        <ADAPTER adapterDescription="" nwID="355502895598075051" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895598075050" source="355502895598075049"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895598075049" source="355502895598075048"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895598075051" source="355502895598075050"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895598075048" source="355502895598075047"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895598075052" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895598075053" className="route.TopologyRouteAdapter" name="TopologyRouteAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895598075054" className="LowResAdapter" name="LowResAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "sepLowRes": false,
+    "useGeneralSetup": true
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895854148346" className="JavascriptAdapter" name="JavascriptAdapter">
+                            <PROPERTIES>
+{"script.jsScriptName": "Production-WriteSubCharcter.js"}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895858242797" className="flow.ReportingAdapter" name="ReportingAdapter">
+                            <PROPERTIES>
+{
+    "code": "impose dispatch",
+    "reportingEnabled": true
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895598075054" source="355502895598075052"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895598075053" source="355502895598075054"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895598075052" source="355502895854148346"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895858242797" source="355502895598075053"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895598075055" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289116L,
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288230376155289108L,
+    288793326213395165L,
+    288230376155289106L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="100" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="1500" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/output/proout" name="DoubleTruck" nwID="355502895601195405">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895601195416" className="flow.RulesEnforcerAdapter" name="RulesEnforcerAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "rules": [
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates",
+            "press": "*",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "drop",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": ""
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "2",
+            "name": "Panorama Plates",
+            "press": "*",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        }
+    ]
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895601195417" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895601195418" className="flow.LockingAdapter" name="LockingAdapter">
+                            <PROPERTIES>
+{
+    "granularity": "FORM_PRODUCTIONRUN",
+    "isGlobal": true,
+    "lockWhat": 2
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895601195419" className="flow.GroupingAdapter" name="GroupingAdapter">
+                            <PROPERTIES>
+{
+    "breakGroupOptions": "none",
+    "groupBreaking": "none",
+    "groupLockingTimeout": 0,
+    "groupOrder": [
+        "black",
+        "yellow",
+        "magenta",
+        "cyan"
+    ],
+    "groupTimeout": 1,
+    "groupType": 1,
+    "isGlobal": true,
+    "revisionGroupTimeout": 0,
+    "waitForEntireGroup": true
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895601195420" className="flow.ObjectAdapter" name="ObjectAdapter">
+                            <PROPERTIES>
+{
+    "blocked": [],
+    "considerSubTypes": false,
+    "contentType": {"hires:tiff": ["mono"]},
+    "flowStepsKey": {},
+    "includeVirtual": false,
+    "isGlobal": true,
+    "layoutEvent": "output",
+    "maxSameEvent": "all",
+    "mode": false,
+    "oneCopyForStraight": false,
+    "selectedTemplate": "plate"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895601195421" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895723228841" className="JavascriptAdapter" name="JavascriptAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "script.jsScriptName": "Production-DefaultPressConversion.js"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895601195421" source="355502895601195419"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895601195419" source="355502895601195418"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895601195416" source="355502895601195420"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895601195417" source="355502895601195416"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895601195418" source="355502895601195417"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895723228841" source="355502895601195421"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895601195422" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895601195423" className="step.StatusStepAdapter" name="StatusStepAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "timeoutDelay": 10000
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895734014505" className="JavascriptAdapter" name="JavascriptAdapter">
+                            <PROPERTIES>
+{"isGlobal": true}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895858245706" className="step.StatusReportAdapter" name="StatusReportAdapter">
+                            <PROPERTIES>
+{
+    "folderName": "College Point",
+    "selectedReporters": [{
+        "guiParams": {
+            "Customer": "College Point",
+            "WorkFlowStepType": "CTP"
+        },
+        "protocol": "cus",
+        "reporterName": "cusReporter",
+        "resourceNwid": "355502895858244743"
+    }],
+    "targetFlowStepID": "355502895858244713",
+    "workflowName": "Production"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895601195423" source="355502895601195422"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895734014505" source="355502895601195423"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895858245706" source="355502895734014505"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895601195425" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288230376155289108L,
+    288793326213395165L,
+    288230376155289121L,
+    288230376155289116L,
+    288230376155289106L,
+    288230376155289115L,
+    288793326212776507L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="100" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="100" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/image/tiffprocessor" name="Normalizer" nwID="355502895701774335">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895701774387" className="flow.ObjectAdapter" name="ObjectAdapter">
+                            <PROPERTIES>
+{
+    "blocked": [],
+    "considerSubTypes": false,
+    "contentType": {"hires:tiff": ["mono"]},
+    "flowStepsKey": {},
+    "includeVirtual": false,
+    "isGlobal": true,
+    "layoutEvent": "none",
+    "maxSameEvent": "all",
+    "mode": false,
+    "oneCopyForStraight": false,
+    "selectedTemplate": "page/separation"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895701774388" className="step.TiffProcessor" name="TiffProcessor">
+                            <PROPERTIES>
+{
+    "compressionMode": "g4",
+    "documentName": "",
+    "imageDescription": "",
+    "isGlobal": true,
+    "pageName": "",
+    "pageNumber": "",
+    "tiffFormat": "Stripped",
+    "tiffRowsPerStrip": "2000",
+    "tiffSeparationCode": "",
+    "tiffTileHeight": "2000",
+    "tiffTileWidth": "2000"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895701774389" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895701774390" className="image.NormalizerAdapter" name="NormalizerAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "normalizationParamName": "165"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895715008322" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895701774390" source="355502895701774387"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895701774388" source="355502895701774390"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895715008322" source="355502895701774389"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895701774389" source="355502895701774388"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895701774391" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895701774392" className="route.TopologyRouteAdapter" name="TopologyRouteAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895755460812" className="LowResAdapter" name="LowResAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "useGeneralSetup": true
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895701774391" source="355502895755460812"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895701774392" source="355502895701774391"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895701774393" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289115L,
+    288230376155289116L,
+    288230376155289098L,
+    288230376155289107L,
+    288230376155289104L,
+    288793326316466664L,
+    288230376155289122L,
+    288230376155289108L,
+    327636872891573585L,
+    288230376155289105L,
+    288230376155289106L,
+    288793326213395165L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="-1" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="100" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/image/inkc" name="BCP Values" nwID="355502895714628242">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895714628253" className="flow.ObjectAdapter" name="Separation Branch">
+                            <PROPERTIES>
+{
+    "blocked": [],
+    "considerSubTypes": false,
+    "contentType": {"hires:tiff": ["mono"]},
+    "flowStepsKey": {},
+    "includeVirtual": false,
+    "isGlobal": true,
+    "layoutEvent": "none",
+    "maxSameEvent": "all",
+    "mode": false,
+    "oneCopyForStraight": false,
+    "selectedTemplate": "form/separation"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895714628254" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895714628255" className="image.InkCAdapter" name="InkC Settings">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "rules": {"rows": [
+        {
+            "evenodd": "*",
+            "id": 80,
+            "inkSettingsName": "355502895651568742",
+            "name": "Broadsheet",
+            "plate": "355502895585586976",
+            "press": "*",
+            "specialTreatment": "none"
+        },
+        {
+            "evenodd": "*",
+            "id": 80,
+            "inkSettingsName": "355502895624335823",
+            "name": "Split1",
+            "plate": "355502895671706371",
+            "press": "*",
+            "specialTreatment": "none"
+        },
+        {
+            "evenodd": "*",
+            "id": 81,
+            "inkSettingsName": "355502895624335824",
+            "name": "Split2",
+            "plate": "355502895671706372",
+            "press": "*",
+            "specialTreatment": "none"
+        },
+        {
+            "evenodd": "*",
+            "id": 128,
+            "inkSettingsName": "355502895714845420",
+            "name": "DoubleTruck",
+            "plate": "355502895601178021",
+            "press": "*",
+            "specialTreatment": "none"
+        }
+    ]},
+    "takeFrom": "rules"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895714628256" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895714628257" className="flow.SwitchSelectAdapter" name="SwitchSelectAdapter">
+                            <PROPERTIES>
+{
+    "mode": 3,
+    "script.scriptName": "CompositeOrSeparationInkC.groovy"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895714628258" className="flow.ObjectAdapter" name="Composite Branch">
+                            <PROPERTIES>
+{
+    "blocked": [],
+    "considerSubTypes": false,
+    "contentType": {"hires:tiff": ["mono"]},
+    "flowStepsKey": {},
+    "includeVirtual": false,
+    "isGlobal": true,
+    "layoutEvent": "assemble",
+    "maxSameEvent": "all",
+    "mode": false,
+    "oneCopyForStraight": false,
+    "selectedTemplate": "form/separation"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895714628259" className="flow.StatusAdapter" name="StatusAdapter_1"/>
+                        <ADAPTER adapterDescription="" nwID="355502895714628260" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter_1"/>
+                        <ADAPTER adapterDescription="" nwID="355502895714628261" className="flow.ElementCompleteAdapter" name="ElementCompleteAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895714628262" className="image.InkCAdapterApplier" name="InkC Settings Applier"/>
+                        <ADAPTER adapterDescription="" nwID="355502895714628263" className="image.InkCAdapterApplier" name="InkC Settings Applier_1"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628254" source="355502895714628262"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628253" source="355502895714628257"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628260" source="355502895714628259"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628256" source="355502895714628254"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628262" source="355502895714628253"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628259" source="355502895714628263"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628257" source="355502895714628255"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628261" source="355502895714628258"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628258" source="355502895714628257"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628263" source="355502895714628261"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895714628264" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895714628265" className="route.TopologyRouteAdapter" name="TopologyRouteAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895714628266" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628266" source="355502895714628265"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628265" source="355502895714628264"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895714628267" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288230376155289108L,
+    288230376155289123L,
+    288230376155289106L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="-1" icon="void" oneActiveResource="true" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="100" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/comm/externalprotocol" name="Values" nwID="355502895714628284">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895714628295" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895714628296" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895714628297" className="flow.RulesEnforcerAdapter" name="RulesEnforcerAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "rules": [{
+        "additionalConditions": [],
+        "applyTo": [""],
+        "book": "*",
+        "edition": "*",
+        "mediaType": "*",
+        "name": "BCP Press",
+        "press": "*",
+        "publication": "*",
+        "section": "*",
+        "specialTreatment": "none",
+        "values": {"allowedResources": "BCP Press"},
+        "zone": "*"
+    }]
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628297" source="355502895714628296"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628295" source="355502895714628297"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895714628299" className="step.StatusStepAdapter" name="StatusStepAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "timeoutDelay": 30000
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895714628300" className="route.TopologyRouteAdapter" name="TopologyRouteAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895714628300" source="355502895714628299"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895714628301" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289122L,
+    288230376155289104L,
+    288230376155289108L,
+    288793326213395165L,
+    288793326212776507L,
+    288230376155289116L,
+    288230376155289115L,
+    288230376155289106L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="100" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="3500" maxErrorEvents="50" maxWaitEvents="10000" template="workflow/step/output/proout" name="Broadsheet No Press" nwID="355502895716400971">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895716400999" className="flow.ObjectAdapter" name="ObjectAdapter">
+                            <PROPERTIES>
+{
+    "blocked": [],
+    "contentType": {"hires:tiff": ["mono"]},
+    "includeVirtual": false,
+    "isGlobal": true,
+    "layoutEvent": "output",
+    "maxSameEvent": "all",
+    "mode": false,
+    "oneCopyForStraight": false,
+    "selectedTemplate": "plate"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895716401000" className="flow.RulesEnforcerAdapter" name="RulesEnforcerAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "rules": [
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates Press 1",
+            "press": "Press 1",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates Press 2",
+            "press": "Press 2",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates Press 3",
+            "press": "Press 3",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates Press 4",
+            "press": "Press 4",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates Press 5",
+            "press": "Press 5",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates Press 6",
+            "press": "Press 6",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "1",
+            "name": "Single Plates Press 7",
+            "press": "Press 7",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "none",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": "mediaPlateNames"
+            },
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "applyTo": [""],
+            "book": "*",
+            "edition": "*",
+            "mediaType": "2",
+            "name": "Panorama Plates",
+            "press": "*",
+            "publication": "*",
+            "section": "*",
+            "specialTreatment": "drop",
+            "values": {
+                "allowedResources": "",
+                "ruleMatchingFileName": "",
+                "ruleNDFolder": "",
+                "ruleTxOutputNaming": ""
+            },
+            "zone": "*"
+        }
+    ]
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895716401001" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895716401002" className="flow.LockingAdapter" name="LockingAdapter">
+                            <PROPERTIES>
+{
+    "granularity": "FORM_PRODUCTIONRUN",
+    "isGlobal": true,
+    "lockWhat": 2
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895716401003" className="flow.GroupingAdapter" name="GroupingAdapter">
+                            <PROPERTIES>
+{
+    "breakGroupOptions": "none",
+    "groupBreaking": "none",
+    "groupLockingTimeout": 0,
+    "groupOrder": [
+        "black",
+        "yellow",
+        "magenta",
+        "cyan"
+    ],
+    "groupTimeout": 1,
+    "groupType": 1,
+    "isGlobal": true,
+    "revisionGroupTimeout": 0,
+    "waitForEntireGroup": true
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895716401004" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895726276776" className="JavascriptAdapter" name="JavascriptAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "script.jsScriptName": "Production-DefaultPressConversion.js"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895716401001" source="355502895716401000"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895716401002" source="355502895716401001"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895716401003" source="355502895716401002"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895716401004" source="355502895716401003"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895726276776" source="355502895716401004"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895716401000" source="355502895716400999"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895716401012" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895736776259" className="step.StatusStepAdapter" name="StatusStepAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "timeoutDelay": 40000
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895858244820" className="step.StatusReportAdapter" name="StatusReportAdapter">
+                            <PROPERTIES>
+{
+    "folderName": "College Point",
+    "selectedReporters": [{
+        "guiParams": {
+            "Customer": "College Point",
+            "WorkFlowStepType": "CTP"
+        },
+        "protocol": "cus",
+        "reporterName": "cusReporter",
+        "resourceNwid": "355502895858244743"
+    }],
+    "targetFlowStepID": "355502895858244713",
+    "workflowName": "Production"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895736776259" source="355502895716401012"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895858244820" source="355502895736776259"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895716401016" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289116L,
+    288230376155289106L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288793326238565671L,
+    288793326213395165L,
+    288793326212776507L,
+    288230376155289121L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="-1" icon="void" oneActiveResource="true" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="100" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/comm/externalprotocol" name="Press JPS" nwID="355502895777953902">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895777953913" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895777953914" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895777953915" className="flow.RulesEnforcerAdapter" name="RulesEnforcerAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "rules": [{
+        "additionalConditions": [],
+        "applyTo": [""],
+        "book": "*",
+        "edition": "*",
+        "mediaType": "*",
+        "name": "send inks to press",
+        "press": "*",
+        "publication": "*",
+        "section": "*",
+        "specialTreatment": "none",
+        "values": {"allowedResources": "Goss OmniX"},
+        "zone": "*"
+    }]
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895777953916" className="JavascriptAdapter" name="JavascriptAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "script.jsScriptName": "Production-CIP Table Naming_JPS.js"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895777953915" source="355502895777953914"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895777953913" source="355502895777953915"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895777953914" source="355502895777953916"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895777953917" className="step.StatusStepAdapter" name="StatusStepAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "timeoutDelay": 30000
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895777953918" className="route.TopologyRouteAdapter" name="TopologyRouteAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895777953918" source="355502895777953917"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895777953919" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288230376155289108L,
+    288230376155289123L,
+    288230376155289122L,
+    288793326213395165L,
+    288793326212776507L,
+    288230376155289116L,
+    288230376155289115L,
+    288230376155289106L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="-1" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="100" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/image/inkc" name="Ink Values JPS" nwID="355502895777953941">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895777953952" className="flow.ObjectAdapter" name="Separation Branch">
+                            <PROPERTIES>
+{
+    "blocked": [],
+    "considerSubTypes": false,
+    "contentType": {"hires:tiff": ["mono"]},
+    "flowStepsKey": {},
+    "includeVirtual": true,
+    "isGlobal": true,
+    "layoutEvent": "none",
+    "maxSameEvent": "latestVersion",
+    "mode": false,
+    "oneCopyForStraight": true,
+    "selectedTemplate": "plate"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895777953953" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895777953954" className="image.InkCAdapter" name="InkC Settings">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "rules": {"rows": [
+        {
+            "evenodd": "*",
+            "id": 80,
+            "inkSettingsName": "355502895617175111",
+            "name": "Broadsheet",
+            "plate": "355502895585586976",
+            "press": "*",
+            "specialTreatment": "none"
+        },
+        {
+            "evenodd": "*",
+            "id": 128,
+            "inkSettingsName": "355502895601194484",
+            "name": "Doubletruck",
+            "plate": "355502895601178021",
+            "press": "*",
+            "specialTreatment": "none"
+        },
+        {
+            "evenodd": "*",
+            "id": 77,
+            "inkSettingsName": "355502895624335823",
+            "name": "Split1",
+            "plate": "355502895671706371",
+            "press": "*",
+            "specialTreatment": "none"
+        },
+        {
+            "evenodd": "*",
+            "id": 76,
+            "inkSettingsName": "355502895624335824",
+            "name": "Split2",
+            "plate": "355502895671706372",
+            "press": "*",
+            "specialTreatment": "none"
+        },
+        {
+            "evenodd": "*",
+            "id": 78,
+            "inkSettingsName": "355502895624325062",
+            "name": "PopupLeft",
+            "plate": "355502895850030671",
+            "press": "*",
+            "specialTreatment": "none"
+        },
+        {
+            "evenodd": "*",
+            "id": 79,
+            "inkSettingsName": "355502895624325063",
+            "name": "PopupRight",
+            "plate": "355502895857299655",
+            "press": "*",
+            "specialTreatment": "none"
+        }
+    ]},
+    "takeFrom": "rules"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895777953955" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895777953961" className="image.InkCAdapterApplier" name="InkC Settings Applier"/>
+                        <ADAPTER adapterDescription="" nwID="355502895777955079" className="JavascriptAdapter" name="JavascriptAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "script.jsScriptName": "Production-CIP Table Naming_JPS.js"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895777953953" source="355502895777953961"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895777953955" source="355502895777953953"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895777953952" source="355502895777953954"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895777955079" source="355502895777953952"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895777953961" source="355502895777955079"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895777953963" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895777953964" className="route.TopologyRouteAdapter" name="TopologyRouteAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895777953965" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895777953964" source="355502895777953963"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895777953965" source="355502895777953964"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895777953966" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288230376155289108L,
+    288230376155289123L,
+    288230376155289122L,
+    288230376155289106L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="100" icon="external command" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="1500" maxErrorEvents="10" maxWaitEvents="10000" template="workflow/step/input/hotfolder" name="Dynamic Input" nwID="355502895808299297">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895808299308" className="flow.StatusAdapter" name="statusadapter2"/>
+                        <ADAPTER adapterDescription="" nwID="355502895808299309" className="flow.MatchPageAdapter" name="Match Page">
+                            <PROPERTIES>
+{
+    "dropIfProgress": false,
+    "dropIfProgressMoveToUnplanned": false,
+    "dropIfProgressValue": "",
+    "dropOldVersion": false,
+    "dropOldVersionMoveToUnplanned": false,
+    "dropSameVersion": false,
+    "dropSameVersionMoveToUnplanned": false,
+    "isGlobal": true
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895808299310" className="flow.RenamingAdapter" name="PDF Renaming"/>
+                        <ADAPTER adapterDescription="" nwID="355502895808299311" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895808299312" className="UploadedFileFlowAdapter" name="UploadedFileFlow"/>
+                        <ADAPTER adapterDescription="" nwID="355502895808299313" className="flow.ReportingAdapter" name="ReportingAdapter">
+                            <PROPERTIES>
+{
+    "code": "Input",
+    "isGlobal": true,
+    "reportingEnabled": true
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895808299440" className="JavascriptAdapter" name="JavascriptAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "script.jsScriptName": "Production-NytInput.js"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299309" source="355502895808299310"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299312" source="355502895808299311"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299313" source="355502895808299308"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299311" source="355502895808299313"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299440" source="355502895808299309"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299308" source="355502895808299440"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895808299314" className="route.TopologyRouteAdapter" name="topologyrouteadapter3">
+                            <PROPERTIES>
+{
+    "defaultTransitions": false,
+    "shouldRoute": false
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895808299315" className="flow.StatusAdapter" name="statusadapter3"/>
+                        <ADAPTER adapterDescription="" nwID="355502895808299316" className="FileToObjectAdapter" name="File To Object">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "killLastVersion": false,
+    "operation": "move",
+    "unplanned": "BuildUnplanStructure",
+    "unplannedPolicy": "BuildUnplanStructureAsPlan"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895808299317" className="flow.MatchPageAdapter" name="Match Page">
+                            <PROPERTIES>
+{
+    "dropIfProgress": false,
+    "dropIfProgressMoveToUnplanned": false,
+    "dropIfProgressValue": "",
+    "dropOldVersion": false,
+    "dropOldVersionMoveToUnplanned": false,
+    "dropSameVersion": false,
+    "dropSameVersionMoveToUnplanned": false,
+    "isGlobal": true
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895808299318" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895808299319" className="LowResAdapter" name="LowResAdapter_1">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "useGeneralSetup": true
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895808299320" className="UploadedFileFlowAdapter" name="UploadedFileFlow"/>
+                        <ADAPTER adapterDescription="" nwID="355502895808299321" className="flow.ReportingAdapter" name="ReportingAdapter">
+                            <PROPERTIES>
+{"isGlobal": true}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895808299322" className="step.TiffCompareAdapter" name="TiffCompareAdapter">
+                            <PROPERTIES>
+{
+    "bottomMargin": "0",
+    "checkTiffs": true,
+    "dropMode": "drop",
+    "leftMargin": "0",
+    "marginUnits": "in",
+    "rightMargin": "0",
+    "topMargin": "0",
+    "useLayoutMargins": false
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299315" source="355502895808299318"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299319" source="355502895808299315"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299316" source="355502895808299317"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299321" source="355502895808299319"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299314" source="355502895808299321"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299322" source="355502895808299320"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299318" source="355502895808299322"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299320" source="355502895808299316"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895808299323" className="flow.StatusAdapter" name="Status"/>
+                        <ADAPTER adapterDescription="" nwID="355502895808299324" className="flow.ReTryAdapter" name="Retry Settings">
+                            <PROPERTIES>
+{
+    "considerForStatus": "true",
+    "holdTime": 30,
+    "retryNumber": 2
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895808299323" source="355502895808299324"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289116L,
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288230376155289108L,
+    288793326213395165L,
+    288230376155289109L,
+    288230376155289106L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="-1" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="100" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/comm/tx" name="XtremeInk" nwID="355502895816234218">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895816234229" className="flow.ObjectAdapter" name="ObjectAdapter">
+                            <PROPERTIES>
+{
+    "blocked": [],
+    "considerSubTypes": false,
+    "contentType": {"hires:tiff": ["mono"]},
+    "flowStepsKey": {},
+    "includeVirtual": false,
+    "isGlobal": true,
+    "layoutEvent": "none",
+    "maxSameEvent": "latestVersion",
+    "mode": false,
+    "oneCopyForStraight": false,
+    "selectedTemplate": "plate"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895816234230" className="flow.RulesEnforcerAdapter" name="RulesEnforcerAdapter">
+                            <PROPERTIES>
+{
+    "isGlobal": true,
+    "rules": [{
+        "additionalConditions": ["plannedPage"],
+        "applyTo": [""],
+        "book": "*",
+        "edition": "*",
+        "name": "Planned",
+        "press": "*",
+        "publication": "*",
+        "section": "*",
+        "specialTreatment": "none",
+        "values": {"ruleTxOutputNaming": "XtremeInk"},
+        "zone": "*"
+    }]
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895816234231" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895816234609" className="image.MirrorInvertAdapter" name="MirrorInvert">
+                            <PROPERTIES>
+{
+    "invert": true,
+    "isGlobal": true,
+    "mirror": false
+}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895816234231" source="355502895816234230"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895816234609" source="355502895816234229"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895816234230" source="355502895816234609"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895816234232" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289107L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288230376155289108L,
+    288793326213395165L,
+    288230376155289121L,
+    288230376155289106L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="-1" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="100" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/comm/externalprotocol" name="Reporting" nwID="355502895858244713">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895858244724" className="flow.StatusAdapter" name="StatusAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895858244725" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895858244739" className="step.StatusReportProtocolAdapter" name="StatusReportProtocolAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895858244724" source="355502895858244725"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895858244725" source="355502895858244739"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895858244727" className="step.StatusStepAdapter" name="StatusStepAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895858244728" className="route.TopologyRouteAdapter" name="TopologyRouteAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895858244728" source="355502895858244727"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895858244729" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289113L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+    </STEPS>
+    <TRANSITIONS>
+        <TRANSITION default="false" timeout="10000" target="355502895587114807" source="355502895586915040"/>
+        <TRANSITION default="false" timeout="10000" target="355502895585577477" source="355502895585577798"/>
+        <TRANSITION default="false" timeout="10000" target="355502895601195405" source="355502895586915040"/>
+        <TRANSITION default="false" timeout="10000" target="355502895585577413" source="355502895587170180"/>
+        <TRANSITION default="false" timeout="10000" target="355502895585577798" source="355502895701774335"/>
+        <TRANSITION default="true" timeout="10000" target="355502895714628284" source="355502895714628242"/>
+        <TRANSITION default="false" timeout="10000" target="355502895716400971" source="355502895586915040"/>
+        <TRANSITION default="false" timeout="10000" target="355502895701774335" source="355502895587170180"/>
+        <TRANSITION default="true" timeout="10000" target="355502895586915040" source="355502895585577477"/>
+        <TRANSITION default="true" timeout="10000" target="355502895714628242" source="355502895585577477"/>
+        <TRANSITION default="true" timeout="10000" target="355502895777953941" source="355502895585577477"/>
+        <TRANSITION default="true" timeout="10000" target="355502895777953902" source="355502895777953941"/>
+        <TRANSITION default="true" timeout="10000" target="355502895701774335" source="355502895808299297"/>
+    </TRANSITIONS>
+    <VARIABLES>{}</VARIABLES>
+</FLOW>

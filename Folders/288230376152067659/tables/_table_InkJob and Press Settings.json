@@ -1,0 +1,438 @@
+{
+    "matchingMode": "text",
+    "name": "InkJob and Press Settings",
+    "nwid": "355502895777915146",
+    "overridable": true,
+    "publication": "",
+    "selectors": [
+        {
+            "defaultValue": "*",
+            "displayName": "Day of Week",
+            "fieldType": "day",
+            "freeText": true,
+            "name": "day",
+            "values": [{
+                "text": "",
+                "value": ""
+            }]
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Publication",
+            "fieldType": "publication",
+            "freeText": true,
+            "name": "publication",
+            "values": [{
+                "text": "",
+                "value": ""
+            }]
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Edition",
+            "fieldType": "edition",
+            "freeText": true,
+            "name": "edition",
+            "values": [{
+                "text": "",
+                "value": ""
+            }]
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Zone",
+            "fieldType": "zone",
+            "freeText": true,
+            "name": "zone",
+            "values": [{
+                "text": "",
+                "value": ""
+            }]
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Book",
+            "fieldType": "book",
+            "freeText": true,
+            "name": "book",
+            "values": [{
+                "text": "",
+                "value": ""
+            }]
+        }
+    ],
+    "singleValue": false,
+    "system": false,
+    "targetType": "book",
+    "values": [
+        {
+            "defaultValue": "",
+            "displayName": "Job Code",
+            "editable": true,
+            "fieldType": "",
+            "freeText": true,
+            "name": "jobcode",
+            "values": [{
+                "text": "",
+                "value": ""
+            }]
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Job ID 1",
+            "editable": true,
+            "fieldType": "string",
+            "freeText": true,
+            "name": "press 1",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Press 1 Name",
+            "editable": true,
+            "fieldType": "",
+            "freeText": false,
+            "name": "press 1 name",
+            "values": [
+                {
+                    "text": "",
+                    "value": ""
+                },
+                {
+                    "text": "Press 40",
+                    "value": "Press 40"
+                },
+                {
+                    "text": "Press 41",
+                    "value": "Press 41"
+                },
+                {
+                    "text": "Press 42",
+                    "value": "Press 42"
+                },
+                {
+                    "text": "Press 43",
+                    "value": "Press 43"
+                },
+                {
+                    "text": "Press 44",
+                    "value": "Press 44"
+                },
+                {
+                    "text": "Press 45",
+                    "value": "Press 45"
+                },
+                {
+                    "text": "Press 46",
+                    "value": "Press 46"
+                }
+            ]
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Job ID 2",
+            "editable": true,
+            "fieldType": "",
+            "freeText": true,
+            "name": "press 2",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Press 2 Name",
+            "editable": true,
+            "fieldType": "",
+            "freeText": false,
+            "name": "press 2 name",
+            "values": [
+                {
+                    "text": "",
+                    "value": ""
+                },
+                {
+                    "text": "Press 40",
+                    "value": "Press 40"
+                },
+                {
+                    "text": "Press 41",
+                    "value": "Press 41"
+                },
+                {
+                    "text": "Press 42",
+                    "value": "Press 42"
+                },
+                {
+                    "text": "Press 43",
+                    "value": "Press 43"
+                },
+                {
+                    "text": "Press 44",
+                    "value": "Press 44"
+                },
+                {
+                    "text": "Press 45",
+                    "value": "Press 45"
+                },
+                {
+                    "text": "Press 46",
+                    "value": "Press 46"
+                }
+            ]
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Job ID 3",
+            "editable": true,
+            "fieldType": "",
+            "freeText": true,
+            "name": "press 3",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Press 3 Name",
+            "editable": true,
+            "fieldType": "",
+            "freeText": false,
+            "name": "press 3 name",
+            "values": [
+                {
+                    "text": "",
+                    "value": ""
+                },
+                {
+                    "text": "Press 40",
+                    "value": "Press 40"
+                },
+                {
+                    "text": "Press 41",
+                    "value": "Press 41"
+                },
+                {
+                    "text": "Press 42",
+                    "value": "Press 42"
+                },
+                {
+                    "text": "Press 43",
+                    "value": "Press 43"
+                },
+                {
+                    "text": "Press 44",
+                    "value": "Press 44"
+                },
+                {
+                    "text": "Press 45",
+                    "value": "Press 45"
+                },
+                {
+                    "text": "Press 46",
+                    "value": "Press 46"
+                }
+            ]
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Job ID 4",
+            "editable": true,
+            "fieldType": "",
+            "freeText": true,
+            "name": "press 4",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Press 4 Name",
+            "editable": true,
+            "fieldType": "",
+            "freeText": false,
+            "name": "press 4 name",
+            "values": [
+                {
+                    "text": "",
+                    "value": ""
+                },
+                {
+                    "text": "Press 40",
+                    "value": "Press 40"
+                },
+                {
+                    "text": "Press 41",
+                    "value": "Press 41"
+                },
+                {
+                    "text": "Press 42",
+                    "value": "Press 42"
+                },
+                {
+                    "text": "Press 43",
+                    "value": "Press 43"
+                },
+                {
+                    "text": "Press 44",
+                    "value": "Press 44"
+                },
+                {
+                    "text": "Press 45",
+                    "value": "Press 45"
+                },
+                {
+                    "text": "Press 46",
+                    "value": "Press 46"
+                }
+            ]
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Job ID 5",
+            "editable": true,
+            "fieldType": "",
+            "freeText": true,
+            "name": "press 5",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Press 5 Name",
+            "editable": true,
+            "fieldType": "",
+            "freeText": false,
+            "name": "press 5 name",
+            "values": [
+                {
+                    "text": "",
+                    "value": ""
+                },
+                {
+                    "text": "Press 40",
+                    "value": "Press 40"
+                },
+                {
+                    "text": "Press 41",
+                    "value": "Press 41"
+                },
+                {
+                    "text": "Press 42",
+                    "value": "Press 42"
+                },
+                {
+                    "text": "Press 43",
+                    "value": "Press 43"
+                },
+                {
+                    "text": "Press 44",
+                    "value": "Press 44"
+                },
+                {
+                    "text": "Press 45",
+                    "value": "Press 45"
+                },
+                {
+                    "text": "Press 46",
+                    "value": "Press 46"
+                }
+            ]
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Job ID 6",
+            "editable": true,
+            "fieldType": "",
+            "freeText": true,
+            "name": "press 6",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Press 6 Name",
+            "editable": true,
+            "fieldType": "",
+            "freeText": false,
+            "name": "press 6 name",
+            "values": [
+                {
+                    "text": "",
+                    "value": ""
+                },
+                {
+                    "text": "Press 40",
+                    "value": "Press 40"
+                },
+                {
+                    "text": "Press 41",
+                    "value": "Press 41"
+                },
+                {
+                    "text": "Press 42",
+                    "value": "Press 42"
+                },
+                {
+                    "text": "Press 43",
+                    "value": "Press 43"
+                },
+                {
+                    "text": "Press 44",
+                    "value": "Press 44"
+                },
+                {
+                    "text": "Press 45",
+                    "value": "Press 45"
+                },
+                {
+                    "text": "Press 46",
+                    "value": "Press 46"
+                }
+            ]
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Job ID 7",
+            "editable": true,
+            "fieldType": "",
+            "freeText": true,
+            "name": "press 7",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Press 7 Name",
+            "editable": true,
+            "fieldType": "",
+            "freeText": false,
+            "name": "press 7 name",
+            "values": [
+                {
+                    "text": "",
+                    "value": ""
+                },
+                {
+                    "text": "Press 40",
+                    "value": "Press 40"
+                },
+                {
+                    "text": "Press 41",
+                    "value": "Press 41"
+                },
+                {
+                    "text": "Press 42",
+                    "value": "Press 42"
+                },
+                {
+                    "text": "Press 43",
+                    "value": "Press 43"
+                },
+                {
+                    "text": "Press 44",
+                    "value": "Press 44"
+                },
+                {
+                    "text": "Press 45",
+                    "value": "Press 45"
+                },
+                {
+                    "text": "Press 46",
+                    "value": "Press 46"
+                }
+            ]
+        }
+    ]
+}

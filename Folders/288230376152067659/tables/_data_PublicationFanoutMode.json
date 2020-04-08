@@ -1,0 +1,10 @@
+{
+    "changedSystemValues": {},
+    "rows": [{
+        "index": 0,
+        "selectors": {"publication": "*"},
+        "values": {"fanoutMode": "SimpleFormFanout"}
+    }],
+    "selectors": [],
+    "values": []
+}

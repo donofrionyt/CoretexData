@@ -1,0 +1,84 @@
+{
+	"steps" : [
+		{ 
+			"name" : "LoadFromFile",
+			"settings" : {
+			
+			}
+		},
+		{ 
+			"name" : "CoretexParser",
+			"settings" : {
+			
+			}
+		},
+		{ 
+			"name" : "SaveXml",
+			"settings" : {
+			
+			}
+		},
+		{ 
+			"name" : "UpdatePlanSetup",
+			"settings" : {
+			
+			}
+		},
+		{
+			"name" : "AssignExpectedNameStep",
+			"settings" : {
+			
+			}
+        },
+        { 
+			"name" : "AssignLayoutGroupStep",
+			"settings" : {
+				"openTransaction" : true,
+				"assignToObject" : "book",
+				"blindPlateLayoutGroupName": "broadsheet~~~~~",
+				"blindPlateLayoutName": "General"
+			}
+		},
+		{ 
+			"name" : "PlanStorageStep",
+			"settings" : {
+				"openTransaction" : true
+			}
+		},
+		{ 
+			"name" : "PlanPersists",
+			"settings" : {
+				"holdSteps" : ["355502895587114807","355502895716400971","355502895601195405"]
+			
+			}
+		},
+		{
+			"name" : "ColorChangeHandlerStep",
+			"settings" : {
+				"pageColorChangeStep" : "297237575406454440"
+			}
+		},
+		{ 
+			"name" : "FormMissingFormesStep",
+			"settings" : {
+				"formingStep" : "355502895585577798"	
+			}
+		},
+		{
+			"name": "OutputMissingBlindPlatesStep",
+			"settings": {
+				"outputStep": "355502895586915040",
+				"ignoreMaxPlates": true,
+				"specificPlates": true,
+				";blindPlateWidth": 17255.99927,
+				";blindPlateHeight": 26250.99906,
+				";blindPlateResX": 1270,
+				";blindPlateResY": 1270
+			}
+		}
+
+	],
+	"generalSettings" : {
+		"externalAggregate": true				
+	}
+}

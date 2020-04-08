@@ -1,0 +1,37 @@
+{
+    "matchingMode": "text",
+    "name": "Master Zones",
+    "nwid": "355502895651652077",
+    "overridable": true,
+    "publication": "",
+    "selectors": [
+        {
+            "defaultValue": "",
+            "displayName": "Publication",
+            "fieldType": "publication",
+            "freeText": true,
+            "name": "publication",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Zone",
+            "fieldType": "zone",
+            "freeText": true,
+            "name": "zone",
+            "values": []
+        }
+    ],
+    "singleValue": false,
+    "system": false,
+    "targetType": "",
+    "values": [{
+        "defaultValue": "",
+        "displayName": "Common Zone",
+        "editable": true,
+        "fieldType": "zone",
+        "freeText": true,
+        "name": "commonzone",
+        "values": []
+    }]
+}

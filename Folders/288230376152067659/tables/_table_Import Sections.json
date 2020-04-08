@@ -1,0 +1,27 @@
+{
+    "matchingMode": "startWith",
+    "name": "Import Sections",
+    "nwid": "355502895601474870",
+    "overridable": true,
+    "publication": "",
+    "selectors": [{
+        "defaultValue": "",
+        "displayName": "Import Section Code",
+        "fieldType": "",
+        "freeText": true,
+        "name": "importsectioncode",
+        "values": []
+    }],
+    "singleValue": false,
+    "system": false,
+    "targetType": "section",
+    "values": [{
+        "defaultValue": "",
+        "displayName": "NewsWay Section Code",
+        "editable": true,
+        "fieldType": "",
+        "freeText": true,
+        "name": "sectioncode",
+        "values": []
+    }]
+}

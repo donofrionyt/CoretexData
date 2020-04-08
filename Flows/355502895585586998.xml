@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FLOW builtInFlow="false" site="800" name="External">
+    <STEPS>
+        <STEP group="" progress="-1" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="1000" maxErrorEvents="10" maxWaitEvents="10000" template="workflow/step/input/hotfolder" name="Goss Import" nwID="355502895587068235">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895620787630" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895675507917" className="flow.RenamingAdapter" name="RenamingAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895620787630" source="355502895675507917"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895587068246" className="ImportPlanAdapter" name="CoretexImportAdapter">
+                            <PROPERTIES>
+{"interfaceName": "GossImport"}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895587068247" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895587068247" source="355502895587068246"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895620787631" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289116L,
+    288230376155289114L,
+    288230376155289115L,
+    288230376155289109L,
+    288230376155289106L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="-1" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="500" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/input/hotfolder" name="Courier Plan" nwID="355502895587155124">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895587155135" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895587155136" className="ImportPlanAdapter" name="ImportPlanAdapter">
+                            <PROPERTIES>
+{"interfaceName": "CourierPlan"}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289116L,
+    288230376155289114L,
+    288230376155289115L,
+    288230376155289109L,
+    288230376155289106L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="-1" icon="void" oneActiveResource="false" reprioritizeEvents="true" prioritizationInterval="0" prioritizationPolicy="288793326107572398" maxFinishedEvents="500" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/input/hotfolder" name="ECF Import" nwID="355502895628422240">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895628422251" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895630239084" className="flow.StatusAdapter" name="StatusAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895630239084" source="355502895628422251"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895628422254" className="flow.ExternalCommandsAdapter" name="External Commands">
+                            <PROPERTIES>
+{"charset": "UTF-8"}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895628422255" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895628422256" className="flow.SwitchSelectAdapter" name="SwitchSelectAdapter">
+                            <PROPERTIES>
+{
+    "mode": 3,
+    "script.scriptName": "RemoteOrExternalCommand.groovy"
+}
+</PROPERTIES>
+                        </ADAPTER>
+                        <ADAPTER adapterDescription="" nwID="355502895628422257" className="flow.RemoteCommandAdapter" name="RemoteCommandAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895628422259" className="flow.ECFToRemoteCommandAdapter" name="ECFToRemoteCommandAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895628422257" source="355502895628422256"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895628422254" source="355502895628422256"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895628422259" source="355502895628422255"/>
+                        <ADAPTERTRANSITION adapterTransitionType="success" adapterTransitionOrder="1" target="355502895628422256" source="355502895628422259"/>
+                    </ADAPTERTRANSITIONS>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289109L,
+    288230376155289110L,
+    288230376155289106L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="-1" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="100" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/comm/tx" name=" Report Publish Plan" nwID="355502895638618206">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895638618217" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289105L,
+    288230376155289098L,
+    288230376155289104L,
+    288230376155289108L,
+    288230376155289121L,
+    288230376155289106L,
+    288230376155289115L
+]}</Columns>
+        </STEP>
+        <STEP group="" progress="-1" icon="void" oneActiveResource="false" reprioritizeEvents="false" prioritizationInterval="0" maxFinishedEvents="100" maxErrorEvents="100" maxWaitEvents="10000" template="workflow/step/input/hotfolder" name="Manual Coretex" nwID="355502895698485066">
+            <ADAPTERFLOWS>
+                <ADAPTERFLOW type="flowExec">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895698485077" className="event.FlowStepInfoAdapter" name="FlowStepInfoAdapter"/>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowRealTime">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowDispatch">
+                    <ADAPTERS>
+                        <ADAPTER adapterDescription="" nwID="355502895698485078" className="ImportPlanAdapter" name="ImportPlanAdapter">
+                            <PROPERTIES>
+{"interfaceName": "ManualCoretex"}
+</PROPERTIES>
+                        </ADAPTER>
+                    </ADAPTERS>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+                <ADAPTERFLOW type="flowError">
+                    <ADAPTERS/>
+                    <ADAPTERTRANSITIONS/>
+                </ADAPTERFLOW>
+            </ADAPTERFLOWS>
+            <Columns>{"columns": [
+    288230376155289114L,
+    288230376155289115L,
+    288230376155289109L,
+    288230376155289106L
+]}</Columns>
+        </STEP>
+    </STEPS>
+    <TRANSITIONS/>
+    <VARIABLES>{}</VARIABLES>
+</FLOW>

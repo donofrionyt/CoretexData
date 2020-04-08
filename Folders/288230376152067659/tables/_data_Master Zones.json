@@ -1,0 +1,50 @@
+{"rows": [
+    {
+        "index": 0,
+        "selectors": {
+            "publication": "YD3",
+            "zone": "N1"
+        },
+        "values": {"commonzone": "NA"}
+    },
+    {
+        "index": 1,
+        "selectors": {
+            "publication": "YD3",
+            "zone": "N2"
+        },
+        "values": {"commonzone": "NA"}
+    },
+    {
+        "index": 2,
+        "selectors": {
+            "publication": "YD3",
+            "zone": "S1"
+        },
+        "values": {"commonzone": "SU"}
+    },
+    {
+        "index": 3,
+        "selectors": {
+            "publication": "YD3",
+            "zone": "S2"
+        },
+        "values": {"commonzone": "SU"}
+    },
+    {
+        "index": 4,
+        "selectors": {
+            "publication": "YD3",
+            "zone": "S3"
+        },
+        "values": {"commonzone": "SU"}
+    },
+    {
+        "index": 5,
+        "selectors": {
+            "publication": "YD3",
+            "zone": "S4"
+        },
+        "values": {"commonzone": "SU"}
+    }
+]}

@@ -1,0 +1,1 @@
+{"name":"Remote-TX-Remote Publish Pages Naming","nwid":288793326212482832L,"pattern":"$ExpectedName()^$EventObjectExternalVersion()","patternType":"macros","usage":"output"}

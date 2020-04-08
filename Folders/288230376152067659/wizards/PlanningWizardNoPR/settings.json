@@ -1,0 +1,112 @@
+{
+	"steps" : [
+		{ 
+			"name" : "ManualPlanDescriptorsGenerator",
+			"settings" : {
+
+			}
+		},
+		{ 
+            "name" : "AssignExpectedNameStep",
+            "settings" : {
+            	"manualAction" : true            
+            }
+        },
+		{ 
+			"name" : "ResolveCoretexTablesStep",
+			"settings" : {
+				"tables" : [
+					"InkJob and Press Settings",
+					"zGREY BARSz"
+									]
+			}
+		},
+		{ 
+			"name" : "SaveXml",
+			"settings" : {
+
+			}
+		},		
+		{ 
+			"name" : "PlanStorageStep",
+			"settings" : {
+				"openTransaction" : true
+			}
+		},
+		{ 
+			"name" : "PlanPersists",
+			"settings" : {
+				"publishPlanStep" : "355502895588131264",
+				"openTransaction" : true,
+				"productionrunLabel" : "PWProductionRunName",
+				"productionrunShortLabel" : "PWProductionRunCode",
+				"holdSteps" : ["355502895587114807","355502895716400971","355502895601195405"]
+			}
+		},
+		{ 
+			"name" : "FormLayoutChanged",
+			"settings" : {
+				"formingStep" : "355502895585577798"
+			}
+		},
+		{ 
+			"name" : "FormMissingFormesStep",
+			"settings" : {
+				"formingStep" : "355502895585577798"	
+			}
+		},
+		{
+			"name" : "OutputMissingPlatesStep",
+			"settings" : {
+				";outputSteps" : ["355502895587114807","355502895716400971","355502895601195405"],
+				";ignoreMaxPlates": true,
+				";specificPlates": true
+			}
+		}	
+		
+	],	
+	"clientSettings" : {
+		"sourceBreadcrumb": true,
+		"formNameMode": "pages",
+			"steps": [
+			{
+				"title": "Structure",
+				"stepName": "Structure",
+				"properties": {
+					"deadLineLevel": "all"
+					}
+				},
+			{
+				"title": "Sections",
+				"stepName": "Sections",
+				"properties": {
+					"deadLineLevel": "all"
+					}
+				},			{
+				"title": "Pages",
+				"stepName": "Pages",
+				"properties": {
+					"deadLineLevel": "all"
+					}
+				},			{
+				"title": "Books",
+				"stepName": "Books",
+				"properties": {
+					"deadLineLevel": "all"
+					}
+				},			{
+				"title": "Formes",
+				"stepName": "Formes",
+				"properties": {
+					"deadLineLevel": "all"
+					}
+				},			{
+				"title": "Plan Activation",
+				"stepName": "Plan Activation",
+				"properties": {
+					"deadLineLevel": "all"
+					}
+				},				
+		]
+	}
+}

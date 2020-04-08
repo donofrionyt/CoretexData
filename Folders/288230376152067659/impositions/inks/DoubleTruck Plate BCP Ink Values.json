@@ -1,0 +1,48 @@
+{
+    "elementType": "ink",
+    "inkAreas": [
+        {
+            "correctionEnabled": false,
+            "correctionFactors": [],
+            "elementType": "inkArea",
+            "height": 20.590551181102363,
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+            "name": "Even Side",
+            "oneBitTiffFormat": "",
+            "unequalZoneWidth": false,
+            "width": 11.929133858267717,
+            "x": 0,
+            "y": 1.1259842519685042,
+            "zoneCount": 8,
+            "zoneWidths": []
+        },
+        {
+            "correctionEnabled": false,
+            "correctionFactors": [],
+            "elementType": "inkArea",
+            "height": 20.590551181102363,
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+            "name": "Odd Side",
+            "oneBitTiffFormat": "",
+            "unequalZoneWidth": false,
+            "width": 11.929133858267717,
+            "x": 11.929133858267717,
+            "y": 1.1259842519685042,
+            "zoneCount": 8,
+            "zoneWidths": []
+        }
+    ],
+    "inkModel": "zones",
+    "name": "DoubleTruck Plate BCP Ink Values",
+    "nwid": "355502895714845420",
+    "outputMode": "filePerSeparation",
+    "plateName": "DoubleTruck",
+    "plateNwid": "355502895601178021",
+    "version": "1.0"
+}

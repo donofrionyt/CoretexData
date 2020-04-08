@@ -1,0 +1,1 @@
+{"name":"Plate Approval Name","nwid":355502895586755367L,"pattern":"$PublicationDate('MMdd')_$PublicationCode()_$EditionCode()_$LowerImpositionPageName()","patternType":"macros","usage":"approval"}

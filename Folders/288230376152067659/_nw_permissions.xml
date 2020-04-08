@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Permissions version="1.0">
+    <Group permissions="rw" specNwId="355502895624034966" groupName="SysTechnicians" nwid="288230376155288993">
+        <Families>
+            <Family familyName="Unplanned" defaultDefinitionNwId="313281649083969220" nwid="355502895624034934">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/Publications/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Administrative" nwid="355502895624241058">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/Publications/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="PlanProduct" defaultDefinitionNwId="313281649079366367" nwid="355502895624034944">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/Publications/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Tracking" defaultDefinitionNwId="313281649079366363" nwid="355502895624034940">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/Publications/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Approval" defaultDefinitionNwId="313281649079366364" nwid="355502895624034941">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/Publications/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="EditProduct" defaultDefinitionNwId="313281649079366365" nwid="355502895624034942">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/Publications/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="OperateProduct" defaultDefinitionNwId="313281649079366366" nwid="355502895624034943">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/Publications/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Upload" defaultDefinitionNwId="296111675501808352" nwid="355502895624034936">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/Publications/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="GlobalSetup" defaultDefinitionNwId="313281649083017215" nwid="355502895624034932">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=".*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="ControlPanel" defaultDefinitionNwId="313281649079431200" nwid="355502895624034931">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=".*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="General" defaultDefinitionNwId="313281649079366362" nwid="355502895624034930">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/Demons|/Demons/.*|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/Essentials"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/profiles/users/User"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="PlanTree" defaultDefinitionNwId="373235819125256346" nwid="355502895624034939">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Advanced" defaultDefinitionNwId="313281649079366368" nwid="355502895624034945">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/Demons|/Demons/.*|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/Essentials/TIFF Imposed|/Essentials/TIFF Imposed/.*|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/Essentials/PDF Imposed|/Essentials/PDF Imposed/.*|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/Essentials|/Essentials/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="ViewWorkflow" defaultDefinitionNwId="313281649079366369" nwid="355502895624034946">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/Production|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BCP Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BM HardProofing"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet No Press"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Local Archive"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Logic"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/External|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ Report Publish Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Courier Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ECF Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Goss Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Manual Coretex"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="OperateWorkflow" defaultDefinitionNwId="313281649079366370" nwid="355502895624034947">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/Production|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BCP Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BM HardProofing"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet No Press"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Local Archive"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Logic"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/External|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ Report Publish Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Courier Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ECF Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Goss Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Manual Coretex"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="ManageWorkflow" defaultDefinitionNwId="313281649079366372" nwid="355502895624034949">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/Production|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BCP Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BM HardProofing"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet No Press"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Local Archive"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Logic"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/External|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ Report Publish Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Courier Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ECF Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Goss Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Manual Coretex"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="EditWorkflow" defaultDefinitionNwId="313281649079366371" nwid="355502895624034948">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/Production|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BCP Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BM HardProofing"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet No Press"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Local Archive"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Logic"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/External|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ Report Publish Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Courier Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ECF Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Goss Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Manual Coretex"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="PressKnowledge" defaultDefinitionNwId="313281649256272919" nwid="355502895624034937">
+                <ScopeSelectors/>
+            </Family>
+            <Family familyName="ProductionRunsTree" defaultDefinitionNwId="372954344144129373" nwid="355502895624034938">
+                <ScopeSelectors/>
+            </Family>
+            <Family familyName="Naming Pattern" defaultDefinitionNwId="313281649256465097" nwid="355502895624034955">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Normalizer Setup" defaultDefinitionNwId="313281649256465100" nwid="355502895624034958">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Renaming Rule" defaultDefinitionNwId="313281649256465098" nwid="355502895624034956">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Planning Tool" nwid="355502895836358233">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Manage Families" defaultDefinitionNwId="373235819123906793" nwid="355502895624034963">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Goss Import" nwid="355502895624392153">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Activation Templates" defaultDefinitionNwId="313281649256465096" nwid="355502895624034954">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Security Settings" defaultDefinitionNwId="313281649256465095" nwid="355502895624034953">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="UploadTool" defaultDefinitionNwId="373235819125262368" nwid="355502895624034935">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Layout Manager" defaultDefinitionNwId="313281649256465103" nwid="355502895624034960">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Planning Wizard" nwid="355502895815655591">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Create Workflow" defaultDefinitionNwId="373235819123911045" nwid="355502895624034962">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Coretex Tables" defaultDefinitionNwId="313281649256465101" nwid="355502895624034959">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="UnplannedTool" defaultDefinitionNwId="373235819125262367" nwid="355502895624034933">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Product Setup" defaultDefinitionNwId="313281649256465099" nwid="355502895624034957">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+        </Families>
+        <ConfiguredViews/>
+        <ConfiguredActions/>
+        <Cliques/>
+    </Group>
+    <Group permissions="rw" specNwId="355502895624034967" groupName="tech1-6" nwid="355502895598236915">
+        <Families>
+            <Family familyName="PlanProduct" defaultDefinitionNwId="313281649079366367" nwid="355502895624034944">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Tracking" defaultDefinitionNwId="313281649079366363" nwid="355502895624034940">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Approval" defaultDefinitionNwId="313281649079366364" nwid="355502895624034941">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="EditProduct" defaultDefinitionNwId="313281649079366365" nwid="355502895624034942">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="OperateProduct" defaultDefinitionNwId="313281649079366366" nwid="355502895624034943">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Unplanned" defaultDefinitionNwId="313281649083969220" nwid="355502895624034934">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Upload" defaultDefinitionNwId="296111675501808352" nwid="355502895624034936">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="General" defaultDefinitionNwId="313281649079366362" nwid="355502895624034930">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/profiles/users/User"/>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="PlanTree" defaultDefinitionNwId="373235819125256346" nwid="355502895624034939">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Layout Manager" defaultDefinitionNwId="313281649256465103" nwid="355502895624034960">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="UnplannedTool" defaultDefinitionNwId="373235819125262367" nwid="355502895624034933">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+        </Families>
+        <ConfiguredViews/>
+        <ConfiguredActions/>
+        <Cliques/>
+    </Group>
+    <Group permissions="rw" specNwId="355502895624034968" groupName="pdc" nwid="355502895598236924">
+        <Families>
+            <Family familyName="PlanProduct" defaultDefinitionNwId="313281649079366367" nwid="355502895624034944">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Tracking" defaultDefinitionNwId="313281649079366363" nwid="355502895624034940">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Approval" defaultDefinitionNwId="313281649079366364" nwid="355502895624034941">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="EditProduct" defaultDefinitionNwId="313281649079366365" nwid="355502895624034942">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="OperateProduct" defaultDefinitionNwId="313281649079366366" nwid="355502895624034943">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/New York Times/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Unplanned" defaultDefinitionNwId="313281649083969220" nwid="355502895624034934">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="GlobalSetup" defaultDefinitionNwId="313281649083017215" nwid="355502895624034932">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=".*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="ControlPanel" defaultDefinitionNwId="313281649079431200" nwid="355502895624034931">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=".*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="General" defaultDefinitionNwId="313281649079366362" nwid="355502895624034930">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/profiles/users/User"/>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="PlanTree" defaultDefinitionNwId="373235819125256346" nwid="355502895624034939">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Layout Manager" defaultDefinitionNwId="313281649256465103" nwid="355502895624034960">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="UnplannedTool" defaultDefinitionNwId="373235819125262367" nwid="355502895624034933">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+        </Families>
+        <ConfiguredViews/>
+        <ConfiguredActions/>
+        <Cliques/>
+    </Group>
+    <Group permissions="rw" specNwId="355502895624034969" groupName="Sys-NYT" nwid="355502895598715607">
+        <Families>
+            <Family familyName="Unplanned" defaultDefinitionNwId="313281649083969220" nwid="355502895624034934">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Administrative" nwid="355502895624241058">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="PlanProduct" defaultDefinitionNwId="313281649079366367" nwid="355502895624034944">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Tracking" defaultDefinitionNwId="313281649079366363" nwid="355502895624034940">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern=""/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Approval" defaultDefinitionNwId="313281649079366364" nwid="355502895624034941">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="EditProduct" defaultDefinitionNwId="313281649079366365" nwid="355502895624034942">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="OperateProduct" defaultDefinitionNwId="313281649079366366" nwid="355502895624034943">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Upload" defaultDefinitionNwId="296111675501808352" nwid="355502895624034936">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/New York Times/unplanned/.*"/>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=""/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="GlobalSetup" defaultDefinitionNwId="313281649083017215" nwid="355502895624034932">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=".*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="ControlPanel" defaultDefinitionNwId="313281649079431200" nwid="355502895624034931">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern=".*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="General" defaultDefinitionNwId="313281649079366362" nwid="355502895624034930">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/profiles/users/User"/>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="PlanTree" defaultDefinitionNwId="373235819125256346" nwid="355502895624034939">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="ViewWorkflow" defaultDefinitionNwId="313281649079366369" nwid="355502895624034946">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/Production|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BCP Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BM HardProofing"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet No Press"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Local Archive"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Logic"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/External|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ Report Publish Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Courier Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ECF Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Goss Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Manual Coretex"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="OperateWorkflow" defaultDefinitionNwId="313281649079366370" nwid="355502895624034947">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/Production|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BCP Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BM HardProofing"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet No Press"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Local Archive"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Logic"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/External|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ Report Publish Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Courier Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ECF Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Goss Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Manual Coretex"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="ManageWorkflow" defaultDefinitionNwId="313281649079366372" nwid="355502895624034949">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/Production|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BCP Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BM HardProofing"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet No Press"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Local Archive"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Logic"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/External|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ Report Publish Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Courier Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ECF Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Goss Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Manual Coretex"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="EditWorkflow" defaultDefinitionNwId="313281649079366371" nwid="355502895624034948">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/Production|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BCP Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BM HardProofing"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet No Press"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Local Archive"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Logic"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/External|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ Report Publish Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Courier Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ECF Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Goss Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Manual Coretex"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="PressKnowledge" defaultDefinitionNwId="313281649256272919" nwid="355502895624034937">
+                <ScopeSelectors/>
+            </Family>
+            <Family familyName="ProductionRunsTree" defaultDefinitionNwId="372954344144129373" nwid="355502895624034938">
+                <ScopeSelectors/>
+            </Family>
+            <Family familyName="Naming Pattern" defaultDefinitionNwId="313281649256465097" nwid="355502895624034955">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Normalizer Setup" defaultDefinitionNwId="313281649256465100" nwid="355502895624034958">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Renaming Rule" defaultDefinitionNwId="313281649256465098" nwid="355502895624034956">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Planning Tool" nwid="355502895836358233">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Manage Families" defaultDefinitionNwId="373235819123906793" nwid="355502895624034963">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Goss Import" nwid="355502895624392153">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Activation Templates" defaultDefinitionNwId="313281649256465096" nwid="355502895624034954">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Security Settings" defaultDefinitionNwId="313281649256465095" nwid="355502895624034953">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="UploadTool" defaultDefinitionNwId="373235819125262368" nwid="355502895624034935">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Layout Manager" defaultDefinitionNwId="313281649256465103" nwid="355502895624034960">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Planning Wizard" nwid="355502895815655591">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Create Workflow" defaultDefinitionNwId="373235819123911045" nwid="355502895624034962">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Coretex Tables" defaultDefinitionNwId="313281649256465101" nwid="355502895624034959">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="UnplannedTool" defaultDefinitionNwId="373235819125262367" nwid="355502895624034933">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Product Setup" defaultDefinitionNwId="313281649256465099" nwid="355502895624034957">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+        </Families>
+        <ConfiguredViews/>
+        <ConfiguredActions/>
+        <Cliques/>
+    </Group>
+    <Group permissions="rw" specNwId="355502895629863930" groupName="NYCP-NWX-Users" nwid="355502895629863931">
+        <Families>
+            <Family familyName="Unplanned" defaultDefinitionNwId="313281649083969220" nwid="355502895624034934">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Administrative" nwid="355502895624241058">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="PlanProduct" defaultDefinitionNwId="313281649079366367" nwid="355502895624034944">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Tracking" defaultDefinitionNwId="313281649079366363" nwid="355502895624034940">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Approval" defaultDefinitionNwId="313281649079366364" nwid="355502895624034941">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="EditProduct" defaultDefinitionNwId="313281649079366365" nwid="355502895624034942">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="OperateProduct" defaultDefinitionNwId="313281649079366366" nwid="355502895624034943">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Upload" defaultDefinitionNwId="296111675501808352" nwid="355502895624034936">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="General" defaultDefinitionNwId="313281649079366362" nwid="355502895624034930">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/profiles/users/User"/>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="ViewWorkflow" defaultDefinitionNwId="313281649079366369" nwid="355502895624034946">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/Production|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BCP Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BM HardProofing"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet No Press"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Local Archive"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Logic"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/External|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Courier Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ECF Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Goss Import"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="OperateWorkflow" defaultDefinitionNwId="313281649079366370" nwid="355502895624034947">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/Production|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BCP Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BM HardProofing"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet No Press"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Local Archive"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Logic"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/External|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Courier Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ECF Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Goss Import"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="ManageWorkflow" defaultDefinitionNwId="313281649079366372" nwid="355502895624034949">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/Production|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BCP Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/BM HardProofing"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet No Press"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Local Archive"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Logic"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/External|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Courier Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/ECF Import"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Goss Import"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="PressKnowledge" defaultDefinitionNwId="313281649256272919" nwid="355502895624034937">
+                <ScopeSelectors/>
+            </Family>
+            <Family familyName="PlanTree" defaultDefinitionNwId="373235819125256346" nwid="355502895624034939">
+                <ScopeSelectors/>
+            </Family>
+            <Family familyName="ProductionRunsTree" defaultDefinitionNwId="372954344144129373" nwid="355502895624034938">
+                <ScopeSelectors/>
+            </Family>
+            <Family familyName="Renaming Rule" defaultDefinitionNwId="313281649256465098" nwid="355502895624034956">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Goss Import" nwid="355502895624392153">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Security Settings" defaultDefinitionNwId="313281649256465095" nwid="355502895624034953">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="UploadTool" defaultDefinitionNwId="373235819125262368" nwid="355502895624034935">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Coretex Tables" defaultDefinitionNwId="313281649256465101" nwid="355502895624034959">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="UnplannedTool" defaultDefinitionNwId="373235819125262367" nwid="355502895624034933">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/unplanned/.*"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="Product Setup" defaultDefinitionNwId="313281649256465099" nwid="355502895624034957">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="(/?controlpanel/.*|/College Point/.*|/Demons|/Demons/.*|/resource/.*)"/>
+                </ScopeSelectors>
+            </Family>
+        </Families>
+        <ConfiguredViews/>
+        <ConfiguredActions/>
+        <Cliques/>
+    </Group>
+    <Group permissions="rw" specNwId="355502895629875427" groupName="NYCP-NWX-Read" nwid="355502895629875428">
+        <Families>
+            <Family familyName="Tracking" defaultDefinitionNwId="313281649079366363" nwid="355502895624034940">
+                <ScopeSelectors>
+                    <Selector literalData="" customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point|/College Point/[a-zA-Z]{3}-\d{2}-\d{4}/.*)"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="General" defaultDefinitionNwId="313281649079366362" nwid="355502895624034930">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/?controlpanel/profiles/users/User"/>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/?controlpanel/.*"/>
+                    <Selector customRegEx="false" globalDataAccess="false" access="AllowAndConfig" pattern="/"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="ViewWorkflow" defaultDefinitionNwId="313281649079366369" nwid="355502895624034946">
+                <ScopeSelectors>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="(/College Point/External|/resource/.*)"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Courier Plan"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/External/Goss Import"/>
+                </ScopeSelectors>
+            </Family>
+            <Family familyName="PlanTree" defaultDefinitionNwId="373235819125256346" nwid="355502895624034939">
+                <ScopeSelectors/>
+            </Family>
+        </Families>
+        <ConfiguredViews/>
+        <ConfiguredActions/>
+        <Cliques/>
+    </Group>
+</Permissions>

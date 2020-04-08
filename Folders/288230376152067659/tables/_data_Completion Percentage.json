@@ -1,0 +1,32 @@
+{"rows": [
+    {
+        "index": 0,
+        "selectors": {"microZone": "Nassau1"},
+        "values": {"zone": "Nassau"}
+    },
+    {
+        "index": 1,
+        "selectors": {"microZone": "Nassau2"},
+        "values": {"zone": "Nassau"}
+    },
+    {
+        "index": 2,
+        "selectors": {"microZone": "Suffolk1"},
+        "values": {"zone": "Suffolk"}
+    },
+    {
+        "index": 3,
+        "selectors": {"microZone": "Suffolk2"},
+        "values": {"zone": "Suffolk"}
+    },
+    {
+        "index": 4,
+        "selectors": {"microZone": "Suffolk3"},
+        "values": {"zone": "Suffolk"}
+    },
+    {
+        "index": 5,
+        "selectors": {"microZone": "Suffolk4"},
+        "values": {"zone": "Suffolk"}
+    }
+]}

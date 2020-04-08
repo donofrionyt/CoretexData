@@ -1,0 +1,102 @@
+{
+	"steps" : [
+		{ 
+			"name" : "LoadFromFile",
+			"settings" : {
+
+			}
+		},
+		{ 
+			"name" : "XsltPlanImportParser",
+			"settings" : {
+				"xslFileName" : "NYT_Courier2Coretex.xsl"
+			}
+		},
+		{ 
+			"name" : "SaveXml",
+			"settings" : {
+
+			}
+		},
+		{ 
+			"name" : "CoretexParser",
+			"settings" : {
+				
+			}
+		},
+		{ 
+			"name" : "UpdatePlanSetup",
+			"settings" : {
+				
+			}
+		},
+		{ 
+			"name" : "AssignExpectedNameStep",
+			"settings" : {
+				"expectedNamePattern" : "Internal Products"
+			}
+		},
+				{ 
+			"name" : "ResolveCoretexTablesStep",
+			"settings" : {
+				"tables" : [
+					"Ink Job Settings"
+									]
+			}
+		},
+		
+		{ 
+			"name" : "AssignLayoutGroupStep",
+			"settings" : {
+				"openTransaction" : true,
+				"assignToObject" : "section",
+                                 "useSystemTable": true
+			}
+		},
+		{ 
+			"name" : "PlanStorageStep",
+			"settings" : {
+				"openTransaction" : true
+			}
+		},	
+
+		{ 
+			"name" : "Pairing",
+			"settings" : {
+				"openTransaction" : true,
+				"numberOfPlates" : 0,
+				"formNameMode": "pages"
+			}
+		},
+				{ 
+			"name" : "ResolveCoretexTablesStep",
+			"settings" : {
+				"tables" : [
+					"Ink Job Settings"
+									]
+			}
+		},
+		{ 
+			"name" : "SaveXml",
+			"settings" : {
+
+			}
+		},
+		{ 
+			"name" : "PlanPersists",
+			"settings" : {
+				"publishPlanStep" : "355502895638618206"
+				}
+		},
+		{
+			"name" : "OutputMissingPlatesStep",
+			"settings" : {
+				"outputStep" : "355502895586915040",
+			}
+		}
+		
+	],
+	"generalSettings" : {
+		"externalAggregate": true				
+	}
+}

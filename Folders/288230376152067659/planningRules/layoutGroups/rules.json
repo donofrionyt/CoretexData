@@ -1,0 +1,16 @@
+{"rules": [{
+    "additionalConditions": [],
+    "book": "*",
+    "day": "*",
+    "edition": "*",
+    "name": "New Rule",
+    "press": "*",
+    "publication": "*",
+    "values": {
+        "ruleLayoutGroup2UP": "",
+        "ruleLayoutGroup4UP": "",
+        "ruleLayoutGroupBroadSheet": "Broadsheet",
+        "ruleLayoutGroupTabloid": ""
+    },
+    "zone": "*"
+}]}

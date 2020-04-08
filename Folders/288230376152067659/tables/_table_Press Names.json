@@ -1,0 +1,127 @@
+{
+    "matchingMode": "startWith",
+    "name": "Press Names",
+    "nwid": "355502895726278294",
+    "overridable": false,
+    "publication": "",
+    "selectors": [
+        {
+            "defaultValue": "*",
+            "displayName": "Day in Week",
+            "fieldType": "day",
+            "freeText": false,
+            "name": "day",
+            "values": []
+        },
+        {
+            "defaultValue": "*",
+            "displayName": "Publication",
+            "fieldType": "publication",
+            "freeText": false,
+            "name": "publication",
+            "values": []
+        },
+        {
+            "defaultValue": "*",
+            "displayName": "Edition",
+            "fieldType": "edition",
+            "freeText": false,
+            "name": "edition",
+            "values": []
+        },
+        {
+            "defaultValue": "*",
+            "displayName": "Zone",
+            "fieldType": "zone",
+            "freeText": false,
+            "name": "zone",
+            "values": []
+        },
+        {
+            "defaultValue": "*",
+            "displayName": "Book",
+            "fieldType": "book",
+            "freeText": false,
+            "name": "book",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Manual Press Name",
+            "fieldType": "",
+            "freeText": false,
+            "name": "manualpressname",
+            "values": [
+                {
+                    "text": "Press 1",
+                    "value": "Press 1"
+                },
+                {
+                    "text": "Press 2",
+                    "value": "Press 2"
+                },
+                {
+                    "text": "Press 3",
+                    "value": "Press 3"
+                },
+                {
+                    "text": "Press 4",
+                    "value": "Press 4"
+                },
+                {
+                    "text": "Press 5",
+                    "value": "Press 5"
+                },
+                {
+                    "text": "Press 6",
+                    "value": "Press 6"
+                },
+                {
+                    "text": "Press 7",
+                    "value": "Press 7"
+                }
+            ]
+        }
+    ],
+    "singleValue": false,
+    "system": false,
+    "targetType": "plate",
+    "values": [{
+        "defaultValue": "",
+        "displayName": "Real Press Name",
+        "editable": true,
+        "fieldType": "",
+        "freeText": false,
+        "name": "realpressname",
+        "values": [
+            {
+                "text": "Press 40",
+                "value": "Press 40"
+            },
+            {
+                "text": "Press 41",
+                "value": "Press 41"
+            },
+            {
+                "text": "Press 42",
+                "value": "Press 42"
+            },
+            {
+                "text": "Press 43",
+                "value": "Press 43"
+            },
+            {
+                "text": "Press 44",
+                "value": "Press 44"
+            },
+            {
+                "text": "Press 45",
+                "value": "Press 45"
+            },
+            {
+                "text": "Press 46",
+                "value": "Press 46"
+            }
+        ]
+    }]
+}

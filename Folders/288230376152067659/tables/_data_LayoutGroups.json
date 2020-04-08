@@ -1,0 +1,66 @@
+{"rows": [
+    {
+        "index": 0,
+        "selectors": {
+            "book": "*",
+            "day": "*",
+            "edition": "*",
+            "publication": "*",
+            "zone": "*"
+        },
+        "values": {
+            "2UP": "",
+            "4UP": "",
+            "BroadSheet": "Broadsheet",
+            "Tabloid": ""
+        }
+    },
+    {
+        "index": 1,
+        "selectors": {
+            "book": "*",
+            "day": "*",
+            "edition": "*",
+            "publication": "NewsDay",
+            "zone": "*"
+        },
+        "values": {
+            "2UP": "",
+            "4UP": "",
+            "BroadSheet": "Tabloid",
+            "Tabloid": ""
+        }
+    },
+    {
+        "index": 2,
+        "selectors": {
+            "book": "*",
+            "day": "*",
+            "edition": "*",
+            "publication": "AM New York",
+            "zone": "*"
+        },
+        "values": {
+            "2UP": "",
+            "4UP": "",
+            "BroadSheet": "Tabloid",
+            "Tabloid": ""
+        }
+    },
+    {
+        "index": 3,
+        "selectors": {
+            "book": "*",
+            "day": "*",
+            "edition": "*",
+            "publication": "Washington Post",
+            "zone": "*"
+        },
+        "values": {
+            "2UP": "",
+            "4UP": "",
+            "BroadSheet": "Tabloid",
+            "Tabloid": ""
+        }
+    }
+]}

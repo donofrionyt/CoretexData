@@ -1,0 +1,533 @@
+{"rows": [
+    {
+        "index": 0,
+        "selectors": {"edition": "TARGET Pano Live"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 1,
+        "selectors": {"edition": "Newsday Pano"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YD3"
+        }
+    },
+    {
+        "index": 2,
+        "selectors": {"edition": "DESIGN"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 3,
+        "selectors": {"edition": "HD Design Sonos Wrap"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 4,
+        "selectors": {"edition": "Target Pano Test 2"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 5,
+        "selectors": {"edition": "Fresh Air Fund"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 6,
+        "selectors": {"edition": "Kids Monthly"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 7,
+        "selectors": {"edition": "OnePlus wrapper"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 8,
+        "selectors": {"edition": "Mueller Report E1"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 9,
+        "selectors": {"edition": "Ted Chiang Fiction"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 10,
+        "selectors": {"edition": "NewsDay Explorer LI"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YD3"
+        }
+    },
+    {
+        "index": 11,
+        "selectors": {"edition": "NewsDay LI Homes"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YD3"
+        }
+    },
+    {
+        "index": 12,
+        "selectors": {"edition": "NewsDay Life"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YD3"
+        }
+    },
+    {
+        "index": 13,
+        "selectors": {"edition": "NewsDay Home"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YD3"
+        }
+    },
+    {
+        "index": 14,
+        "selectors": {"edition": "NewsDay Cars"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YD3"
+        }
+    },
+    {
+        "index": 15,
+        "selectors": {"edition": "HealthLink NA"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YD3"
+        }
+    },
+    {
+        "index": 16,
+        "selectors": {"edition": "NewsDay Fanfare"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YD3"
+        }
+    },
+    {
+        "index": 17,
+        "selectors": {"edition": "NewsDay AM NY E1"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YA3"
+        }
+    },
+    {
+        "index": 18,
+        "selectors": {"edition": "NewsDay AM NY E2"},
+        "values": {
+            "edition": "E2",
+            "name": "E2",
+            "publication": "YA3"
+        }
+    },
+    {
+        "index": 19,
+        "selectors": {"edition": "USA E1"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YUU"
+        }
+    },
+    {
+        "index": 20,
+        "selectors": {"edition": "USA E2"},
+        "values": {
+            "edition": "E2",
+            "name": "E2",
+            "publication": "YUU"
+        }
+    },
+    {
+        "index": 21,
+        "selectors": {"edition": "USA E3"},
+        "values": {
+            "edition": "E3",
+            "name": "E3",
+            "publication": "YUU"
+        }
+    },
+    {
+        "index": 22,
+        "selectors": {"edition": "NewsDay Daily Main E1"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YD3"
+        }
+    },
+    {
+        "index": 23,
+        "selectors": {"edition": "NewsDay Daily Main E2"},
+        "values": {
+            "edition": "E2",
+            "name": "E2",
+            "publication": "YD3"
+        }
+    },
+    {
+        "index": 24,
+        "selectors": {"edition": "Washington Post E1"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YX3"
+        }
+    },
+    {
+        "index": 25,
+        "selectors": {"edition": "Metro NJ"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 26,
+        "selectors": {"edition": "Comics"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 27,
+        "selectors": {"edition": "Metro CT"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 28,
+        "selectors": {"edition": "Metro LI"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 29,
+        "selectors": {"edition": "Metro MB"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 30,
+        "selectors": {"edition": "EARLY NY"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 31,
+        "selectors": {"edition": "EARLY YYY"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 32,
+        "selectors": {"edition": "Metro WE"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 33,
+        "selectors": {"edition": "EARLY NY"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 34,
+        "selectors": {"edition": "StoreFront Pano"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 35,
+        "selectors": {"edition": "SUN MAIN YYY E1"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 36,
+        "selectors": {"edition": "SUN MAIN YYY E2"},
+        "values": {
+            "edition": "E2",
+            "name": "E2",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 37,
+        "selectors": {"edition": "SUN MAIN YYY E3"},
+        "values": {
+            "edition": "E3",
+            "name": "E3",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 38,
+        "selectors": {"edition": "SUN MAIN NY E1"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 39,
+        "selectors": {"edition": "SUN MAIN NY E2"},
+        "values": {
+            "edition": "E2",
+            "name": "E2",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 40,
+        "selectors": {"edition": "SUN MAIN NY E3"},
+        "values": {
+            "edition": "E3",
+            "name": "E3",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 41,
+        "selectors": {"edition": "EARLY YYY"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 42,
+        "selectors": {"edition": "LATE NY E1"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 43,
+        "selectors": {"edition": "LATE YYY E1"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 44,
+        "selectors": {"edition": "LATE YYY E2"},
+        "values": {
+            "edition": "E2",
+            "name": "E2",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 45,
+        "selectors": {"edition": "LATE NY E2"},
+        "values": {
+            "edition": "E2",
+            "name": "E2",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 46,
+        "selectors": {"edition": "ZS Mag Promo"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 47,
+        "selectors": {"edition": "Large Type"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 48,
+        "selectors": {"edition": "SUN BOOKS"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 49,
+        "selectors": {"edition": "SUN TRAVEL"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 50,
+        "selectors": {"edition": "SUN ARTS"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 51,
+        "selectors": {"edition": "College Fair"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 52,
+        "selectors": {"edition": "Real Estate"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 53,
+        "selectors": {"edition": "SUN STYLES"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 54,
+        "selectors": {"edition": "Sun YYY Biz"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 55,
+        "selectors": {"edition": "Sun NY Biz"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 56,
+        "selectors": {"edition": "Sun Review"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YXN"
+        }
+    },
+    {
+        "index": 57,
+        "selectors": {"edition": "ND HealthLink S"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YD3"
+        }
+    },
+    {
+        "index": 58,
+        "selectors": {"edition": "ND HealthLink NQ"},
+        "values": {
+            "edition": "E1",
+            "name": "E1",
+            "publication": "YD3"
+        }
+    }
+]}

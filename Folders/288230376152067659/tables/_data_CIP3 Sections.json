@@ -1,0 +1,666 @@
+{"rows": [
+    {
+        "index": 0,
+        "selectors": {
+            "publication": "USAT",
+            "section": "A"
+        },
+        "values": {"sectioncode": "UUA"}
+    },
+    {
+        "index": 1,
+        "selectors": {
+            "publication": "USAT",
+            "section": "B"
+        },
+        "values": {"sectioncode": "UUB"}
+    },
+    {
+        "index": 2,
+        "selectors": {
+            "publication": "USAT",
+            "section": "C"
+        },
+        "values": {"sectioncode": "UUC"}
+    },
+    {
+        "index": 3,
+        "selectors": {
+            "publication": "USAT",
+            "section": "D"
+        },
+        "values": {"sectioncode": "UUD"}
+    },
+    {
+        "index": 4,
+        "selectors": {
+            "publication": "USAT",
+            "section": "E"
+        },
+        "values": {"sectioncode": "UUE"}
+    },
+    {
+        "index": 5,
+        "selectors": {
+            "publication": "USAT",
+            "section": "F"
+        },
+        "values": {"sectioncode": "UUF"}
+    },
+    {
+        "index": 6,
+        "selectors": {
+            "publication": "AM New York",
+            "section": "MA"
+        },
+        "values": {"sectioncode": "3AA"}
+    },
+    {
+        "index": 7,
+        "selectors": {
+            "publication": "AM New York",
+            "section": "BX"
+        },
+        "values": {"sectioncode": "3AB"}
+    },
+    {
+        "index": 8,
+        "selectors": {
+            "publication": "AM New York",
+            "section": "BR"
+        },
+        "values": {"sectioncode": "3AC"}
+    },
+    {
+        "index": 9,
+        "selectors": {
+            "publication": "AM New York",
+            "section": "QU"
+        },
+        "values": {"sectioncode": "3AD"}
+    },
+    {
+        "index": 10,
+        "selectors": {
+            "publication": "NewsDay",
+            "section": "A"
+        },
+        "values": {"sectioncode": "3DA"}
+    },
+    {
+        "index": 11,
+        "selectors": {
+            "publication": "NewsDay",
+            "section": "B"
+        },
+        "values": {"sectioncode": "3DB"}
+    },
+    {
+        "index": 12,
+        "selectors": {
+            "publication": "NewsDay",
+            "section": "C"
+        },
+        "values": {"sectioncode": "3DC"}
+    },
+    {
+        "index": 13,
+        "selectors": {
+            "publication": "NewsDay",
+            "section": "D"
+        },
+        "values": {"sectioncode": "3DD"}
+    },
+    {
+        "index": 14,
+        "selectors": {
+            "publication": "NewsDay",
+            "section": "E"
+        },
+        "values": {"sectioncode": "3DE"}
+    },
+    {
+        "index": 15,
+        "selectors": {
+            "publication": "NewsDay",
+            "section": "F"
+        },
+        "values": {"sectioncode": "3DF"}
+    },
+    {
+        "index": 16,
+        "selectors": {
+            "publication": "NewsDay",
+            "section": "G"
+        },
+        "values": {"sectioncode": "3DG"}
+    },
+    {
+        "index": 17,
+        "selectors": {
+            "publication": "NewsDay",
+            "section": "H"
+        },
+        "values": {"sectioncode": "3DH"}
+    },
+    {
+        "index": 18,
+        "selectors": {
+            "publication": "NewsDay",
+            "section": "I"
+        },
+        "values": {"sectioncode": "3DI"}
+    },
+    {
+        "index": 19,
+        "selectors": {
+            "publication": "NewsDay",
+            "section": "J"
+        },
+        "values": {"sectioncode": "3DJ"}
+    },
+    {
+        "index": 20,
+        "selectors": {
+            "publication": "NewsDay",
+            "section": "K"
+        },
+        "values": {"sectioncode": "3DK"}
+    },
+    {
+        "index": 21,
+        "selectors": {
+            "publication": "NewsDay",
+            "section": "L"
+        },
+        "values": {"sectioncode": "3DL"}
+    },
+    {
+        "index": 22,
+        "selectors": {
+            "publication": "NewsDay",
+            "section": "M"
+        },
+        "values": {"sectioncode": "3DM"}
+    },
+    {
+        "index": 23,
+        "selectors": {
+            "publication": "Washington Post",
+            "section": "A"
+        },
+        "values": {"sectioncode": "3WA"}
+    },
+    {
+        "index": 24,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "A"
+        },
+        "values": {"sectioncode": "NXA"}
+    },
+    {
+        "index": 25,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "AR"
+        },
+        "values": {"sectioncode": "SAR"}
+    },
+    {
+        "index": 26,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "B"
+        },
+        "values": {"sectioncode": "NXB"}
+    },
+    {
+        "index": 27,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "BR"
+        },
+        "values": {"sectioncode": "SBR"}
+    },
+    {
+        "index": 28,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "BU"
+        },
+        "values": {"sectioncode": "NBU"}
+    },
+    {
+        "index": 29,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "C"
+        },
+        "values": {"sectioncode": "NXC"}
+    },
+    {
+        "index": 30,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "CT"
+        },
+        "values": {"sectioncode": "NCT"}
+    },
+    {
+        "index": 31,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "D"
+        },
+        "values": {"sectioncode": "NXD"}
+    },
+    {
+        "index": 32,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "DD"
+        },
+        "values": {"sectioncode": "NDD"}
+    },
+    {
+        "index": 33,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "DL"
+        },
+        "values": {"sectioncode": "NDL"}
+    },
+    {
+        "index": 34,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "E"
+        },
+        "values": {"sectioncode": "NXE"}
+    },
+    {
+        "index": 35,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "F"
+        },
+        "values": {"sectioncode": "NXF"}
+    },
+    {
+        "index": 36,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "G"
+        },
+        "values": {"sectioncode": "NXG"}
+    },
+    {
+        "index": 37,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "H"
+        },
+        "values": {"sectioncode": "NXH"}
+    },
+    {
+        "index": 38,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "I"
+        },
+        "values": {"sectioncode": "NXI"}
+    },
+    {
+        "index": 39,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "J"
+        },
+        "values": {"sectioncode": "NXJ"}
+    },
+    {
+        "index": 40,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "K"
+        },
+        "values": {"sectioncode": "NXK"}
+    },
+    {
+        "index": 41,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "L"
+        },
+        "values": {"sectioncode": "NXL"}
+    },
+    {
+        "index": 42,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "LI"
+        },
+        "values": {"sectioncode": "NLI"}
+    },
+    {
+        "index": 43,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "LT"
+        },
+        "values": {"sectioncode": "NLT"}
+    },
+    {
+        "index": 44,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "M"
+        },
+        "values": {"sectioncode": "NXM"}
+    },
+    {
+        "index": 45,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "MB"
+        },
+        "values": {"sectioncode": "NMB"}
+    },
+    {
+        "index": 46,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "MC"
+        },
+        "values": {"sectioncode": "NMC"}
+    },
+    {
+        "index": 47,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "MK"
+        },
+        "values": {"sectioncode": "SMK"}
+    },
+    {
+        "index": 48,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "N"
+        },
+        "values": {"sectioncode": "NXN"}
+    },
+    {
+        "index": 49,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "NJ"
+        },
+        "values": {"sectioncode": "NNJ"}
+    },
+    {
+        "index": 50,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "O"
+        },
+        "values": {"sectioncode": "NXO"}
+    },
+    {
+        "index": 51,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "P"
+        },
+        "values": {"sectioncode": "NXP"}
+    },
+    {
+        "index": 52,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "PR"
+        },
+        "values": {"sectioncode": "NPR"}
+    },
+    {
+        "index": 53,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "Q"
+        },
+        "values": {"sectioncode": "NXQ"}
+    },
+    {
+        "index": 54,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "R"
+        },
+        "values": {"sectioncode": "NXR"}
+    },
+    {
+        "index": 55,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "RE"
+        },
+        "values": {"sectioncode": "NRE"}
+    },
+    {
+        "index": 56,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "S"
+        },
+        "values": {"sectioncode": "NXS"}
+    },
+    {
+        "index": 57,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "SP"
+        },
+        "values": {"sectioncode": "NSP"}
+    },
+    {
+        "index": 58,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "SR"
+        },
+        "values": {"sectioncode": "NSR"}
+    },
+    {
+        "index": 59,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "ST"
+        },
+        "values": {"sectioncode": "NST"}
+    },
+    {
+        "index": 60,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "T"
+        },
+        "values": {"sectioncode": "NXT"}
+    },
+    {
+        "index": 61,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "TA"
+        },
+        "values": {"sectioncode": "NTA"}
+    },
+    {
+        "index": 62,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "TJ"
+        },
+        "values": {"sectioncode": "NTJ"}
+    },
+    {
+        "index": 63,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "TK"
+        },
+        "values": {"sectioncode": "NTK"}
+    },
+    {
+        "index": 64,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "TP"
+        },
+        "values": {"sectioncode": "STP"}
+    },
+    {
+        "index": 65,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "TR"
+        },
+        "values": {"sectioncode": "STR"}
+    },
+    {
+        "index": 66,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "TS"
+        },
+        "values": {"sectioncode": "NTS"}
+    },
+    {
+        "index": 67,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "U"
+        },
+        "values": {"sectioncode": "NXU"}
+    },
+    {
+        "index": 68,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "V"
+        },
+        "values": {"sectioncode": "NXV"}
+    },
+    {
+        "index": 69,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "W"
+        },
+        "values": {"sectioncode": "NXW"}
+    },
+    {
+        "index": 70,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "WE"
+        },
+        "values": {"sectioncode": "NWE"}
+    },
+    {
+        "index": 71,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "X"
+        },
+        "values": {"sectioncode": "NXX"}
+    },
+    {
+        "index": 72,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "Y"
+        },
+        "values": {"sectioncode": "NXY"}
+    },
+    {
+        "index": 73,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "Z"
+        },
+        "values": {"sectioncode": "NXZ"}
+    },
+    {
+        "index": 74,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "ZJ"
+        },
+        "values": {"sectioncode": "NZJ"}
+    },
+    {
+        "index": 75,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "ZK"
+        },
+        "values": {"sectioncode": "NZK"}
+    },
+    {
+        "index": 76,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "ZL"
+        },
+        "values": {"sectioncode": "AZL"}
+    },
+    {
+        "index": 77,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "ZM"
+        },
+        "values": {"sectioncode": "AZM"}
+    },
+    {
+        "index": 78,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "ZN"
+        },
+        "values": {"sectioncode": "AZN"}
+    },
+    {
+        "index": 79,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "ZP"
+        },
+        "values": {"sectioncode": "NZP"}
+    },
+    {
+        "index": 80,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "ZS"
+        },
+        "values": {"sectioncode": "NZS"}
+    },
+    {
+        "index": 81,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "ZT"
+        },
+        "values": {"sectioncode": "NZT"}
+    },
+    {
+        "index": 82,
+        "selectors": {
+            "publication": "New York Times",
+            "section": "ZV"
+        },
+        "values": {"sectioncode": "NZV"}
+    }
+]}

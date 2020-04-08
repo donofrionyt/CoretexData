@@ -1,0 +1,57 @@
+{
+    "daysToLeave": 0,
+    "name": "College Point",
+    "parent": 106L,
+    "renamingRules": [
+        {
+            "definition": [{
+                "inputRule": "%1S%6S%2S%3S%2S%2S%2S%S(%S)%S",
+                "outputRule": "%1S%$(TodaysDate)%3S%4S%5S%6S%7S%8S.%9S",
+                "parameters": ""
+            }],
+            "name": "PressTestRename"
+        },
+        {
+            "definition": [
+                {
+                    "inputRule": "%S (%S)%S",
+                    "outputRule": "%1S.%2:col=T",
+                    "parameters": ""
+                },
+                {
+                    "inputRule": "%S(%S)%S",
+                    "outputRule": "%1:20L.%2:col=T",
+                    "parameters": ""
+                },
+                {
+                    "inputRule": "col=C",
+                    "outputRule": "C",
+                    "parameters": ""
+                },
+                {
+                    "inputRule": "col=M",
+                    "outputRule": "M",
+                    "parameters": ""
+                },
+                {
+                    "inputRule": "col=Y",
+                    "outputRule": "Y",
+                    "parameters": ""
+                },
+                {
+                    "inputRule": "col=K",
+                    "outputRule": "K",
+                    "parameters": ""
+                },
+                {
+                    "inputRule": "col=B",
+                    "outputRule": "K",
+                    "parameters": ""
+                }
+            ],
+            "name": "CollegePointRename"
+        }
+    ],
+    "securityDerivedFromDefaultDefinition": false,
+    "unplanDaysToLeave": 0
+}

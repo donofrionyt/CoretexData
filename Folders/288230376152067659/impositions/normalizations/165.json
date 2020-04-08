@@ -1,0 +1,219 @@
+{
+    "id": "165",
+    "items": [
+        {
+            "additionalConditions": [],
+            "crop": {
+                "checked": true,
+                "height": 22.985826771653546,
+                "refPoint": "T L",
+                "width": 11.755905511811026,
+                "x": 0.10433070866141733,
+                "y": 1.0433070866141734
+            },
+            "edition": "*",
+            "evenodd": "*",
+            "id": 0,
+            "impose": {
+                "checked": false,
+                "height": "0",
+                "refPoint": "C C",
+                "width": "0",
+                "x": "0",
+                "y": "0"
+            },
+            "matchingpolicy": "normalize",
+            "maxheight": "23.62204724409449",
+            "maxwidth": "12.20472440944882",
+            "minheight": "23.228346456692915",
+            "minwidth": "11.811023622047244",
+            "name": "Normalize NewsDay",
+            "press": "*",
+            "publication": "NewsDay",
+            "rotate": {
+                "checked": false,
+                "rotate": "1"
+            },
+            "scale": {
+                "checked": false,
+                "height": "0",
+                "keepProportions": false,
+                "width": "0"
+            },
+            "section": "*",
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "crop": {
+                "checked": true,
+                "height": 12.743307086614173,
+                "refPoint": "T L",
+                "width": 20.55905511811024,
+				"x": 1,
+                "y": 0.2559055118110236
+            },
+            "edition": "*",
+            "evenodd": "odd",
+            "id": 3,
+            "imagebox": "mediabox",
+            "impose": {
+                "checked": false,
+                "height": "0",
+                "refPoint": "C C",
+                "width": "0",
+                "x": "0",
+                "y": "0"
+            },
+            "matchingpolicy": "normalize",
+            "maxheight": "13.385826771653544",
+            "maxwidth": "22.440944881889767",
+            "minheight": "12.598425196850394",
+            "minwidth": "21.653543307086615",
+            "name": "ND Popup Odd",
+            "press": "*",
+            "publication": "NewsDay",
+            "rotate": {
+                "checked": true,
+                "rotate": "2"
+            },
+            "scale": {
+                "checked": false,
+                "height": "0",
+                "keepProportions": false,
+                "width": "0"
+            },
+            "section": "*",
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "crop": {
+                "checked": true,
+                "height": 12.703937007874016,
+                "refPoint": "T L",
+                "width": 20.55905511811024,
+                "x": 1.035433070866142,
+                "y": 0
+            },
+            "edition": "*",
+            "evenodd": "even",
+            "id": 4,
+            "imagebox": "mediabox",
+            "impose": {
+                "checked": true,
+                "height": 12.743307086614173,
+                "refPoint": "T L",
+                "width": 20.55905511811024,
+                "x": 0,
+                "y": 0.03937007874015748
+            },
+            "matchingpolicy": "normalize",
+            "maxheight": "13.385826771653544",
+            "maxwidth": "22.440944881889767",
+            "minheight": "12.598425196850394",
+            "minwidth": "21.653543307086615",
+            "name": "ND Popup Even",
+            "press": "*",
+            "publication": "NewsDay",
+            "rotate": {
+                "checked": false,
+                "rotate": "1"
+            },
+            "scale": {
+                "checked": false,
+                "height": "0",
+                "keepProportions": false,
+                "width": "0"
+            },
+            "section": "*",
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "crop": {
+                "checked": true,
+                "height": 22.985826771653546,
+                "refPoint": "T L",
+                "width": 11.755905511811026,
+                "x": 0.10433070866141733,
+                "y": 1.0433070866141734
+            },
+            "edition": "*",
+            "evenodd": "*",
+            "id": 1,
+            "impose": {
+                "checked": false,
+                "height": "0",
+                "refPoint": "C C",
+                "width": "0",
+                "x": "0",
+                "y": "0"
+            },
+            "matchingpolicy": "normalize",
+            "maxheight": "23.62204724409449",
+            "maxwidth": "12.20472440944882",
+            "minheight": "23.228346456692915",
+            "minwidth": "11.811023622047244",
+            "name": "Normalize AM NY",
+            "press": "*",
+            "publication": "AM New York",
+            "rotate": {
+                "checked": false,
+                "rotate": "1"
+            },
+            "scale": {
+                "checked": false,
+                "height": "0",
+                "keepProportions": false,
+                "width": "0"
+            },
+            "section": "*",
+            "zone": "*"
+        },
+        {
+            "additionalConditions": [],
+            "crop": {
+                "checked": true,
+                "height": 22.985826771653546,
+                "refPoint": "T L",
+                "width": 11.755905511811026,
+                "x": 0.10433070866141733,
+                "y": 1.0433070866141734
+            },
+            "edition": "*",
+            "evenodd": "*",
+            "id": 2,
+            "imagebox": "mediabox",
+            "impose": {
+                "checked": false,
+                "height": "0",
+                "refPoint": "C C",
+                "width": "0",
+                "x": "0",
+                "y": "0"
+            },
+            "matchingpolicy": "normalize",
+            "maxheight": "23.62204724409449",
+            "maxwidth": "12.20472440944882",
+            "minheight": "23.228346456692915",
+            "minwidth": "11.811023622047244",
+            "name": "Normailze WAPO",
+            "press": "*",
+            "publication": "Washington Post",
+            "rotate": {
+                "checked": false,
+                "rotate": "1"
+            },
+            "scale": {
+                "checked": false,
+                "height": "0",
+                "keepProportions": false,
+                "width": "0"
+            },
+            "section": "*",
+            "zone": "*"
+        }
+    ],
+    "title": "Production"
+}

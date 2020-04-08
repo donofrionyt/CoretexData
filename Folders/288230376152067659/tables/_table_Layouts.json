@@ -1,0 +1,87 @@
+{
+    "matchingMode": "startWith",
+    "name": "Layouts",
+    "nwid": "355502895601376716",
+    "overridable": true,
+    "publication": "",
+    "selectors": [
+        {
+            "defaultValue": "",
+            "displayName": "Layout Group",
+            "fieldType": "string",
+            "freeText": true,
+            "name": "layoutgroup",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Page Format",
+            "fieldType": "",
+            "freeText": false,
+            "name": "pageformat",
+            "values": [
+                {
+                    "text": "B",
+                    "value": "B"
+                },
+                {
+                    "text": "C",
+                    "value": "C"
+                },
+                {
+                    "text": "G",
+                    "value": "G"
+                },
+                {
+                    "text": "P",
+                    "value": "P"
+                },
+                {
+                    "text": "S",
+                    "value": "S"
+                },
+                {
+                    "text": "J",
+                    "value": "J"
+                },
+                {
+                    "text": "K",
+                    "value": "K"
+                }
+            ]
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Page Side",
+            "fieldType": "",
+            "freeText": false,
+            "name": "pageside",
+            "values": [
+                {
+                    "text": "*",
+                    "value": "*"
+                },
+                {
+                    "text": "Even",
+                    "value": "even"
+                },
+                {
+                    "text": "Odd",
+                    "value": "odd"
+                }
+            ]
+        }
+    ],
+    "singleValue": true,
+    "system": false,
+    "targetType": "form",
+    "values": [{
+        "defaultValue": "",
+        "displayName": "Layout",
+        "editable": true,
+        "fieldType": "",
+        "freeText": true,
+        "name": "layout",
+        "values": []
+    }]
+}

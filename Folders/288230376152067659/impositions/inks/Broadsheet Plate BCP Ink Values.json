@@ -1,0 +1,26 @@
+{
+    "elementType": "ink",
+    "inkAreas": [{
+        "correctionEnabled": false,
+        "correctionFactors": [],
+        "elementType": "inkArea",
+        "height": 20.669291338582678,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "marginTop": 0,
+        "name": "Ink Area",
+        "unequalZoneWidth": false,
+        "width": 11.88976377952756,
+        "x": 0,
+        "y": 1.0472440944881891,
+        "zoneCount": 8,
+        "zoneWidths": []
+    }],
+    "inkModel": "zones",
+    "name": "Broadsheet Plate BCP Ink Values",
+    "nwid": "355502895651568742",
+    "plateName": "Broadsheet",
+    "plateNwid": "355502895585586976",
+    "version": "1.0"
+}

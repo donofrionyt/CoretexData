@@ -1,0 +1,27 @@
+{"rows": [
+    {
+        "index": 0,
+        "selectors": {"publication": "AM New York"},
+        "values": {"publicationShortName": "AMNY"}
+    },
+    {
+        "index": 1,
+        "selectors": {"publication": "New York Times"},
+        "values": {"publicationShortName": "NYT"}
+    },
+    {
+        "index": 2,
+        "selectors": {"publication": "NewsDay"},
+        "values": {"publicationShortName": "NDAY"}
+    },
+    {
+        "index": 3,
+        "selectors": {"publication": "USAT"},
+        "values": {"publicationShortName": "USAT"}
+    },
+    {
+        "index": 4,
+        "selectors": {"publication": "Washington Post"},
+        "values": {"publicationShortName": "WAPO"}
+    }
+]}

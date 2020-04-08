@@ -1,0 +1,77 @@
+{
+	"steps" : [
+		{ 
+			"name" : "ManualPlanDescriptorsGenerator",
+			"settings" : {
+
+			}
+		},
+		{ 
+            "name" : "AssignExpectedNameStep",
+            "settings" : {
+            	"manualAction" : true            
+            }
+        },
+		{ 
+			"name" : "ResolveCoretexTablesStep",
+			"settings" : {
+				"tables" : [
+					"InkJob and Press Settings",
+					"zGREY BARSz"
+									]
+			}
+		},
+		{ 
+			"name" : "SaveXml",
+			"settings" : {
+
+			}
+		},		
+		{ 
+			"name" : "PlanStorageStep",
+			"settings" : {
+				"openTransaction" : true
+			}
+		},
+		{
+			"name" : "CalculatePressInfoStep",
+			"settings" : {
+					"override" : true
+			}
+		},
+		{ 
+			"name" : "PlanPersists",
+			"settings" : {
+				"publishPlanStep" : "355502895588131264",
+				"openTransaction" : true,
+				"productionrunLabel" : "PWProductionRunName",
+				"productionrunShortLabel" : "PWProductionRunCode",
+				"holdSteps" : ["355502895587114807","355502895716400971","355502895601195405"]
+			}
+		},
+		{ 
+			"name" : "FormLayoutChanged",
+			"settings" : {
+				"formingStep" : "355502895585577798"
+			}
+		},
+		{ 
+			"name" : "FormMissingFormesStep",
+			"settings" : {
+				"formingStep" : "355502895585577798"	
+			}
+		},
+		{
+			"name" : "OutputMissingPlatesStep",
+			"settings" : {
+				";outputSteps" : ["355502895587114807","355502895716400971","355502895601195405"],
+				";ignoreMaxPlates": true,
+				";specificPlates": true
+			}
+		}	
+		
+	],	
+	"clientSettings" : {
+		"formNameMode": "pages"
+	}
+}

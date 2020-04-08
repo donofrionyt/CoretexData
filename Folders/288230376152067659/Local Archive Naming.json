@@ -1,0 +1,1 @@
+{"name":"Local Archive Naming","nwid":355502895587134234L,"pattern":"/Planned/$PublicationDate('MMdd')/$Uppercase($PublicationName())/$PageInputFileName()","patternType":"macros","usage":"output"}

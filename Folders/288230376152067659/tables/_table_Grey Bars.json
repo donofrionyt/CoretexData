@@ -1,0 +1,72 @@
+{
+    "matchingMode": "text",
+    "name": "Grey Bars",
+    "nwid": "355502895766460653",
+    "overridable": true,
+    "publication": "",
+    "selectors": [
+        {
+            "defaultValue": "",
+            "displayName": "Publication",
+            "fieldType": "publication",
+            "freeText": true,
+            "name": "publication",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Edition",
+            "fieldType": "edition",
+            "freeText": true,
+            "name": "edition",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Zone",
+            "fieldType": "zone",
+            "freeText": true,
+            "name": "zone",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Book",
+            "fieldType": "book",
+            "freeText": true,
+            "name": "book",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Form",
+            "fieldType": "form",
+            "freeText": true,
+            "name": "form",
+            "values": []
+        }
+    ],
+    "singleValue": false,
+    "system": false,
+    "targetType": "form",
+    "values": [
+        {
+            "defaultValue": "",
+            "displayName": "Top GreyBar On/Off",
+            "editable": true,
+            "fieldType": "checkbox",
+            "freeText": false,
+            "name": "topgreybar",
+            "values": []
+        },
+        {
+            "defaultValue": "",
+            "displayName": "Middle GreyBar On/Off",
+            "editable": true,
+            "fieldType": "checkbox",
+            "freeText": false,
+            "name": "midgreybar",
+            "values": []
+        }
+    ]
+}

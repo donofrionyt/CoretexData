@@ -1,0 +1,27 @@
+{"rows": [{
+    "index": 0,
+    "selectors": {
+        "book": "*",
+        "day": "*",
+        "edition": "*",
+        "publication": "*",
+        "zone": "*"
+    },
+    "values": {
+        "jobcode": "Production Run Name",
+        "press 1": "",
+        "press 1 name": "",
+        "press 2": "",
+        "press 2 name": "",
+        "press 3": "",
+        "press 3 name": "",
+        "press 4": "",
+        "press 4 name": "",
+        "press 5": "",
+        "press 5 name": "",
+        "press 6": "",
+        "press 6 name": "",
+        "press 7": "",
+        "press 7 name": ""
+    }
+}]}

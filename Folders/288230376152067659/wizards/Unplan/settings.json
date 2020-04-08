@@ -1,0 +1,46 @@
+{
+	"steps" : [
+			{ 
+			"name" : "AssignExpectedNameStep",
+			"settings" : {
+            	"manualAction" : true            
+            }
+		},
+		{ 
+			"name" : "AssignLayoutGroupStep",
+			"settings" : {
+				"openTransaction" : true,
+				"assignToObject" : "book",
+				"useSystemTable" : true
+			}
+		},		
+		{ 
+			"name" : "PlanStorageStep",
+			"settings" : {
+				"cacheMode" : "specific",
+				"openTransaction" : true
+			}
+		},
+		{ 
+			"name" : "ResolveCoretexTablesStep",
+			"settings" : {
+				"tables" : [
+					"InkJob and Press Settings",
+					"zGREY BARSz"
+					]
+			}
+		},
+		{ 
+			"name" : "PlanPersists",
+			"settings" : {
+				"openTransaction" : true,
+				"holdSteps" : ["355502895587114807","355502895716400971","355502895601195405"]
+			}
+		},
+		{ 
+			"name" : "SaveXml",
+			"settings" : {
+			}
+		},		
+	]
+}

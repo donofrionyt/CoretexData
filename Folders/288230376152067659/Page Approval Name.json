@@ -1,0 +1,1 @@
+{"name":"Page Approval Name","nwid":355502895586755365L,"pattern":"$PublicationDate('MMdd')_$PublicationCode()_$EditionCode()_$PageName()","patternType":"macros","usage":"approval"}

@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Views version="1.0" derivedFromDefaultDefinition="false">
+    <View description="Save Resource Properties" defaultDefinitionNwId="313281649079366155" configuredClique="Resource Setup" developmentMode="false" order="-1" view="ResourceSetupCR" label="Resource Setup" name="Resource Setup" nwid="355502895624034534">
+        <Types>
+            <Type recursive="false" type="demons/demon/pagelowres"/>
+            <Type recursive="false" type="demons/demon/seplowres"/>
+            <Type recursive="false" type="demons/demon/composelowres"/>
+            <Type recursive="false" type="demons/demon/reporting"/>
+            <Type recursive="false" type="demons/demon/hirestile"/>
+        </Types>
+    </View>
+    <View defaultDefinitionNwId="313281649079366156" developmentMode="false" order="1" view="ControlPanelCR" name="ControlPanel" nwid="355502895624034535"/>
+    <View description="Add HotFolder" defaultDefinitionNwId="313281649079366157" configuredClique="Hot Folder Resource Setup" developmentMode="false" order="-1" view="HotFolderSetupCR" label="Hot Folder Resource Setup" name="HotFolder Setup" nwid="355502895624034536">
+        <Types>
+            <Type recursive="true" type="physical/input/hotfolder"/>
+        </Types>
+    </View>
+    <View description="Add HotFolder" defaultDefinitionNwId="288793326119726447" configuredClique="Status Step Resource Setup" developmentMode="false" order="-1" view="StatusStepSetupCR" label="Status Step Resource Setup" name="Status Step Setup" nwid="355502895624034537">
+        <Types>
+            <Type recursive="true" type="physical/input/status"/>
+        </Types>
+    </View>
+    <View description="Assign Resources To Flow Step" defaultDefinitionNwId="313281649079366158" configuredClique="Assign Resources" developmentMode="false" order="-1" view="AssignResourcesCR" label="Assign Resources" name="Assign Resources" nwid="355502895624034538">
+        <Types>
+            <Type recursive="true" type="demons/demon/pagelowres"/>
+            <Type recursive="true" type="demons/demon/seplowres"/>
+            <Type recursive="true" type="demons/demon/composelowres"/>
+            <Type recursive="true" type="demons/demon/reporting"/>
+            <Type recursive="true" type="workflow/step/flow/logic"/>
+            <Type recursive="true" type="demons/demon/hirestile"/>
+        </Types>
+    </View>
+    <View description="Edit Rip Setup" defaultDefinitionNwId="313281649079366159" configuredClique="Rip Resource Setup" developmentMode="false" order="-1" view="RipSetupCR" label="Rip Resource Setup" name="Rip Setup" nwid="355502895624034539">
+        <Types>
+            <Type recursive="true" type="physical/image/rip"/>
+        </Types>
+    </View>
+    <View description="Save Rip/Output Properties" defaultDefinitionNwId="297237575406454518" configuredClique="Rip Output Resource Setup" developmentMode="false" order="-1" view="RipOutSetupCR" label="Rip Output Resource Setup" name="Rip/Output Setup" nwid="355502895624034540">
+        <Types>
+            <Type recursive="true" type="physical/rip2ctp"/>
+        </Types>
+    </View>
+    <View description="Edit Proout Setup" defaultDefinitionNwId="313281649079366160" configuredClique="Proout Resource Setup" developmentMode="false" order="-1" view="ProoutSetupCR" label="Proout Resource Setup" name="Proout Setup" nwid="355502895624034541">
+        <Types>
+            <Type recursive="true" type="physical/output/proout"/>
+        </Types>
+    </View>
+    <View description="Edit Preflight Setup" defaultDefinitionNwId="313281649079366161" configuredClique="Preflight Resource Setup" developmentMode="false" order="-1" view="PreflightSetupCR" label="Preflight Resource Setup" name="Preflight Setup" nwid="355502895624034542">
+        <Types>
+            <Type recursive="true" type="physical/image/preflight"/>
+        </Types>
+    </View>
+    <View description="Edit TX Setup" defaultDefinitionNwId="313281649079366162" configuredClique="Tx Resource Setup" developmentMode="false" order="-1" view="TXSetupCR" label="Tx Resource Setup" name="TX Setup" nwid="355502895624034543">
+        <Types>
+            <Type recursive="true" type="physical/comm/tx"/>
+        </Types>
+    </View>
+    <View description="Edit External Protocol Setup" defaultDefinitionNwId="288793326148021182" configuredClique="External Protocol Resource Setup" developmentMode="false" order="-1" view="ExternalProtocolSetupCR" label="External Protocol Resource Setup" name="External Protocol Setup" nwid="355502895624034544">
+        <Types>
+            <Type recursive="true" type="physical/comm/externalprotocol"/>
+        </Types>
+    </View>
+    <View description="Edit Proofer Setup" defaultDefinitionNwId="327636872894316484" configuredClique="Proofer Resource Setup" developmentMode="false" order="-1" view="ProoferSetupCR" label="Proofer Resource Setup" name="Proofer Setup" nwid="355502895624034545">
+        <Types>
+            <Type recursive="true" type="physical/output/proofer"/>
+        </Types>
+    </View>
+    <View description="Edit Tiff Processor Setup" defaultDefinitionNwId="313281649079366163" configuredClique="Tiff Processor Resource Setup" developmentMode="false" order="-1" view="TiffProcessorSetupCR" label="Tiff Processor Resource Setup" name="Tiff Processor Setup" nwid="355502895624034546">
+        <Types>
+            <Type recursive="true" type="physical/image/tiffprocessor"/>
+        </Types>
+    </View>
+    <View description="Edit Optimization Setup" defaultDefinitionNwId="313281649083899283" configuredClique="Optimization Resource Setup" developmentMode="false" order="-1" view="OptimizationSetupCR" label="Optimization Resource Setup" name="Optimization Setup" nwid="355502895624034547">
+        <Types>
+            <Type recursive="true" type="physical/image/optimization"/>
+        </Types>
+    </View>
+    <View description="Edit Rip Setup" defaultDefinitionNwId="288793326245152431" configuredClique="Cache Resource Setup" developmentMode="false" order="-1" view="CacheSetupCR" label="Cache Resource Setup" name="Cache Setup" nwid="355502895624034548">
+        <Types>
+            <Type recursive="false" type="physical/output/cache"/>
+        </Types>
+    </View>
+    <View description="Edit FlowStep" defaultDefinitionNwId="313281649079366164" configuredClique="Flow Step Setup" developmentMode="false" order="1" view="FlowStepSetupCR" label="Flow Step Setup" name="Flow Step Setup" nwid="355502895624034549">
+        <Types>
+            <Type recursive="true" type="workflow/step"/>
+        </Types>
+    </View>
+    <View defaultDefinitionNwId="313281649079366165" objectType="folder" developmentMode="false" order="-1" view="UserViewCR" name="User Setup" nwid="355502895624034550"/>
+    <View defaultDefinitionNwId="313281649079366166" objectType="folder" developmentMode="false" order="-1" view="UsersViewCR" name="UsersView" nwid="355502895624034551"/>
+    <View description="Save Adapter flows" defaultDefinitionNwId="313281649079366167" configuredClique="Edit Flow Step" objectType="folder" developmentMode="false" order="-1" view="BinderViewCR" label="Binder View" name="Binder View" nwid="355502895624034552">
+        <Types>
+            <Type recursive="true" type="workflow/step"/>
+            <Type recursive="true" type="demons/demon"/>
+        </Types>
+    </View>
+    <View defaultDefinitionNwId="313281649079366169" configuredClique="Naming Pattern" objectType="folder" developmentMode="false" order="-1" view="NamingPatternsViewCR" name="NamingPatternsView" nwid="355502895624034553"/>
+    <View defaultDefinitionNwId="288793326108409309" configuredClique="Activation Templates" objectType="folder" developmentMode="false" order="-1" view="ActivationTemplatesCR" name="ActivationTemplates" nwid="355502895624034554"/>
+    <View defaultDefinitionNwId="296111675500000944" configuredClique="Security Settings" objectType="folder" developmentMode="false" order="-1" view="FolderSecurityGroupsViewCR" name="Security Groups" nwid="355502895624034555"/>
+    <View defaultDefinitionNwId="313281649079366170" configuredClique="Renaming Rule" objectType="folder" developmentMode="false" order="-1" view="RenamingRulesSetupCR" name="Renaming Rules Setup" nwid="355502895624034556"/>
+    <View defaultDefinitionNwId="313281649079366171" configuredClique="Renaming Rule" objectType="folder" developmentMode="false" order="-1" view="RenamingRulesCopySetupCR" name="Renaming Rules Setup" nwid="355502895624034557"/>
+    <View defaultDefinitionNwId="313281649079366172" configuredClique="Renaming Rule" objectType="folder" developmentMode="false" order="-1" view="RenamingRulesViewCR" name="RenamingRulesView" nwid="355502895624034558"/>
+    <View defaultDefinitionNwId="313281649079366173" objectType="folder" developmentMode="false" order="-1" view="PreflightConfigSetupCR" name="Preflight Configuration Setup" nwid="355502895624034559"/>
+    <View defaultDefinitionNwId="313281649079366174" objectType="folder" developmentMode="false" order="-1" view="PreflightConfigCopySetupCR" name="Preflight Configuration Setup" nwid="355502895624034560"/>
+    <View defaultDefinitionNwId="313281649079366175" objectType="folder" developmentMode="false" order="-1" view="PreflightConfigViewCR" name="Preflight Configuration View" nwid="355502895624034561"/>
+    <View defaultDefinitionNwId="313281649079366176" objectType="folder" developmentMode="false" order="-1" view="SecurityGroupsViewCR" name="SecurityGroupsView" nwid="355502895624034562"/>
+    <View defaultDefinitionNwId="313281649079366177" objectType="folder" developmentMode="false" order="-1" view="ClusterViewCR" name="Cluster" nwid="355502895624034563"/>
+    <View defaultDefinitionNwId="313281649079366178" objectType="folder" developmentMode="false" order="-1" view="EditManagerViewCR" name="Manager Setup" nwid="355502895624034564"/>
+    <View defaultDefinitionNwId="313281649079366179" objectType="folder" developmentMode="false" order="-1" view="EditMachineViewCR" name="Machine Setup" nwid="355502895624034565"/>
+    <View defaultDefinitionNwId="313281649079366180" objectType="folder" developmentMode="false" order="-1" view="ColorTableViewCR" name="ColorTableView" nwid="355502895624034566"/>
+    <View defaultDefinitionNwId="313281649079366181" objectType="folder" view="ColorTableSetupCR" name="Color Table Setup" nwid="355502895624034567"/>
+    <View defaultDefinitionNwId="313281649079366182" configuredClique="Global Setup" developmentMode="false" order="1" view="GlobalSetupCR" name="Global Setup" nwid="355502895624034568"/>
+    <View defaultDefinitionNwId="313281649079366183" objectType="folder" developmentMode="false" order="-1" view="MonitorProfilesViewCR" name="Monitor Profiles" nwid="355502895624034569"/>
+    <View defaultDefinitionNwId="313281649079366184" objectType="folder" developmentMode="false" order="-1" view="MonitorProfileViewCR" name="Monitor Profile Setup" nwid="355502895624034570"/>
+    <View defaultDefinitionNwId="313281649079366185" objectType="folder" developmentMode="false" order="-1" view="PressProfilesViewCR" name="Press Profiles" nwid="355502895624034571"/>
+    <View defaultDefinitionNwId="313281649079366186" objectType="folder" developmentMode="false" order="-1" view="PressProfileViewCR" name="Press Profile Setup" nwid="355502895624034572"/>
+    <View defaultDefinitionNwId="313281649084397215" objectType="folder" developmentMode="false" order="-1" view="ColorManagementViewCR" name="Color Management" nwid="355502895624034573"/>
+    <View defaultDefinitionNwId="313281649086436307" objectType="folder" developmentMode="false" order="-1" view="VillageViewCR" name="Village" nwid="355502895624034574"/>
+    <View defaultDefinitionNwId="288793326115116901" objectType="folder" developmentMode="false" order="-1" view="LoggedInUsersViewCR" name="LoggedInUsersView" nwid="355502895624034575"/>
+    <View defaultDefinitionNwId="313281649086436309" objectType="folder" developmentMode="false" order="-1" view="EditExternalSiteViewCR" name="External Site Setup" nwid="355502895624034576"/>
+    <View defaultDefinitionNwId="313281649086521837" configuredClique="Mail Setup" developmentMode="false" order="0" view="MailSetupCR" name="Mail Setup" nwid="355502895624034577"/>
+    <View defaultDefinitionNwId="288793326107881941" objectType="folder" developmentMode="false" order="-1" view="CustomLogsViewCR" name="Custom Logs" nwid="355502895624034578"/>
+    <View defaultDefinitionNwId="288793326108093941" objectType="folder" developmentMode="false" order="-1" view="EditCustomLogViewCR" name="Custom Logs" nwid="355502895624034579"/>
+    <View defaultDefinitionNwId="313281649079366187" objectType="folder" developmentMode="false" order="-1" view="ScriptAdapterSetupCR" name="ScriptAdapter Code Editor Setup" nwid="355502895624034580"/>
+    <View defaultDefinitionNwId="313281649079366189" configuredClique="Comm Center" developmentMode="false" order="1" view="CommCenterViewCR" name="Comm Center" nwid="355502895624034581"/>
+    <View defaultDefinitionNwId="313281649079366190" developmentMode="false" order="1" view="CommCenterServiceCR" name="commCenterService" nwid="355502895624034582"/>
+    <View defaultDefinitionNwId="313281649079366191" developmentMode="false" order="1" view="ServerServiceCR" name="serverService" nwid="355502895624034583"/>
+    <View defaultDefinitionNwId="313281649079366192" developmentMode="false" order="1" view="ColorServiceCR" name="colorService" nwid="355502895624034584"/>
+    <View defaultDefinitionNwId="313281649079366194" developmentMode="false" order="0" view="UserInfoViewCR" name="UserInfo" nwid="355502895624034586"/>
+    <View description="BirdEye Layers Zone" defaultDefinitionNwId="288793326108029736" developmentMode="false" order="-1" view="BirdEyeLayersZoneCR" name="Bird Eye" nwid="355502895624034587">
+        <Types>
+            <Type recursive="false" type="zone"/>
+        </Types>
+        <Config fileName="BirdEyeLayersZoneCRConfig.json"></Config>
+        <Actions/>
+    </View>
+    <View description="BirdEye Layers Zone" defaultDefinitionNwId="338332922011549974" developmentMode="false" order="-1" view="BirdEyeLayersProductionRunCR" name="Bird Eye" nwid="355502895624034588">
+        <Types>
+            <Type recursive="false" type="productionrun"/>
+        </Types>
+        <Config fileName="BirdEyeLayersZoneCRConfig.json"></Config>
+        <Actions/>
+    </View>
+    <View description="BirdEye Layers Zone Sections" defaultDefinitionNwId="288793326108029737" developmentMode="false" order="-1" view="BirdEyeLayersZoneSectionsCR" name="Bird Eye" nwid="355502895624034589">
+        <Types>
+            <Type recursive="false" type="sections"/>
+        </Types>
+        <Config fileName="BirdEyeLayersZoneCRConfig.json"></Config>
+        <Actions/>
+    </View>
+    <View description="BirdEye Layers Zone Books" defaultDefinitionNwId="288793326108029738" developmentMode="false" order="-1" view="BirdEyeLayersZoneBooksCR" name="Bird Eye" nwid="355502895624034590">
+        <Types>
+            <Type recursive="false" type="books"/>
+        </Types>
+        <Config fileName="BirdEyeLayersZoneCRConfig.json"></Config>
+        <Actions/>
+    </View>
+    <View description="BirdEye Layers Zone Book" defaultDefinitionNwId="288230376155289264" developmentMode="false" order="-1" view="BirdEyeLayersZoneBookCR" name="Bird Eye" nwid="355502895624034591">
+        <Types>
+            <Type recursive="false" type="book"/>
+        </Types>
+        <Config fileName="BirdEyeLayersZoneCRConfig.json"></Config>
+        <Actions/>
+    </View>
+    <View defaultDefinitionNwId="288230376155289265" developmentMode="false" order="0" view="BirdEyeLayersZoneSectionCR" name="Bird Eye" nwid="355502895624034592">
+        <Config fileName="BirdEyeLayersZoneCRConfig.json"></Config>
+        <Actions/>
+    </View>
+    <View description="Thumbnail Layers Zone" defaultDefinitionNwId="287948901182879487" developmentMode="false" order="1" view="ThumbnailLayersZoneCR" name="Thumbnail" nwid="355502895624034593">
+        <Types>
+            <Type recursive="false" type="zone"/>
+        </Types>
+        <Config fileName="ThumbnailLayersZoneCRConfig.json"></Config>
+        <Actions/>
+    </View>
+    <View description="Thumbnail Layers Zone" defaultDefinitionNwId="338332922011522013" developmentMode="false" order="1" view="ThumbnailLayersProductionRunCR" name="Thumbnail" nwid="355502895624034594">
+        <Types>
+            <Type recursive="false" type="productionrun"/>
+        </Types>
+        <Config fileName="ThumbnailLayersZoneCRConfig.json"></Config>
+        <Actions/>
+    </View>
+    <View description="Thumbnail Layers Zone Sections" defaultDefinitionNwId="320318523496727530" developmentMode="false" order="1" view="ThumbnailLayersZoneSectionsCR" name="Thumbnail" nwid="355502895624034595">
+        <Types>
+            <Type recursive="false" type="sections"/>
+        </Types>
+        <Config fileName="ThumbnailLayersZoneCRConfig.json"></Config>
+        <Actions/>
+    </View>
+    <View defaultDefinitionNwId="320318523496727572" developmentMode="false" order="1" view="ThumbnailLayersSectionCR" name="Thumbnail" nwid="355502895624034596">
+        <Config fileName="ThumbnailLayersZoneCRConfig.json"></Config>
+        <Actions/>
+    </View>
+    <View description="Thumbnail Layers Zone Books" defaultDefinitionNwId="320318523496727573" developmentMode="false" order="1" view="ThumbnailLayersZoneBooksCR" name="Thumbnail" nwid="355502895624034597">
+        <Types>
+            <Type recursive="false" type="books"/>
+        </Types>
+        <Config fileName="ThumbnailLayersZoneCRConfig.json"></Config>
+        <Actions/>
+    </View>
+    <View description="Thumbnail Layers Book" defaultDefinitionNwId="320318523496727582" developmentMode="false" order="1" view="ThumbnailLayersBookCR" name="Thumbnail" nwid="355502895624034598">
+        <Types>
+            <Type recursive="false" type="book"/>
+        </Types>
+        <Config fileName="ThumbnailLayersZoneCRConfig.json"></Config>
+        <Actions/>
+    </View>
+    <View defaultDefinitionNwId="313281649079366199" developmentMode="false" order="0" view="PlanTreeCR" name="Production" nwid="355502895624034599"/>
+    <View defaultDefinitionNwId="303992974856174303" developmentMode="false" order="0" view="PressTreeCR" name="Press Tree" nwid="355502895624034600"/>
+    <View defaultDefinitionNwId="372954344143868096" developmentMode="false" order="0" view="ProductionRunsTreeCR" name="Production Runs" nwid="355502895624034601"/>
+    <View description="Page History View" defaultDefinitionNwId="313281649079366200" developmentMode="false" order="3" view="PageHistoryViewCR" nwid="355502895624034602">
+        <Types>
+            <Type recursive="false" type="uploadedfile"/>
+            <Type recursive="false" type="page"/>
+        </Types>
+    </View>
+    <View description="Form History View" defaultDefinitionNwId="313281649079366201" developmentMode="false" order="3" view="FormHistoryViewCR" label="Form History View" name="Form History View" nwid="355502895624034603">
+        <Types>
+            <Type recursive="false" type="form"/>
+        </Types>
+    </View>
+    <View description="PageView" defaultDefinitionNwId="313281649079366206" configuredClique="PageView" developmentMode="false" order="1" view="PageViewCR" label="Page View" name="Page View" nwid="355502895624034604">
+        <Types>
+            <Type recursive="false" type="page/separation"/>
+            <Type recursive="false" type="page"/>
+            <Type recursive="false" type="uploadedfile"/>
+        </Types>
+    </View>
+    <View description="PageView" defaultDefinitionNwId="288793326312369636" configuredClique="PageView" developmentMode="false" order="1" view="PageViewApprovalCR" label="Page View" name="Page View" nwid="355502895624034605">
+        <Types>
+            <Type recursive="false" type="page/separation"/>
+            <Type recursive="false" type="page"/>
+            <Type recursive="false" type="uploadedfile"/>
+        </Types>
+    </View>
+    <View description="Form View" defaultDefinitionNwId="313281649079366207" configuredClique="Form View" developmentMode="false" order="1" view="FormViewCR" label="Form View" name="Forme View" nwid="355502895624034606">
+        <Types>
+            <Type recursive="false" type="form/separation"/>
+            <Type recursive="false" type="form"/>
+        </Types>
+    </View>
+    <View description="Form View" defaultDefinitionNwId="288793326312415938" configuredClique="Form View" developmentMode="false" order="1" view="FormViewApprovalCR" label="Form View" name="Forme View" nwid="355502895624034607">
+        <Types>
+            <Type recursive="false" type="form/separation"/>
+            <Type recursive="false" type="form"/>
+        </Types>
+    </View>
+    <View description="Pages Table Zone View" defaultDefinitionNwId="313281649079366213" developmentMode="false" order="2" view="ZonePagesViewCR" label="Pages" name="Pages Table Zone View" nwid="355502895624034618">
+        <Types>
+            <Type recursive="false" type="sections"/>
+            <Type recursive="false" type="zone"/>
+        </Types>
+    </View>
+    <View description="Plates Table Zone View" defaultDefinitionNwId="313281649079366214" developmentMode="false" order="6" view="ZonePlatesViewCR" label="Plates" name="Plates Table Zone View" nwid="355502895624034619">
+        <Types>
+            <Type recursive="false" type="books"/>
+            <Type recursive="false" type="zone"/>
+        </Types>
+    </View>
+    <View description="Plates Table Production Run View" defaultDefinitionNwId="303992974868750937" developmentMode="false" order="6" view="ProductionRunPlatesViewCR" label="Plates" name="Plates Table Production Run View" nwid="355502895624034620">
+        <Types>
+            <Type recursive="false" type="productionrun"/>
+        </Types>
+    </View>
+    <View description="Plates Table Production Run Tower View" defaultDefinitionNwId="288793326119499031" developmentMode="false" order="6" view="ProductionRunTowerPlatesViewCR" label="Plates" name="Plates Table Production Run Tower View" nwid="355502895624034621">
+        <Types>
+            <Type recursive="false" type="productionrun/tower"/>
+        </Types>
+    </View>
+    <View description="Plates Table Production Run Cylinder View" defaultDefinitionNwId="288793326119520033" developmentMode="false" order="6" view="ProductionRunCylinderPlatesViewCR" label="Plates" name="Plates Table Production Run Cylinder View" nwid="355502895624034622">
+        <Types>
+            <Type recursive="false" type="productionrun/cylinder"/>
+        </Types>
+    </View>
+    <View description="Pages Table Section View" defaultDefinitionNwId="313281649079366215" developmentMode="false" order="2" view="SectionPagesViewCR" label="Pages" name="Pages Table Section View" nwid="355502895624034623">
+        <Types>
+            <Type recursive="false" type="section"/>
+        </Types>
+    </View>
+    <View description="Pages Separations Table Section View" defaultDefinitionNwId="313281649079366216" developmentMode="false" order="3" view="SectionPagesSeparationsViewCR" label="Pages Separations" name="Pages Separations Table Section View" nwid="355502895624034624">
+        <Types>
+            <Type recursive="false" type="section"/>
+        </Types>
+    </View>
+    <View description="Pages Separations Table Zone View" defaultDefinitionNwId="313281649079366217" developmentMode="false" order="3" view="ZonePagesSeparationsViewCR" label="Pages Separations" name="Pages Separations Table Zone View" nwid="355502895624034625">
+        <Types>
+            <Type recursive="false" type="sections"/>
+            <Type recursive="false" type="zone"/>
+        </Types>
+    </View>
+    <View description="Matrix View" defaultDefinitionNwId="313281649079366218" developmentMode="false" order="-1" view="MatrixViewCR" name="Matrix" nwid="355502895624034626">
+        <Types>
+            <Type recursive="false" type="workflow"/>
+        </Types>
+    </View>
+    <View description="Editable Workflow View" defaultDefinitionNwId="313281649079366219" developmentMode="false" order="-1" view="EditableWorkflowViewCR" name="Workflow" nwid="355502895624034627">
+        <Types>
+            <Type recursive="false" type="workflow"/>
+        </Types>
+    </View>
+    <View defaultDefinitionNwId="313281649079366220" developmentMode="false" order="0" view="WorkflowViewCR" name="Workflow" nwid="355502895624034628"/>
+    <View description="Forms Table Zone View" defaultDefinitionNwId="313281649079366221" developmentMode="false" order="4" view="ZoneFormsViewCR" label="Forms" name="Forms Table Zone View" nwid="355502895624034629">
+        <Types>
+            <Type recursive="false" type="books"/>
+            <Type recursive="false" type="zone"/>
+        </Types>
+    </View>
+    <View defaultDefinitionNwId="313281649079366222" developmentMode="false" order="4" view="BookFormsViewCR" name="Table (Formes)" nwid="355502895624034630"/>
+    <View description="Form Separations Table Book View" defaultDefinitionNwId="313281649079366223" developmentMode="false" order="5" view="BookFormsSeparationsViewCR" label="Forms Separations" name="Form Separations Table Book View" nwid="355502895624034631">
+        <Types>
+            <Type recursive="false" type="book"/>
+        </Types>
+    </View>
+    <View description="Form Separations Table Zone View" defaultDefinitionNwId="313281649079366224" developmentMode="false" order="5" view="ZoneFormsSeparationsViewCR" label="Forms Separations" name="Form Separations Table Zone View" nwid="355502895624034632">
+        <Types>
+            <Type recursive="false" type="books"/>
+            <Type recursive="false" type="zone"/>
+        </Types>
+    </View>
+    <View description="Plates Table Book View" defaultDefinitionNwId="313281649079366225" developmentMode="false" order="6" view="BookPlatesViewCR" label="Plates" name="Plates Table Book View" nwid="355502895624034633">
+        <Types>
+            <Type recursive="false" type="book"/>
+        </Types>
+    </View>
+    <View description="Separation Approval" defaultDefinitionNwId="313281649079366226" configuredClique="Separation Approve" developmentMode="false" order="3" view="CustomApprovalCR" label="Separation Approval" name="Custom Approval" nwid="355502895624034634">
+        <Types>
+            <Type recursive="true" type="form"/>
+        </Types>
+    </View>
+    <View defaultDefinitionNwId="313281649079366228" configuredClique="UnplannedTool" objectType="folder" developmentMode="false" order="-1" view="UnplanPagesViewCR" name="UnplanPagesViewCR" nwid="355502895624034637"/>
+    <View defaultDefinitionNwId="313281649079366229" developmentMode="false" order="0" view="DashboardFolderViewCR" name="Dashboard" nwid="355502895624034638"/>
+    <View description="Dashboard Pub Date View" defaultDefinitionNwId="358880595306136364" developmentMode="false" order="-1" view="DashboardPubDateViewCR" name="Dashboard" nwid="355502895624034639">
+        <Types>
+            <Type recursive="false" type="publicationdate"/>
+        </Types>
+    </View>
+    <View description="Dashboard Publication View" defaultDefinitionNwId="313281649079366230" developmentMode="false" order="-1" view="DashboardPublicationViewCR" name="Dashboard" nwid="355502895624034640">
+        <Types>
+            <Type recursive="false" type="publication"/>
+        </Types>
+    </View>
+    <View description="Timeline Folder View" defaultDefinitionNwId="313281649079366231" developmentMode="false" order="-1" view="TimelineFolderViewCR" name="Timeline" nwid="355502895624034641">
+        <Types>
+            <Type recursive="false" type="planpress"/>
+            <Type recursive="false" type="folder"/>
+        </Types>
+    </View>
+    <View description="Change Colors of Page" defaultDefinitionNwId="313281649079366232" configuredClique="Change Color" developmentMode="false" order="12" view="ColorChangeCR" label="Change Color" name="Color Change" nwid="355502895624034642">
+        <Types>
+            <Type recursive="false" type="page"/>
+        </Types>
+    </View>
+    <View description="Show Overview" defaultDefinitionNwId="313281649079366233" configuredClique="Workflow Overview" developmentMode="false" order="-1" view="WorkflowOverviewCR" label="Workflow Overview" name="Workflow Overview" nwid="355502895624034644">
+        <Types>
+            <Type recursive="false" type="workflow"/>
+        </Types>
+    </View>
+    <View description="Clear Events From Select Flow Step" defaultDefinitionNwId="313281649079366234" configuredClique="Clear Events" developmentMode="false" order="-1" view="ClearEventsCR" label="Clear Events" name="Clear Events" nwid="355502895624034645">
+        <Types>
+            <Type recursive="false" type="workflow/step*"/>
+        </Types>
+    </View>
+    <View description="Show Overview" defaultDefinitionNwId="313281649079366235" configuredClique="Flow Step Overview" developmentMode="false" order="-1" view="FlowStepOverviewCR" label="Flow Step Overview" name="Flow Step Overview" nwid="355502895624034646">
+        <Types>
+            <Type recursive="true" type="workflow/step"/>
+            <Type recursive="false" type="demons/demon*"/>
+            <Type recursive="false" type="workflow/step/flow/approval"/>
+            <Type recursive="true" type="demons/demon"/>
+            <Type recursive="false" type="workflow/step*"/>
+        </Types>
+    </View>
+    <View description="Show Overview" defaultDefinitionNwId="372954344143514198" configuredClique="Flow Step Overview" developmentMode="false" order="-1" view="ApprovalFlowStepOverviewCR" label="Flow Step Overview" name="Approval Flow Step Overview" nwid="355502895624034647">
+        <Types>
+            <Type recursive="false" type="workflow/step"/>
+            <Type recursive="false" type="demons/demon*"/>
+            <Type recursive="true" type="workflow/step/flow/approval"/>
+            <Type recursive="false" type="demons/demon"/>
+            <Type recursive="false" type="workflow/step*"/>
+        </Types>
+    </View>
+    <View description="Flow Step View" defaultDefinitionNwId="313281649079366236" developmentMode="false" order="-1" view="FlowStepViewCR" name="Flow Step" nwid="355502895624034648">
+        <Types>
+            <Type recursive="true" type="workflow/step"/>
+            <Type recursive="true" type="demons/demon"/>
+        </Types>
+    </View>
+    <View description="Approval Thumbnail" defaultDefinitionNwId="288793326310058106" developmentMode="false" order="1" view="ApprovalThumbsnailViewCR" name="Approval View" nwid="355502895624034649">
+        <Types>
+            <Type recursive="true" type="workflow/step/flow/approval"/>
+        </Types>
+    </View>
+    <View description="Save Workflow Logging" defaultDefinitionNwId="313281649079366238" configuredClique="Workflow Logging" developmentMode="false" order="1" view="WorkflowLoggingViewCR" label="Workflow Logging" name="Edit Workflow Logging" nwid="355502895624034650">
+        <Types>
+            <Type recursive="false" type="workflow"/>
+        </Types>
+    </View>
+    <View defaultDefinitionNwId="313281649082543208" configuredClique="Product Setup" developmentMode="false" order="0" view="ProductSetupCR" name="Product Setup" nwid="355502895624034651"/>
+    <View defaultDefinitionNwId="327636872891204588" configuredClique="Normalizer Setup" developmentMode="false" order="0" view="NormalizerSetupCR" name="Normalizer Setup" nwid="355502895624034652"/>
+    <View defaultDefinitionNwId="288793326110671781" configuredClique="MPS Tools" developmentMode="false" order="0" view="CTPImportSelectedCR" name="CTP Import Selected" nwid="355502895624034654"/>
+    <View defaultDefinitionNwId="296111675500046934" configuredClique="Security Settings" objectType="folder" developmentMode="false" order="-1" view="FolderSecurityGroupViewCR" name="Security Group" nwid="355502895624034656"/>
+    <View defaultDefinitionNwId="313281649082725204" configuredClique="Security Settings" objectType="folder" developmentMode="false" order="-1" view="AddFolderSecurityGroupViewCR" name="Add Security Group" nwid="355502895624034657"/>
+    <View defaultDefinitionNwId="313281649082838271" configuredClique="Layout Manager" developmentMode="false" order="0" view="LayoutManagerCR" name="Layout Manager" nwid="355502895624034658"/>
+    <View description="Edit Layout" defaultDefinitionNwId="303992974856184178" developmentMode="false" order="4" view="EditLayoutCR" nwid="355502895624034659">
+        <Types>
+            <Type recursive="false" type="form"/>
+        </Types>
+    </View>
+    <View description="Compare Page Versions" defaultDefinitionNwId="313281649084118267" configuredClique="Compare Page Versions" developmentMode="false" order="2" view="PageCompareViewCR" label="Compare Page Versions" name="Page Compare View" nwid="355502895624034660">
+        <Types>
+            <Type recursive="false" type="page/separation"/>
+            <Type recursive="false" type="page"/>
+            <Type recursive="false" type="uploadedfile"/>
+        </Types>
+    </View>
+    <View description="Compare Page Versions" defaultDefinitionNwId="288793326312395265" configuredClique="Compare Page Versions" developmentMode="false" order="2" view="PageCompareViewApprovalCR" label="Compare Page Versions" name="Page Compare View" nwid="355502895624034661">
+        <Types>
+            <Type recursive="false" type="page/separation"/>
+            <Type recursive="false" type="page"/>
+            <Type recursive="false" type="uploadedfile"/>
+        </Types>
+    </View>
+    <View description="Compare Form Versions" defaultDefinitionNwId="313281649084118268" configuredClique="Compare Form Versions" developmentMode="false" order="2" view="FormCompareViewCR" label="Compare Form Versions" name="Forme Compare View" nwid="355502895624034662">
+        <Types>
+            <Type recursive="false" type="form/separation"/>
+            <Type recursive="false" type="form"/>
+        </Types>
+    </View>
+    <View description="Compare Form Versions" defaultDefinitionNwId="288793326312420940" configuredClique="Compare Form Versions" developmentMode="false" order="2" view="FormCompareViewApprovalCR" label="Compare Form Versions" name="Forme Compare View" nwid="355502895624034663">
+        <Types>
+            <Type recursive="false" type="form/separation"/>
+            <Type recursive="false" type="form"/>
+        </Types>
+    </View>
+    <View description="Show Overview" defaultDefinitionNwId="287948901182661490" configuredClique="Zone Overview" developmentMode="false" order="-1" view="ZoneOverviewCR" label="Zone Overview" name="Zone Overview" nwid="355502895624034664">
+        <Types>
+            <Type recursive="false" type="zone"/>
+        </Types>
+    </View>
+    <View description="Show Zone Overview" defaultDefinitionNwId="372954344144024674" configuredClique="Production Run Overview" developmentMode="false" order="-1" view="ProductionRunOverviewCR" label="Zone Overview" name="Production Run Overview" nwid="355502895624034665">
+        <Types>
+            <Type recursive="false" type="productionrun"/>
+        </Types>
+    </View>
+    <View description="Conversion Tables" defaultDefinitionNwId="288793326218018238" configuredClique="Coretex Tables" developmentMode="false" order="-1" view="CoretexTablesViewCR" label="Tables" name="Tables" nwid="355502895624034666">
+        <Types>
+            <Type recursive="false" type="folder"/>
+        </Types>
+        <Config>{&quot;tables&quot;: []}</Config>
+    </View>
+    <View defaultDefinitionNwId="288793326218739129" configuredClique="Override Tables" developmentMode="false" order="0" view="OverrideViewCR" name="Override" nwid="355502895624034667"/>
+    <View description="Show Custom Information" defaultDefinitionNwId="296111675501487243" configuredClique="Panel Info" developmentMode="false" order="41" view="RightPanelInfoViewCR" label="Panel Info" name="Right Panel Info View" nwid="355502895624034669">
+        <Types>
+            <Type recursive="false" type="form"/>
+            <Type recursive="false" type="page"/>
+        </Types>
+    </View>
+    <View defaultDefinitionNwId="288793326238408179" configuredClique="Restart (PDF)" developmentMode="false" order="0" view="RestartFormCR" name="RestartForm_FolderProperty (PDF)" nwid="355502895624034670"/>
+    <View description="Restart From Imposition" defaultDefinitionNwId="373235819121490189" configuredClique="Restart From Imposition" developmentMode="false" order="6" view="RestartFormCR" label="Restart From Imposition" name="RestartForm_FolderProperty (TIFF)" nwid="355502895624034671">
+        <Types>
+            <Type recursive="false" type="form"/>
+        </Types>
+    </View>
+    <View description="Restart an object in the worfklow" defaultDefinitionNwId="288793326242109041" configuredClique="Restart From Hotfolder" developmentMode="false" order="4" view="RestartObjectCR" label="Restart From Hotfolder" name="Restart_FolderProperty" nwid="355502895624034672">
+        <Types>
+            <Type recursive="true" type="page"/>
+        </Types>
+    </View>
+    <View description="Edit Custom Properties Setup" defaultDefinitionNwId="338332922007353765" configuredClique="Change Extra Info" developmentMode="false" order="10" view="CustomPropertiesSetupCR" label="Change Extra Info" name="Custom Properties Setup" nwid="355502895624034673">
+        <Types>
+            <Type recursive="false" type="form"/>
+            <Type recursive="false" type="page"/>
+        </Types>
+    </View>
+    <View description="Change Share Of Page" defaultDefinitionNwId="338332922007353773" configuredClique="Share" developmentMode="false" order="12" view="ShareSetupCR" label="Share" name="Share" nwid="355502895624034676">
+        <Types>
+            <Type recursive="false" type="page"/>
+        </Types>
+    </View>
+    <View description="Change Layout Group" defaultDefinitionNwId="218891372" configuredClique="Change layout group" developmentMode="false" order="1" view="ChangeLayoutGroupSetupCR" label="Change layout group" name="Change Layout Group" nwid="355502895624034678">
+        <Types>
+            <Type recursive="false" type="book"/>
+        </Types>
+    </View>
+    <View defaultDefinitionNwId="296111675501604137" configuredClique="UploadTool" objectType="folder" developmentMode="false" view="UploadViewCR" name="Upload View" nwid="355502895624034679"/>
+    <View defaultDefinitionNwId="296111675531114924" configuredClique="UploadTool" objectType="folder" developmentMode="false" view="UploadHistoryViewCR" name="Upload History" nwid="355502895624034680"/>
+    <View defaultDefinitionNwId="296111675531551460" developmentMode="false" order="0" view="UserConfigSetupCR" name="User Preferences" nwid="355502895624034681"/>
+    <View description="Load Plan" defaultDefinitionNwId="313281649082558318" developmentMode="false" order="1" view="LoadPlanCR" name="Load Plan" nwid="355502895624034682">
+        <Types>
+            <Type recursive="false" type="section"/>
+        </Types>
+        <Config>
+			{
+			&quot;wizardFolder&quot;: &quot;LoadSection&quot;
+			}
+		</Config>
+    </View>
+    <View description="Change Expected Name Of Page" defaultDefinitionNwId="338332922007353782" configuredClique="Change Expected Name" developmentMode="false" order="12" view="ExpectedNameSetupCR" label="Change Expected Name" name="ExpectedNameSetup" nwid="355502895624034683">
+        <Types>
+            <Type recursive="false" type="page"/>
+        </Types>
+    </View>
+    <View defaultDefinitionNwId="373235819125194738" developmentMode="false" order="-1" view="EditVillageAvailablePropertiesViewCR" nwid="355502895624034685"/>
+    <View description="Goss Import" configuredClique="Goss Import" order="-1" view="MapErrorPlansViewCR" label="Goss Import" name="Goss Import - Map Error Plans" nwid="355502895624392152">
+        <Types>
+            <Type recursive="false" type="folder"/>
+        </Types>
+        <Config>{&quot;wizardName&quot;: &quot;GossImport&quot;}</Config>
+    </View>
+    <View description="ReOutput Plates" configuredClique="ReOutput Plates" order="4" view="OutputPlatesCR" label="ReOutput Plates" name="Output Plates - Output Plates" nwid="355502895809848855">
+        <Types>
+            <Type recursive="false" type="productionrun"/>
+            <Type recursive="false" type="productionrun/tower"/>
+            <Type recursive="false" type="productionrun/cylinder"/>
+            <Type recursive="false" type="form"/>
+            <Type recursive="false" type="plate"/>
+        </Types>
+    </View>
+    <View description="ReOutput Plates" defaultDefinitionNwId="288793326109734043" configuredClique="ReOutput Plates" developmentMode="false" order="4" view="OutputPlatesCR" label="ReOutput Plates" name="Re-output Plates (PDF)" nwid="355502895810529967">
+        <Types>
+            <Type recursive="false" type="productionrun"/>
+            <Type recursive="false" type="productionrun/tower"/>
+            <Type recursive="false" type="productionrun/cylinder"/>
+            <Type recursive="false" type="form"/>
+            <Type recursive="false" type="plate"/>
+        </Types>
+        <Config>
+			{
+			&quot;outputSteps&quot;: [&quot;288230376160844577&quot;]
+			}
+		</Config>
+    </View>
+    <View defaultDefinitionNwId="288793326108811603" configuredClique="CmdLine Resource Setup" developmentMode="false" order="152" view="CmdLineSetupCR" name="CmdLine Setup" nwid="355502895814793970"/>
+    <View description="Planning Wizard" configuredClique="Planning Wizard" order="-1" view="PlanningWizardCR" label="Planning Wizard" name="Planning Tool No PR - Planning Wizard" nwid="355502895815655506">
+        <Types>
+            <Type recursive="false" type="folder"/>
+        </Types>
+        <Config>{&quot;wizardFolder&quot;: &quot;PlanningWizardNoPR&quot;}</Config>
+    </View>
+    <View defaultDefinitionNwId="338332922010878206" configuredClique="Preflight" developmentMode="false" order="101" view="PreflightViewApprovalCR" name="Preflight View" nwid="355502895818065970"/>
+    <View defaultDefinitionNwId="313281649079366212" configuredClique="Preflight" developmentMode="false" order="102" view="PreflightViewCR" name="Preflight View" nwid="355502895818065971"/>
+    <View defaultDefinitionNwId="313281649079366211" configuredClique="HiresForm" developmentMode="false" order="89" view="HiresFormViewCR" name="Hires Forme View" nwid="355502895818065972"/>
+    <View defaultDefinitionNwId="313281649079366210" configuredClique="HiresPage" developmentMode="false" order="90" view="HiresViewCR" name="Hires View" nwid="355502895818065973"/>
+    <View defaultDefinitionNwId="313281649079366209" configuredClique="pdfForm" developmentMode="false" order="94" view="PdfFormViewCR" name="Forme PDF View" nwid="355502895818065974"/>
+    <View defaultDefinitionNwId="313281649079366208" configuredClique="pdfPage" developmentMode="false" order="97" view="PdfViewCR" name="Page PDF View" nwid="355502895818065975"/>
+    <View defaultDefinitionNwId="288793326312430944" configuredClique="pdfForm" developmentMode="false" order="95" view="PdfFormViewApprovalCR" name="Forme PDF View" nwid="355502895818065976"/>
+    <View defaultDefinitionNwId="288793326312410936" configuredClique="pdfPage" developmentMode="false" order="96" view="PdfViewApprovalCR" name="Page PDF View" nwid="355502895818065977"/>
+    <View defaultDefinitionNwId="313281649079366193" developmentMode="false" order="105" view="FlipBookViewCR" name="Page Flipbook View" nwid="355502895818065978">
+        <Condition>subject.planned==true</Condition>
+    </View>
+    <View defaultDefinitionNwId="288793326312400934" configuredClique="HiresPage" developmentMode="false" order="91" view="HiresViewApprovalCR" name="Hires View" nwid="355502895818065979"/>
+    <View defaultDefinitionNwId="288793326312425942" configuredClique="HiresForm" developmentMode="false" order="88" view="HiresFormViewApprovalCR" name="Hires Forme View" nwid="355502895818065980"/>
+    <View defaultDefinitionNwId="313281649256441090" configuredClique="Change Color" developmentMode="false" order="9" view="ColorChangeCR" name="Color Change (PDF)" nwid="355502895818065981"/>
+    <View defaultDefinitionNwId="296111675501327849" configuredClique="Fanout" developmentMode="false" order="22" view="FanoutViewCR" name="Fanout" nwid="355502895818065982"/>
+    <View description="Edit Number of Plates" configuredClique="Number of plates" order="1" view="NumberOfPlatesSetupCR" label="Number of Copies" name="Number of plates - Save Change Number of plates" nwid="355502895822136703">
+        <Types>
+            <Type recursive="false" type="book"/>
+        </Types>
+    </View>
+    <View description="Planning Wizard with PR" configuredClique="Planning Tool" order="-1" view="PlanningWizardCR" label="Planning Wizard with PR" name="Planning Tool - Planning Wizard" nwid="355502895836358232">
+        <Types>
+            <Type recursive="false" type="folder"/>
+        </Types>
+        <Config>{&quot;wizardFolder&quot;: &quot;PlanningWizard&quot;}</Config>
+    </View>
+</Views>

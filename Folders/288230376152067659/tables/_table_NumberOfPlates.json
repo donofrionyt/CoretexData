@@ -1,0 +1,26 @@
+{
+    "matchingMode": "text",
+    "name": "NumberOfPlates",
+    "nwid": "355502895808145374",
+    "overridable": true,
+    "publication": "",
+    "selectors": [{
+        "defaultValue": "",
+        "displayName": "Publication",
+        "fieldType": "publication",
+        "freeText": true,
+        "name": "publication",
+        "values": []
+    }],
+    "singleValue": false,
+    "targetType": "publication",
+    "values": [{
+        "defaultValue": "",
+        "displayName": "Number",
+        "editable": true,
+        "fieldType": "number",
+        "freeText": true,
+        "name": "number",
+        "values": []
+    }]
+}

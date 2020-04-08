@@ -1,0 +1,92 @@
+{"rows": [
+    {
+        "index": 0,
+        "selectors": {
+            "layoutgroup": "*",
+            "pageformat": "B",
+            "pageside": "*"
+        },
+        "values": {"layout": "General"}
+    },
+    {
+        "index": 1,
+        "selectors": {
+            "layoutgroup": "*",
+            "pageformat": "C",
+            "pageside": "*"
+        },
+        "values": {"layout": "Panorama"}
+    },
+    {
+        "index": 2,
+        "selectors": {
+            "layoutgroup": "*",
+            "pageformat": "G",
+            "pageside": "even"
+        },
+        "values": {"layout": "Fake Even"}
+    },
+    {
+        "index": 3,
+        "selectors": {
+            "layoutgroup": "*",
+            "pageformat": "G",
+            "pageside": "odd"
+        },
+        "values": {"layout": "Fake Odd"}
+    },
+    {
+        "index": 4,
+        "selectors": {
+            "layoutgroup": "*",
+            "pageformat": "P",
+            "pageside": "even"
+        },
+        "values": {"layout": "Plate Right Popup Middle"}
+    },
+    {
+        "index": 5,
+        "selectors": {
+            "layoutgroup": "*",
+            "pageformat": "P",
+            "pageside": "odd"
+        },
+        "values": {"layout": "Plate Left Popup Middle"}
+    },
+    {
+        "index": 6,
+        "selectors": {
+            "layoutgroup": "*",
+            "pageformat": "S",
+            "pageside": "even"
+        },
+        "values": {"layout": "Split2"}
+    },
+    {
+        "index": 7,
+        "selectors": {
+            "layoutgroup": "*",
+            "pageformat": "S",
+            "pageside": "odd"
+        },
+        "values": {"layout": "Split1"}
+    },
+    {
+        "index": 8,
+        "selectors": {
+            "layoutgroup": "*",
+            "pageformat": "K",
+            "pageside": "*"
+        },
+        "values": {"layout": "Pano2"}
+    },
+    {
+        "index": 9,
+        "selectors": {
+            "layoutgroup": "*",
+            "pageformat": "J",
+            "pageside": "*"
+        },
+        "values": {"layout": "Pano1"}
+    }
+]}
