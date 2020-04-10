@@ -13,6 +13,13 @@
 			}
 		},
 		{ 
+			"name" : "NytCurierXslAdjusment",
+			"stepType" : "customize",
+			"settings" : {
+
+			}
+		},
+				{ 
 			"name" : "SaveXml",
 			"settings" : {
 

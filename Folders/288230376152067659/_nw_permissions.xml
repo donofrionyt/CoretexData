@@ -108,7 +108,6 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
-                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
@@ -117,6 +116,7 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Reporting"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
@@ -139,7 +139,6 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
-                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
@@ -148,6 +147,7 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Reporting"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
@@ -170,7 +170,6 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
-                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
@@ -179,6 +178,7 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Reporting"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
@@ -201,7 +201,6 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
-                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
@@ -210,6 +209,7 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Reporting"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
@@ -553,7 +553,6 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
-                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
@@ -562,6 +561,7 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Reporting"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
@@ -584,7 +584,6 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
-                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
@@ -593,6 +592,7 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Reporting"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
@@ -615,7 +615,6 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
-                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
@@ -624,6 +623,7 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Reporting"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>
@@ -646,7 +646,6 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Broadsheet Press 40-46"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/DoubleTruck"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Dynamic Input"/>
-                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/ExternalProtocol"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Impose"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Ink Values JPS"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Input"/>
@@ -655,6 +654,7 @@
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Normalizer"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Plate Approval"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Press JPS"/>
+                    <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Reporting"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Sorter Status"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/Values"/>
                     <Selector customRegEx="false" globalDataAccess="true" access="AllowAndConfig" pattern="/College Point/Production/XtremeInk"/>

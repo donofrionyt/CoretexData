@@ -1343,7 +1343,7 @@
         "publication": "*",
         "section": "*",
         "specialTreatment": "none",
-        "values": {"allowedResources": "BCP Press"},
+        "values": {"allowedResources": "BCP sFTP"},
         "zone": "*"
     }]
 }
@@ -2179,7 +2179,11 @@
                 </ADAPTERFLOW>
                 <ADAPTERFLOW type="flowDispatch">
                     <ADAPTERS>
-                        <ADAPTER adapterDescription="" nwID="355502895858244727" className="step.StatusStepAdapter" name="StatusStepAdapter"/>
+                        <ADAPTER adapterDescription="" nwID="355502895858244727" className="step.StatusStepAdapter" name="StatusStepAdapter">
+                            <PROPERTIES>
+{"timeoutDelay": 10000}
+</PROPERTIES>
+                        </ADAPTER>
                         <ADAPTER adapterDescription="" nwID="355502895858244728" className="route.TopologyRouteAdapter" name="TopologyRouteAdapter"/>
                     </ADAPTERS>
                     <ADAPTERTRANSITIONS>
@@ -2196,7 +2200,8 @@
             <Columns>{"columns": [
     288230376155289114L,
     288230376155289113L,
-    288230376155289115L
+    288230376155289115L,
+    288230376155289121L
 ]}</Columns>
         </STEP>
     </STEPS>
